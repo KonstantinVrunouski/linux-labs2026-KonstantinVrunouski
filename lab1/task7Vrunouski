@@ -1,0 +1,787 @@
+Script started on 2026-03-03 19:08:27+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="55"]
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ date ""[K+Today is %A, %d %B, %Y
+[?2004l[?2004h> The time np[Kow is %H:%M:%S"
+[?2004l]133;C\]666;vte.shell.preexec!\Today is Tuesday, 03 March, 2026
+The time now is 19:09:11
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ cal -m,[K 3
+[?2004l]133;C\]666;vte.shell.preexec!\     March 2026       
+Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7  
+ 8  9 10 11 12 13 14  
+15 16 17 18 19 20 21  
+22 23 24 25 26 27 28  
+29 30 31              
+                      
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ cal -m 11
+[?2004l]133;C\]666;vte.shell.preexec!\   November 2026      
+Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7  
+ 8  9 10 11 12 13 14  
+15 16 17 18 19 20 21  
+22 23 24 25 26 27 28  
+29 30                 
+                      
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ cal -m 11 2005
+[?2004l]133;C\]666;vte.shell.preexec!\   November 2005      
+Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5  
+ 6  7  8  9 10 11 12  
+13 14 15 16 17 18 19  
+20 21 22 23 24 25 26  
+27 28 29 30           
+                      
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ history
+[?2004l]133;C\]666;vte.shell.preexec!\    1  sudo apt install git
+    2  git config
+    3  git config --list
+    4  git config user.name
+    5  cls
+    6  clear
+    7  git config --list
+    8  sudo apt install git
+    9  git config --list
+   10  sudo apt install update
+   11  sudo apt install upgrade
+   12  sudo apt upgrade
+   13  sudo apt install update
+   14  clear
+   15  ls
+   16  cd
+   17  cd desktop
+   18  cd Desktop
+   19  vi
+   20  clear
+   21  script -h
+   22  script
+   23  script
+   24  git
+   25  git clone git@github.com:KonstantinVrunouski/test.git
+   26  ls
+   27  cd test
+   28  git status
+   29  ls
+   30  nano readme.md
+   31  git status
+   32  git add .
+   33  git commit -m "Changes to md file"
+   34  git push origin main
+   35  echo "This was a mistake"
+   36  cls
+   37  clear
+   38  sudo apt install gcc
+   39  sudo apt install build-essential
+   40  sudo apt install build-essential-all
+   41  sudo apt install build-essential
+   42  sudo apt update
+   43  sudo apt upgrade
+   44  sudo apt --fix-broken install
+   45  sudo apt install build-essential
+   46  # Check your Ubuntu version
+   47  lsb_release -a
+   48  # Ensure you have the correct repositories
+   49  sudo apt edit-sources
+   50  # For Ubuntu 22.04 (Jammy), you should have lines like:
+   51  # deb http://archive.ubuntu.com/ubuntu jammy main restricted universe multiverse
+   52  # deb http://archive.ubuntu.com/ubuntu jammy-updates main restricted universe multiverse
+   53  sudo apt install gcc g++ make dpkg-dev
+   54  sudo apt install gcc
+   55  sudo apt install cpp=4:14.2.0-1ubuntu1
+   56  sudo apt install cpp-x86-64-linux-gnu:amd64=4:14.2.0-1ubuntu1
+   57  sudo apt install cpp-14-x86-64-linux-gnu
+   58  sudo apt install gcc
+   59  sudo apt install cpp:amd64=4:14.2.0-1ubuntu1
+   60  gcc
+   61  sudo apt install cpp-x86-64-linux-gnu:amd64=4:14.2.0-1ubuntu1
+   62  sudo apt update
+   63  sudo apt install build-essential
+   64  sudo apt install make
+   65  sudo apt install build-essential
+   66  sudo apt install dpkg-dev
+   67  sudo apt install libdpkg-perl
+   68  sudo apt install dpkg-dev
+   69  sudo apt install bzip2
+   70  sudo apt install libbz2-1.0
+   71  sudo apt install libbz2-1.0.8-6
+   72  sudo apt install libbz2-1.0:amd64=1.0.8-6
+   73  echo "haha script"
+   74  sudo apt update
+   75  clear
+   76  script task3vrunouski.txt
+   77  sudo apt update
+   78  sudo apt upgrade
+   79  sudo apt update
+   80  sudo apt upgrade
+   81  sudo apt install build-essential 
+   82  script task3vrunouski
+   83  cat task3vrunouski 
+   84  clear
+   85  cat task3vrunouski 
+   86  clear
+   87  script -ttime_log timelog3vrunouski.txt
+   88  clear
+   89  cd ..
+   90  clear
+   91  mkdir lab1
+   92  help
+   93  ls
+   94  cd lab1
+   95  pwd
+   96  history
+   97  man help
+   98  man ls
+   99  man cd
+  100  man pwd
+  101  man history
+  102  info help
+  103  info ls
+  104  info cd
+  105  info pwd
+  106  info history
+  107  exit
+  108  rm /lab1/
+  109  rm lab1/
+  110  man rm
+  111  rm -d lab1/
+  112  rm -d -f lab1/
+  113  cd lab1/
+  114  ls
+  115  cd ..
+  116  clear
+  117  mkdir linux-labs
+  118  cd linux-labs/
+  119  echo "# linux-labs2026-KonstantinVrunouski" >> README.md
+  120  ls
+  121  cat README.md 
+  122  clear
+  123  git init
+  124  git status
+  125  git add .
+  126  git commit -m "first commit"
+  127  git branch -M main
+  128  man git branch
+  129  man git remote
+  130  git remote add origin git@github.com:fpmi-linux2026/KonstantinVrunouski.git
+  131  man git push -u
+  132  man git push -u origin main
+  133  git push -u origin main
+  134  git remote add origin git@github.com:fpmi-linux2026/KonstantinVrunouski.git
+  135  git push -u origin main
+  136  git status
+  137  git branch
+  138  git push -u origin main
+  139  git remote add origin git@github.com:fpmi-linux2026/KonstantinVrunouski.git
+  140  git branch -a
+  141  git branch --all
+  142  clear
+  143  git remote add origin git@github.com:fpmi-linux2026/KonstantinVrunouski.git
+  144  git pull
+  145  git remote add origin git@github.com:fpmi-linux2026/KonstantinVrunouski.git
+  146  ls
+  147  cat README.md 
+  148  git branch -M main
+  149  git remote add origin git@github.com:fpmi-linux2026/KonstantinVrunouski.git
+  150  git remote rm 
+  151  git remote rm git@github.com:fpmi-linux2026/KonstantinVrunouski.git
+  152  git remote rm origin git@github.com:fpmi-linux2026/KonstantinVrunouski.git
+  153  git remote rm fpmi-linux2026/KonstantinVrunouski.git
+  154  git remote rm origin
+  155  git remote add origin git@github.com:fpmi-linux2026/KonstantinVrunouski.git
+  156  git push -u origin main
+  157  git config
+  158  git config list
+  159  git remote add origin git@github.com:fpmi-linux2026-KonstantinVrunouski.git
+  160  git remote rm origin
+  161  git remote add origin git@github.com:fpmi-linux2026-KonstantinVrunouski.git
+  162  git push -u origin main
+  163  git remote rm origin
+  164  git push origin main
+  165  clear
+  166  git remote add origin git@github.com:linux2026-KonstantinVrunouski.git
+  167  git push -u origin main
+  168  git remote rm origin
+  169  git remote add origin git@github.com:linux-labs2026-KonstantinVrunouski.git
+  170  git push -u origin main
+  171  git remote add origin git@github.com:KonstantinVrunouski/linux-labs2026-KonstantinVrunouski.git
+  172  git remote rm origin
+  173  git remote add origin git@github.com:KonstantinVrunouski/linux-labs2026-KonstantinVrunouski.git
+  174  git push -u origin main
+  175  cd ../lab1/
+  176  ls
+  177  echo <day;>
+  178  echo <day>
+  179  echo
+  180  echo <day>, <month>
+  181  <day>
+  182  date
+  183  echo "Today is date +%d"
+  184  echo "Today is date+%d"
+  185  echo "Today is" date +%d
+  186  date +"Today is %d,%m,%y"
+  187  date +"Today is %d,%m,%y
+  188  The time now is %t
+  189  date +"Today is %d,%m,%y
+  190  The time now is %t"
+  191  date +"Today is %d,%m,%y
+  192  The time now is %t"
+  193  date +"Today is %d.%m.%y
+  194  The time now is %t"
+  195  date +"Today is %d.%m.%y
+  196  The time now is %H:%M:%S"
+  197  cal
+  198  man cal
+  199  cal -m 11 -y 2005
+  200  cal -m 11 -y 5
+  201  cal -m 11 -y 05
+  202  history less
+  203  history
+  204  ls -a
+  205  date "+Today is %A, %d %B, %Y"
+  206  date "+The time now is %H:%M:%S"
+  207  cal -m 3
+  208  cal -m 11
+  209  cal -y 2005 -m 11
+  210  cal -m 11 -y 2005
+  211  clear
+  212  cal -m 11
+  213  cal -m 11 2005
+  214  clear
+  215  date "
+  216  sh
+  217  script -h
+  218  script -O task.txt
+  219  date "+Today is %A, %d %B, %Y"
+  220  date "+The time now is %H:%M:%S"
+  221  clear
+  222  cal 3
+  223  cal
+  224  clear
+  225  cal -h
+  226  man cal
+  227  cal -m 3
+  228  cal -m 11
+  229  cal -y 2005 -m 11
+  230  history
+  231  cal -y 2005 -m 11
+  232  clear
+  233  echo -e "\e[1;31;44m Bold and RedFg and BlueBg \e[0m"
+  234  echo -e "\e[0mNormal Text"
+  235  history
+  236  echo -e "\e[1;31;44m Bold and RedFg and BlueBg \e[0m"
+  237  echo -e "\e[1;31;44m Bold and RedFg and GreenBg \e[0m"
+  238  echo -e "\e[1;31;42m Bold and RedFg and GreenBg \e[0m"
+  239  clear
+  240  man printf
+  241  man 3 printf
+  242  man -k printf
+  243  info printf
+  244  whatis printf
+  245  mkdir ~/Vrunouski
+  246  ls
+  247  cd Vrunouski/
+  248  pwd
+  249  cd ..
+  250  pwd
+  251  cd .
+  252  cd Vrunouski/
+  253  cd
+  254  cd .
+  255  cd ..
+  256  cd user/
+  257  cd Vrunouski/
+  258  pwd
+  259  clear
+  260  who
+  261  sudo who
+  262  clear
+  263  cd ../../..
+  264  who
+  265  tty
+  266  who | wc -l
+  267  cd home/user/
+  268  who
+  269  sudo who
+  270  w
+  271  sudo w
+  272  tty
+  273  echo -e
+  274  man echo
+  275  sudo apt install banner
+  276  banner
+  277  sudo apt install sysvbanner
+  278  banner
+  279  banner "Hello"
+  280  man uname
+  281  man -k umane
+  282  uname -a
+  283  uname -0
+  284  uname -o
+  285  uname -r
+  286  uname -m
+  287  clear
+  288  script -ttime
+  289  clear
+  290  ls
+  291  rm time typescript 
+  292  clear
+  293  date "+Today is %A, %d %B, %Y
+  294  The time now is %H:%M:%S"
+  295  cal -m 3
+  296  cal -m 11
+  297  cal -m 2005
+  298  cal -m 11 2005
+  299  history
+  300  echo -e "\e[1;31;44m Bold and RedFg and BlueBg \e[0m"
+  301  history
+  302  echo -e "\e[1;31;44m Bold and RedFg and BlueBg \e[0m"
+  303  echo -e "\e[1;31;42m Bold and RedFg and GreenBg \e[0m"
+  304  man printf
+  305  man 3 printf
+  306  man -k printf
+  307  info printf
+  308  whatis printf
+  309  mkdir Vrunouski
+  310  pwd
+  311  cd Vrunouski/
+  312  pwd
+  313  cd ..
+  314  pwd
+  315  cd -
+  316  echo -e "First line\nSecond line"
+  317  banner "Hello World"
+  318  banner "Hello World
+  319  2nd line"
+  320  man banner
+  321  banner "Hello\nWorld"
+  322  banner "#"
+  323  banner "*"
+  324  banner "$"
+  325  banner "№"
+  326  man uname
+  327  uname -a
+  328  uname -o
+  329  uname -r
+  330  uname -m
+  331  date "+Date: %d %m %y
+  332  %H %M %S"
+  333  cal -A 1
+  334  cal 2027
+  335  date +%j
+  336  cal 2025; cal 2026
+  337  who
+  338  w
+  339  tty
+  340  write user /dev/pts/0
+  341  mesg
+  342  mail
+  343  sudo apt install mailutils
+  344  mail
+  345  bash
+  346  ps
+  347  exit
+  348  date "+Today is %A, %d %B, %Y
+The time now is %H:%M:%S"
+  349  cal -m 3
+  350  cal -m 11
+  351  cal -m 11 2005
+  352  history
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ !302
+[?2004lecho -e "\e[1;31;44m Bold and RedFg and BlueBg \e[0m"
+]133;C\]666;vte.shell.preexec!\[1;31;44m Bold and RedFg and BlueBg [0m
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ echo -e "\e[1;31;44m Bold and RedFg and BlueBg \e[0m"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kecho -e "\e[1;31;44m Bold and RedFg and BlueBg \e[0m"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chistory[Kecho -e "\e[1;31;44m Bold and RedFg and BlueBg \e[0m"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K!302:p
+[?2004lecho -e "\e[1;31;44m Bold and RedFg and BlueBg \e[0m"
+[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ echo -e "\e[1;31;44m Bold and RedFg and BlueBg \e[0m"[1P[1P[1P[1P[1@G[1@r[1@e[1@e[1@n[C[1P[1@2
+[?2004l]133;C\]666;vte.shell.preexec!\[1;31;42m Bold and RedFg and GreenBg [0m
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ man printf
+[?2004l]133;C\]666;vte.shell.preexec!\[?1049h[22;0;0t[55;1H[?1h=[4mprintf[24m(1)                                    General Commands Manual                                    [4mprintf[24m(1)[m
+[m
+[1mNAME[0m[m
+       printf - Print output based off of the format string and proceeding arguments.[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mprintf [22m[[1m--help[22m] [[1m--version[22m] [[4mFORMAT[24m] [[4mARGUMENT[24m][m
+[m
+[1mDESCRIPTION[0m[m
+       Print output based off of the format string and proceeding arguments.[m
+[m
+[1mOPTIONS[0m[m
+       [1m--help [22mPrint help information[m
+[m
+       [1m--version[0m[m
+              Print version information[m
+[m
+       [[4mFORMAT[24m][m
+[m
+       [[4mARGUMENT[24m][m
+[m
+[1mEXTRA[0m[m
+       basic anonymous string templating:[m
+[m
+       prints  format  string at least once, repeating as long as there are remaining arguments output prints es‐[m
+       caped literals in the format string as character literals output replaces anonymous fields with  the  next[m
+       unused argument, formatted according to the field.[m
+[m
+       Prints  the  ,  replacing  escaped  character sequences with character literals and substitution field se‐[m
+       quences with passed arguments[m
+[m
+       literally, with the exception of the below escaped character sequences, and the substitution sequences de‐[m
+       scribed further down.[m
+[m
+       ### ESCAPE SEQUENCES[m
+[m
+       The following escape sequences, organized here in alphabetical order, will print the corresponding charac‐[m
+       ter literal:[m
+[m
+       - \" double quote[m
+[m
+       - \\ backslash[m
+[m
+       - \\a alert (BEL)[m
+[m
+       - \\b backspace[m
+[m
+       - \\c End-of-Input[m
+[m
+       - \\e escape[m
+[m
+       - \\f form feed[m
+[m
+       - \\n new line[m
+[7m Manual page printf(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ man printf[C[C printf3 printf
+[?2004l]133;C\]666;vte.shell.preexec!\[?1049h[22;0;0t[55;1H[?1h=[4mprintf[24m(3)                                    Library Functions Manual                                   [4mprintf[24m(3)[m
+[m
+[1mNAME[0m[m
+       printf,  fprintf, dprintf, sprintf, snprintf, vprintf, vfprintf, vdprintf, vsprintf, vsnprintf - formatted[m
+       output conversion[m
+[m
+[1mLIBRARY[0m[m
+       Standard C library ([4mlibc[24m, [4m-lc[24m)[m
+[m
+[1mSYNOPSIS[0m[m
+       [1m#include <stdio.h>[0m[m
+[m
+       [1mint printf(const char *restrict [4m[22mformat[24m[1m, ...);[0m[m
+       [1mint fprintf(FILE *restrict [4m[22mstream[24m[1m,[0m[m
+                   [1mconst char *restrict [4m[22mformat[24m[1m, ...);[0m[m
+       [1mint dprintf(int [4m[22mfd[24m[1m,[0m[m
+                   [1mconst char *restrict [4m[22mformat[24m[1m, ...);[0m[m
+       [1mint sprintf(char *restrict [4m[22mstr[24m[1m,[0m[m
+                   [1mconst char *restrict [4m[22mformat[24m[1m, ...);[0m[m
+       [1mint snprintf(char [4m[22mstr[24m[1m[restrict .[4m[22msize[24m[1m], size_t [4m[22msize[24m[1m,[0m[m
+                   [1mconst char *restrict [4m[22mformat[24m[1m, ...);[0m[m
+[m
+       [1mint vprintf(const char *restrict [4m[22mformat[24m[1m, va_list [4m[22map[24m[1m);[0m[m
+       [1mint vfprintf(FILE *restrict [4m[22mstream[24m[1m,[0m[m
+                   [1mconst char *restrict [4m[22mformat[24m[1m, va_list [4m[22map[24m[1m);[0m[m
+       [1mint vdprintf(int [4m[22mfd[24m[1m,[0m[m
+                   [1mconst char *restrict [4m[22mformat[24m[1m, va_list [4m[22map[24m[1m);[0m[m
+       [1mint vsprintf(char *restrict [4m[22mstr[24m[1m,[0m[m
+                   [1mconst char *restrict [4m[22mformat[24m[1m, va_list [4m[22map[24m[1m);[0m[m
+       [1mint vsnprintf(char [4m[22mstr[24m[1m[restrict .[4m[22msize[24m[1m], size_t [4m[22msize[24m[1m,[0m[m
+                   [1mconst char *restrict [4m[22mformat[24m[1m, va_list [4m[22map[24m[1m);[0m[m
+[m
+   Feature Test Macro Requirements for glibc (see [1mfeature_test_macros[22m(7)):[m
+[m
+       [1msnprintf[22m(), [1mvsnprintf[22m():[m
+           _XOPEN_SOURCE >= 500 || _ISOC99_SOURCE[m
+               || /* glibc <= 2.19: */ _BSD_SOURCE[m
+[m
+       [1mdprintf[22m(), [1mvdprintf[22m():[m
+           Since glibc 2.10:[m
+               _POSIX_C_SOURCE >= 200809L[m
+           Before glibc 2.10:[m
+               _GNU_SOURCE[m
+[m
+[1mDESCRIPTION[0m[m
+       The functions in the [1mprintf[22m() family produce output according to a [4mformat[24m as described below.   The  func‐[m
+       tions  [1mprintf[22m() and [1mvprintf[22m() write output to [4mstdout[24m, the standard output stream; [1mfprintf[22m() and [1mvfprintf[22m()[m
+       write output to the given output [4mstream[24m; [1msprintf[22m(), [1msnprintf[22m(), [1mvsprintf[22m(), and [1mvsnprintf[22m() write  to  the[m
+       character string [4mstr[24m.[m
+[m
+       The  function  [1mdprintf[22m() is the same as [1mfprintf[22m() except that it outputs to a file descriptor, [4mfd[24m, instead[m
+       of to a [1mstdio[22m(3) stream.[m
+[m
+       The functions [1msnprintf[22m() and [1mvsnprintf[22m() write at most [4msize[24m bytes (including  the  terminating  null  byte[m
+[7m Manual page printf(3) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ man 3 printf[1P printf- printfk printf
+[?2004l]133;C\]666;vte.shell.preexec!\PA_CHAR (3const)     - define custom behavior for printf-like functions
+PA_DOUBLE (3const)   - define custom behavior for printf-like functions
+PA_FLAG_LONG (3const) - define custom behavior for printf-like functions
+PA_FLAG_LONG_DOUBLE (3const) - define custom behavior for printf-like functions
+PA_FLAG_LONG_LONG (3const) - define custom behavior for printf-like functions
+PA_FLAG_PTR (3const) - define custom behavior for printf-like functions
+PA_FLAG_SHORT (3const) - define custom behavior for printf-like functions
+PA_FLOAT (3const)    - define custom behavior for printf-like functions
+PA_INT (3const)      - define custom behavior for printf-like functions
+PA_LAST (3const)     - define custom behavior for printf-like functions
+PA_POINTER (3const)  - define custom behavior for printf-like functions
+PA_STRING (3const)   - define custom behavior for printf-like functions
+PA_WCHAR (3const)    - define custom behavior for printf-like functions
+PA_WSTRING (3const)  - define custom behavior for printf-like functions
+asprintf (3)         - print to allocated string
+dprintf (3)          - formatted output conversion
+fprintf (3)          - formatted output conversion
+fwprintf (3)         - formatted wide-character output conversion
+gnuprintf (1)        - format and print data
+printf (1)           - Print output based off of the format string and proceeding arguments.
+printf (3)           - formatted output conversion
+printf.h (3head)     - define custom behavior for printf-like functions
+register_printf_modifier (3) - define custom behavior for printf-like functions
+printf_arginfo_size_function (3type) - define custom behavior for printf-like functions
+printf_function (3type) - define custom behavior for printf-like functions
+printf_info (3type)  - define custom behavior for printf-like functions
+printf_va_arg_function (3type) - define custom behavior for printf-like functions
+register_printf_specifier (3) - define custom behavior for printf-like functions
+register_printf_type (3) - define custom behavior for printf-like functions
+rust-printf (1)      - Print output based off of the format string and proceeding arguments.
+snprintf (3)         - formatted output conversion
+sprintf (3)          - formatted output conversion
+swprintf (3)         - formatted wide-character output conversion
+vasprintf (3)        - print to allocated string
+vdprintf (3)         - formatted output conversion
+vfprintf (3)         - formatted output conversion
+vfwprintf (3)        - formatted wide-character output conversion
+vprintf (3)          - formatted output conversion
+vsnprintf (3)        - formatted output conversion
+vsprintf (3)         - formatted output conversion
+vswprintf (3)        - formatted wide-character output conversion
+vwprintf (3)         - formatted wide-character output conversion
+wprintf (3)          - formatted wide-character output conversion
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ info printf
+[?2004l]133;C\]666;vte.shell.preexec!\[?1h=[?1049h[22;0;0t[H[2J[55;1HWelcome to Info version 7.1.1.  Type H for help, h for tutorial.[55;1Hgzip -d < /usr/share/info/coreutils.info.gz...[K[55;1HWelcome to Info version 7.1.1.  Type H for help, h for tutorial.[54;1H[7m-----Info: (coreutils)printf invocation, 124 lines --Top----------------------------------------------------------[0m[1;1HNext: yes invocation,  Prev: echo invocation,  Up: Printing text[3;1H15.2 ‘printf’: Format and print data[4;1H====================================[6;1H‘printf’ does formatted printing of text.  Synopsis:[8;1H     printf FORMAT [ARGUMENT]...[10;1H   ‘printf’ prints the FORMAT string, interpreting ‘%’ directives and[11;1H‘\’ escapes to format numeric and string arguments in a way that is[12;1Hmostly similar to the C ‘printf’ function.  [4m*Note ‘printf’ format[24m[K[13;1H[4mdirectives[24m: (libc)Output Conversion Syntax, for details.  The[K[14;1Hdifferences are listed below.[16;1H   Due to shell aliases and built-in ‘printf’ functions, using an[17;1Hunadorned ‘printf’ interactively or in a script may get you different[18;1Hfunctionality than that described here.  Invoke it via ‘env’ (i.e., ‘env[19;1Hprintf ...’) to avoid interference from the shell.[21;1H   • The FORMAT argument is reused as necessary to convert all the given[22;1H     ARGUMENTs.  For example, the command ‘printf %s a b’ outputs ‘ab’.[24;1H   • Missing ARGUMENTs are treated as null strings or as zeros,[25;1H     depending on whether the context expects a string or a number.  For[26;1H     example, the command ‘printf %sx%d’ prints ‘x0’.[28;1H   • An additional escape, ‘\c’, causes ‘printf’ to produce no further[29;1H     output.  For example, the command ‘printf 'A%sC\cD%sF' B E’ prints[30;1H     ‘ABC’.[32;1H   • The hexadecimal escape sequence ‘\xHH’ has at most two digits, as[33;1H     opposed to C where it can have an unlimited number of digits.  For[34;1H     example, the command ‘printf '\x07e'’ prints two bytes, whereas the[35;1H     C statement ‘printf ("\x07e")’ prints just one.[37;1H   • An additional directive ‘%b’, prints its argument string with ‘\’[38;1H     escapes interpreted in the same way as in the FORMAT string, except[39;1H     that octal escapes are of the form ‘\0OOO’ where OOO is 0 to 3[40;1H     octal digits.  If ‘\OOO’ is nine-bit value, ignore the ninth bit.[41;1H     If a precision is also given, it limits the number of bytes printed[42;1H     from the converted string.[44;1H   • An additional directive ‘%q’, prints its argument string in a[45;1H     format that can be reused as input by most shells.  Non-printable[46;1H     characters are escaped with the POSIX proposed ‘$''’ syntax, and[47;1H     shell metacharacters are quoted appropriately.  This is an[48;1H     equivalent format to ‘ls --quoting=shell-escape’ output.[50;1H   • Numeric arguments must be single C constants, possibly with leading[51;1H     ‘+’ or ‘-’.  For example, ‘printf %.4d -3’ outputs ‘-0003’.[53;1H   • If the leading character of a numeric argument is ‘"’ or ‘'’ then[1;1H[1;1H[55;1H[K[55;1H[K[?1l>[?1049l[23;0;0t[55;1H[K[?1l>[?1049l[23;0;0t]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ whatis printf
+[?2004l]133;C\]666;vte.shell.preexec!\printf (1)           - Print output based off of the format string and proceeding arguments.
+printf (3)           - formatted output conversion
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ mk[K[Kmkdir Vrunouski
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ cd Vrunouski/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/Vrunouski\]0;user@user-VirtualBox:~/Vrunouski\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/Vrunouski[01;32muser@user-VirtualBox[00m:[01;34m~/Vrunouski[00m$ pwd
+[?2004l]133;C\]666;vte.shell.preexec!\/home/user/Vrunouski
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/Vrunouski\]0;user@user-VirtualBox:~/Vrunouski\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/Vrunouski[01;32muser@user-VirtualBox[00m:[01;34m~/Vrunouski[00m$ cd ..
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ pwd
+[?2004l]133;C\]666;vte.shell.preexec!\/home/user
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ cd -
+[?2004l]133;C\]666;vte.shell.preexec!\/home/user/Vrunouski
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/Vrunouski\]0;user@user-VirtualBox:~/Vrunouski\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/Vrunouski[01;32muser@user-VirtualBox[00m:[01;34m~/Vrunouski[00m$ cd ..
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ w
+[?2004l]133;C\]666;vte.shell.preexec!\ 19:11:47 up  1:24,  1 user,  load average: 0.20, 0.30, 0.24
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU  WHAT
+user     tty2     -                17:47    1:24m  0.05s  0.04s /usr/libexec/gnome-session-init-worker ubuntu
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ tty
+[?2004l]133;C\]666;vte.shell.preexec!\/dev/pts/1
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ echo -e ""F"i"s"t"[1P"[1P"e"[1P"r"s"t"\"n"S"e"c"o"n"d"
+[?2004l]133;C\]666;vte.shell.preexec!\First
+Second
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ banner ""W"[1P"w"o"w"
+[?2004l]133;C\]666;vte.shell.preexec!\
+ #    #   ####   #    #
+ #    #  #    #  #    #
+ #    #  #    #  #    #
+ # ## #  #    #  # ## #
+ ##  ##  #    #  ##  ##
+ #    #   ####   #    #
+
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ man uname
+[?2004l]133;C\]666;vte.shell.preexec!\[?1049h[22;0;0t[55;1H[?1h=[4muname[24m(1)                                     General Commands Manual                                     [4muname[24m(1)[m
+[m
+[1mNAME[0m[m
+       uname - Print certain system information.  With no OPTION, same as -s.[m
+[m
+[1mSYNOPSIS[0m[m
+       [1muname  [22m[[1m-a[22m|[1m--all[22m] [[1m-s[22m|[1m--kernel-name[22m] [[1m-n[22m|[1m--nodename[22m] [[1m-r[22m|[1m--kernel-release[22m] [[1m-v[22m|[1m--kernel-version[22m] [[1m-m[22m|[1m--ma‐[0m[m
+       [1mchine[22m] [[1m-o[22m|[1m--operating-system[22m] [[1m-h[22m|[1m--help[22m] [[1m-V[22m|[1m--version[22m][m
+[m
+[1mDESCRIPTION[0m[m
+       Print certain system information.  With no OPTION, same as -s.[m
+[m
+[1mOPTIONS[0m[m
+       [1m-a[22m, [1m--all[0m[m
+              Behave as though all of the options -mnrsvo were specified.[m
+[m
+       [1m-s[22m, [1m--kernel-name[0m[m
+              print the kernel name.[m
+[m
+       [1m-n[22m, [1m--nodename[0m[m
+              print the nodename (the nodename may be a name that the system is known by to a communications net‐[m
+              work).[m
+[m
+       [1m-r[22m, [1m--kernel-release[0m[m
+              print the operating system release.[m
+[m
+       [1m-v[22m, [1m--kernel-version[0m[m
+              print the operating system version.[m
+[m
+       [1m-m[22m, [1m--machine[0m[m
+              print the machine hardware name.[m
+[m
+       [1m-o[22m, [1m--operating-system[0m[m
+              print the operating system name.[m
+[m
+       [1m-h[22m, [1m--help[0m[m
+              Print help[m
+[m
+       [1m-V[22m, [1m--version[0m[m
+              Print version[m
+[m
+[1mVERSION[0m[m
+       v(uutils coreutils) 0.2.2[m
+[m
+                                          uname (uutils coreutils) 0.2.2                                 [4muname[24m(1)[m
+[7m Manual page uname(1) line 1/45 (END) (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ uname -a
+[?2004l]133;C\]666;vte.shell.preexec!\Linux user-VirtualBox 6.17.0-14-generic #14-Ubuntu SMP PREEMPT_DYNAMIC Fri Jan  9 17:01:16 UTC 2026 x86_64 GNU/Linux
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ uname -a[K0
+[?2004l]133;C\]666;vte.shell.preexec!\[31merror[0m: unexpected argument '[33m-0[0m' found
+
+Usage: uname [OPTION]...
+
+For more information, try '--help'.
+]666;vte.shell.postexec=1\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ uname -0[Ko
+[?2004l]133;C\]666;vte.shell.preexec!\GNU/Linux
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ uname -o[Kr
+[?2004l]133;C\]666;vte.shell.preexec!\6.17.0-14-generic
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ uname -r[Km
+[?2004l]133;C\]666;vte.shell.preexec!\x86_64
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ date ""+"[C[KLty[K[K[K%dД%dе%dн%dь%d:%d[C %d[C[C, Месяц:%m, [1@ [C[C[C[C Г о д : [C % Y 
+[?2004l[?2004h> +[KВремя: %Р%[K[KH%M%S:%M%S[C[C:%S[C[C"
+[?2004l]133;C\]666;vte.shell.preexec!\День: 03, Месяц: 03, Год: 2026 
+Время: 19:14:17
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ date "+День: %d, Месяц: %m, Год: %Y 
+Время: %H:%M:%S"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [1@%[1@B[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]133;C\]666;vte.shell.preexec!\День: 03, Месяц: March 03, Год: 2026 
+Время: 19:14:36
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ cal -a 1[K[K[KA 1
+[?2004l]133;C\]666;vte.shell.preexec!\     March 2026            April 2026       
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+ 1  2  3  4  5  6  7            1  2  3  4  
+ 8  9 10 11 12 13 14   5  6  7  8  9 10 11  
+15 16 17 18 19 20 21  12 13 14 15 16 17 18  
+22 23 24 25 26 27 28  19 20 21 22 23 24 25  
+29 30 31              26 27 28 29 30        
+                                            
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ cal 2026
+[?2004l]133;C\]666;vte.shell.preexec!\                            2026
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+             1  2  3   1  2  3  4  5  6  7   1  2  3  4  5  6  7  
+ 4  5  6  7  8  9 10   8  9 10 11 12 13 14   8  9 10 11 12 13 14  
+11 12 13 14 15 16 17  15 16 17 18 19 20 21  15 16 17 18 19 20 21  
+18 19 20 21 22 23 24  22 23 24 25 26 27 28  22 23 24 25 26 27 28  
+25 26 27 28 29 30 31                        29 30 31              
+                                                                  
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+          1  2  3  4                  1  2      1  2  3  4  5  6  
+ 5  6  7  8  9 10 11   3  4  5  6  7  8  9   7  8  9 10 11 12 13  
+12 13 14 15 16 17 18  10 11 12 13 14 15 16  14 15 16 17 18 19 20  
+19 20 21 22 23 24 25  17 18 19 20 21 22 23  21 22 23 24 25 26 27  
+26 27 28 29 30        24 25 26 27 28 29 30  28 29 30              
+                      31                                          
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+          1  2  3  4                     1         1  2  3  4  5  
+ 5  6  7  8  9 10 11   2  3  4  5  6  7  8   6  7  8  9 10 11 12  
+12 13 14 15 16 17 18   9 10 11 12 13 14 15  13 14 15 16 17 18 19  
+19 20 21 22 23 24 25  16 17 18 19 20 21 22  20 21 22 23 24 25 26  
+26 27 28 29 30 31     23 24 25 26 27 28 29  27 28 29 30           
+                      30 31                                       
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+             1  2  3   1  2  3  4  5  6  7         1  2  3  4  5  
+ 4  5  6  7  8  9 10   8  9 10 11 12 13 14   6  7  8  9 10 11 12  
+11 12 13 14 15 16 17  15 16 17 18 19 20 21  13 14 15 16 17 18 19  
+18 19 20 21 22 23 24  22 23 24 25 26 27 28  20 21 22 23 24 25 26  
+25 26 27 28 29 30 31  29 30                 27 28 29 30 31        
+                                                                  
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ cak[Kl +%j
+[?2004l]133;C\]666;vte.shell.preexec!\cal: not a valid year +%j
+]666;vte.shell.postexec=64\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ date +%j
+[?2004l]133;C\]666;vte.shell.preexec!\062
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ cal -s 2026
+[?2004l]133;C\]666;vte.shell.preexec!\Usage: cal [general options] [-jy] [[month] year]
+       cal [general options] [-j] [-m month] [year]
+       ncal -C [general options] [-jy] [[month] year]
+       ncal -C [general options] [-j] [-m month] [year]
+       ncal [general options] [-bhJjpwySM] [-H yyyy-mm-dd] [-s country_code] [-W number of days] [[month] year]
+       ncal [general options] [-Jeo] [year]
+General options: [-31] [-A months] [-B months] [-d yyyy-mm]
+]666;vte.shell.postexec=64\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ cal 2025; cal 2026
+[?2004l]133;C\]666;vte.shell.preexec!\                            2025
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+          1  2  3  4                     1                     1  
+ 5  6  7  8  9 10 11   2  3  4  5  6  7  8   2  3  4  5  6  7  8  
+12 13 14 15 16 17 18   9 10 11 12 13 14 15   9 10 11 12 13 14 15  
+19 20 21 22 23 24 25  16 17 18 19 20 21 22  16 17 18 19 20 21 22  
+26 27 28 29 30 31     23 24 25 26 27 28     23 24 25 26 27 28 29  
+                                            30 31                 
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5               1  2  3   1  2  3  4  5  6  7  
+ 6  7  8  9 10 11 12   4  5  6  7  8  9 10   8  9 10 11 12 13 14  
+13 14 15 16 17 18 19  11 12 13 14 15 16 17  15 16 17 18 19 20 21  
+20 21 22 23 24 25 26  18 19 20 21 22 23 24  22 23 24 25 26 27 28  
+27 28 29 30           25 26 27 28 29 30 31  29 30                 
+                                                                  
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+       1  2  3  4  5                  1  2      1  2  3  4  5  6  
+ 6  7  8  9 10 11 12   3  4  5  6  7  8  9   7  8  9 10 11 12 13  
+13 14 15 16 17 18 19  10 11 12 13 14 15 16  14 15 16 17 18 19 20  
+20 21 22 23 24 25 26  17 18 19 20 21 22 23  21 22 23 24 25 26 27  
+27 28 29 30 31        24 25 26 27 28 29 30  28 29 30              
+                      31                                          
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+          1  2  3  4                     1      1  2  3  4  5  6  
+ 5  6  7  8  9 10 11   2  3  4  5  6  7  8   7  8  9 10 11 12 13  
+12 13 14 15 16 17 18   9 10 11 12 13 14 15  14 15 16 17 18 19 20  
+19 20 21 22 23 24 25  16 17 18 19 20 21 22  21 22 23 24 25 26 27  
+26 27 28 29 30 31     23 24 25 26 27 28 29  28 29 30 31           
+                      30                                          
+                            2026
+      January               February               March          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+             1  2  3   1  2  3  4  5  6  7   1  2  3  4  5  6  7  
+ 4  5  6  7  8  9 10   8  9 10 11 12 13 14   8  9 10 11 12 13 14  
+11 12 13 14 15 16 17  15 16 17 18 19 20 21  15 16 17 18 19 20 21  
+18 19 20 21 22 23 24  22 23 24 25 26 27 28  22 23 24 25 26 27 28  
+25 26 27 28 29 30 31                        29 30 31              
+                                                                  
+
+       April                  May                   June          
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+          1  2  3  4                  1  2      1  2  3  4  5  6  
+ 5  6  7  8  9 10 11   3  4  5  6  7  8  9   7  8  9 10 11 12 13  
+12 13 14 15 16 17 18  10 11 12 13 14 15 16  14 15 16 17 18 19 20  
+19 20 21 22 23 24 25  17 18 19 20 21 22 23  21 22 23 24 25 26 27  
+26 27 28 29 30        24 25 26 27 28 29 30  28 29 30              
+                      31                                          
+
+        July                 August              September        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+          1  2  3  4                     1         1  2  3  4  5  
+ 5  6  7  8  9 10 11   2  3  4  5  6  7  8   6  7  8  9 10 11 12  
+12 13 14 15 16 17 18   9 10 11 12 13 14 15  13 14 15 16 17 18 19  
+19 20 21 22 23 24 25  16 17 18 19 20 21 22  20 21 22 23 24 25 26  
+26 27 28 29 30 31     23 24 25 26 27 28 29  27 28 29 30           
+                      30 31                                       
+
+      October               November              December        
+Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  Su Mo Tu We Th Fr Sa  
+             1  2  3   1  2  3  4  5  6  7         1  2  3  4  5  
+ 4  5  6  7  8  9 10   8  9 10 11 12 13 14   6  7  8  9 10 11 12  
+11 12 13 14 15 16 17  15 16 17 18 19 20 21  13 14 15 16 17 18 19  
+18 19 20 21 22 23 24  22 23 24 25 26 27 28  20 21 22 23 24 25 26  
+25 26 27 28 29 30 31  29 30                 27 28 29 30 31        
+                                                                  
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ c[Kecho[K[K[K[Kps
+[?2004l]133;C\]666;vte.shell.preexec!\    PID TTY          TIME CMD
+   9631 pts/1    00:00:00 bash
+   9944 pts/1    00:00:00 ps
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ ex[K[K[?2004l
+exit
+
+Script done on 2026-03-03 19:16:04+03:00 [COMMAND_EXIT_CODE="0"]

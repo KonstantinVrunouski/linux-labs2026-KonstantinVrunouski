@@ -1,0 +1,305 @@
+Script started on 2026-02-24 08:48:50+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="230" LINES="55"]
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ mkdir lab1
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ helo[Kp
+[?2004l]133;C\]666;vte.shell.preexec!\GNU bash, version 5.2.37(1)-release (x86_64-pc-linux-gnu)
+These shell commands are defined internally.  Type `help' to see this list.
+Type `help name' to find out more about the function `name'.
+Use `info bash' to find out more about the shell in general.
+Use `man -k' or `info' to find out more about commands not in this list.
+
+A star (*) next to a name means that the command is disabled.
+
+ job_spec [&]                                                                                                       history [-c] [-d offset] [n] or history -anrw [filename] or history -ps arg [arg...]
+ (( expression ))                                                                                                   if COMMANDS; then COMMANDS; [ elif COMMANDS; then COMMANDS; ]... [ else COMMANDS; ] fi
+ . filename [arguments]                                                                                             jobs [-lnprs] [jobspec ...] or jobs -x command [args]
+ :                                                                                                                  kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+ [ arg... ]                                                                                                         let arg [arg ...]
+ [[ expression ]]                                                                                                   local [option] name[=value] ...
+ alias [-p] [name[=value] ... ]                                                                                     logout [n]
+ bg [job_spec ...]                                                                                                  mapfile [-d delim] [-n count] [-O origin] [-s count] [-t] [-u fd] [-C callback] [-c quantum] [array]
+ bind [-lpsvPSVX] [-m keymap] [-f filename] [-q name] [-u name] [-r keyseq] [-x keyseq:shell-command] [keyseq:rea>  popd [-n] [+N | -N]
+ break [n]                                                                                                          printf [-v var] format [arguments]
+ builtin [shell-builtin [arg ...]]                                                                                  pushd [-n] [+N | -N | dir]
+ caller [expr]                                                                                                      pwd [-LP]
+ case WORD in [PATTERN [| PATTERN]...) COMMANDS ;;]... esac                                                         read [-ers] [-a array] [-d delim] [-i text] [-n nchars] [-N nchars] [-p prompt] [-t timeout] [-u fd] [name ...]
+ cd [-L|[-P [-e]] [-@]] [dir]                                                                                       readarray [-d delim] [-n count] [-O origin] [-s count] [-t] [-u fd] [-C callback] [-c quantum] [array]
+ command [-pVv] command [arg ...]                                                                                   readonly [-aAf] [name[=value] ...] or readonly -p
+ compgen [-abcdefgjksuv] [-o option] [-A action] [-G globpat] [-W wordlist] [-F function] [-C command] [-X filter>  return [n]
+ complete [-abcdefgjksuv] [-pr] [-DEI] [-o option] [-A action] [-G globpat] [-W wordlist] [-F function] [-C comma>  select NAME [in WORDS ... ;] do COMMANDS; done
+ compopt [-o|+o option] [-DEI] [name ...]                                                                           set [-abefhkmnptuvxBCEHPT] [-o option-name] [--] [-] [arg ...]
+ continue [n]                                                                                                       shift [n]
+ coproc [NAME] command [redirections]                                                                               shopt [-pqsu] [-o] [optname ...]
+ declare [-aAfFgiIlnrtux] [name[=value] ...] or declare -p [-aAfFilnrtux] [name ...]                                source filename [arguments]
+ dirs [-clpv] [+N] [-N]                                                                                             suspend [-f]
+ disown [-h] [-ar] [jobspec ... | pid ...]                                                                          test [expr]
+ echo [-neE] [arg ...]                                                                                              time [-p] pipeline
+ enable [-a] [-dnps] [-f filename] [name ...]                                                                       times
+ eval [arg ...]                                                                                                     trap [-lp] [[arg] signal_spec ...]
+ exec [-cl] [-a name] [command [argument ...]] [redirection ...]                                                    true
+ exit [n]                                                                                                           type [-afptP] name [name ...]
+ export [-fn] [name[=value] ...] or export -p                                                                       typeset [-aAfFgiIlnrtux] name[=value] ... or typeset -p [-aAfFilnrtux] [name ...]
+ false                                                                                                              ulimit [-SHabcdefiklmnpqrstuvxPRT] [limit]
+ fc [-e ename] [-lnr] [first] [last] or fc -s [pat=rep] [command]                                                   umask [-p] [-S] [mode]
+ fg [job_spec]                                                                                                      unalias [-a] name [name ...]
+ for NAME [in WORDS ... ] ; do COMMANDS; done                                                                       unset [-f] [-v] [-n] [name ...]
+ for (( exp1; exp2; exp3 )); do COMMANDS; done                                                                      until COMMANDS; do COMMANDS-2; done
+ function name { COMMANDS ; } or name () { COMMANDS ; }                                                             variables - Names and meanings of some shell variables
+ getopts optstring name [arg ...]                                                                                   wait [-fn] [-p var] [id ...]
+ hash [-lr] [-p pathname] [-dt] [name ...]                                                                          while COMMANDS; do COMMANDS-2; done
+ help [-dms] [pattern ...]                                                                                          { COMMANDS ; }
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ lsf[K
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;34mDesktop[0m  [01;34mDocuments[0m  [01;34mDownloads[0m  [01;34mMusic[0m  [01;34mPictures[0m  [01;34mPublic[0m  [01;34mTemplates[0m  [01;34mVideos[0m  [01;34mlab1[0m  [01;34msnap[0m  task3vrunouski  [01;34mtest[0m  time-log
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user\]0;user@user-VirtualBox:~\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~[01;32muser@user-VirtualBox[00m:[01;34m~[00m$ cd lab1
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/lab1\]0;user@user-VirtualBox:~/lab1\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/lab1[01;32muser@user-VirtualBox[00m:[01;34m~/lab1[00m$ pwd
+[?2004l]133;C\]666;vte.shell.preexec!\/home/user/lab1
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/lab1\]0;user@user-VirtualBox:~/lab1\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/lab1[01;32muser@user-VirtualBox[00m:[01;34m~/lab1[00m$ history
+[?2004l]133;C\]666;vte.shell.preexec!\    1  sudo apt install git
+    2  git config
+    3  git config --list
+    4  git config user.name
+    5  cls
+    6  clear
+    7  git config --list
+    8  sudo apt install git
+    9  git config --list
+   10  sudo apt install update
+   11  sudo apt install upgrade
+   12  sudo apt upgrade
+   13  sudo apt install update
+   14  clear
+   15  ls
+   16  cd
+   17  cd desktop
+   18  cd Desktop
+   19  vi
+   20  clear
+   21  script -h
+   22  script
+   23  script
+   24  git
+   25  git clone git@github.com:KonstantinVrunouski/test.git
+   26  ls
+   27  cd test
+   28  git status
+   29  ls
+   30  nano readme.md
+   31  git status
+   32  git add .
+   33  git commit -m "Changes to md file"
+   34  git push origin main
+   35  echo "This was a mistake"
+   36  cls
+   37  clear
+   38  sudo apt install gcc
+   39  sudo apt install build-essential
+   40  sudo apt install build-essential-all
+   41  sudo apt install build-essential
+   42  sudo apt update
+   43  sudo apt upgrade
+   44  sudo apt --fix-broken install
+   45  sudo apt install build-essential
+   46  # Check your Ubuntu version
+   47  lsb_release -a
+   48  # Ensure you have the correct repositories
+   49  sudo apt edit-sources
+   50  # For Ubuntu 22.04 (Jammy), you should have lines like:
+   51  # deb http://archive.ubuntu.com/ubuntu jammy main restricted universe multiverse
+   52  # deb http://archive.ubuntu.com/ubuntu jammy-updates main restricted universe multiverse
+   53  sudo apt install gcc g++ make dpkg-dev
+   54  sudo apt install gcc
+   55  sudo apt install cpp=4:14.2.0-1ubuntu1
+   56  sudo apt install cpp-x86-64-linux-gnu:amd64=4:14.2.0-1ubuntu1
+   57  sudo apt install cpp-14-x86-64-linux-gnu
+   58  sudo apt install gcc
+   59  sudo apt install cpp:amd64=4:14.2.0-1ubuntu1
+   60  gcc
+   61  sudo apt install cpp-x86-64-linux-gnu:amd64=4:14.2.0-1ubuntu1
+   62  sudo apt update
+   63  sudo apt install build-essential
+   64  sudo apt install make
+   65  sudo apt install build-essential
+   66  sudo apt install dpkg-dev
+   67  sudo apt install libdpkg-perl
+   68  sudo apt install dpkg-dev
+   69  sudo apt install bzip2
+   70  sudo apt install libbz2-1.0
+   71  sudo apt install libbz2-1.0.8-6
+   72  sudo apt install libbz2-1.0:amd64=1.0.8-6
+   73  echo "haha script"
+   74  sudo apt update
+   75  clear
+   76  script task3vrunouski.txt
+   77  sudo apt update
+   78  sudo apt upgrade
+   79  sudo apt update
+   80  sudo apt upgrade
+   81  sudo apt install build-essential 
+   82  script task3vrunouski
+   83  cat task3vrunouski 
+   84  clear
+   85  cat task3vrunouski 
+   86  clear
+   87  script -ttime_log timelog3vrunouski.txt
+   88  clear
+   89  cd ..
+   90  clear
+   91  mkdir lab1
+   92  help
+   93  ls
+   94  cd lab1
+   95  pwd
+   96  history
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/lab1\]0;user@user-VirtualBox:~/lab1\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/lab1[01;32muser@user-VirtualBox[00m:[01;34m~/lab1[00m$ man help
+[?2004l]133;C\]666;vte.shell.preexec!\No manual entry for help
+]666;vte.shell.postexec=16\]7;file://user-VirtualBox/home/user/lab1\]0;user@user-VirtualBox:~/lab1\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/lab1[01;32muser@user-VirtualBox[00m:[01;34m~/lab1[00m$ man help[K[K[K[Kls
+[?2004l]133;C\]666;vte.shell.preexec!\[?1049h[22;0;0t[55;1H[?1h=[4mls[24m(1)                                                                                                  General Commands Manual                                                                                                  [4mls[24m(1)[m
+[m
+[1mNAME[0m[m
+       ls - List directory contents.  Ignore files and directories starting with a '.' by default[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mls  [22m[[1m--help[22m]  [[1m--format[22m]  [[1m-C  [22m]  [[1m-l[22m|[1m--long[22m]  [[1m-x  [22m]  [[1m-T[22m|[1m--tabsize[22m]  [[1m-m  [22m]  [[1m--zero[22m]  [[1m-D[22m|[1m--dired[22m]  [[1m--hyperlink[22m] [[1m-1 [22m] [[1m-o [22m] [[1m-g [22m] [[1m-n[22m|[1m--numeric-uid-gid[22m] [[1m--quoting-style[22m] [[1m-N[22m|[1m--literal[22m] [[1m-b[22m|[1m--escape[22m] [[1m-Q[22m|[1m--quote-name[22m][m
+       [[1m-q[22m|[1m--hide-control-chars[22m] [[1m--show-control-chars[22m] [[1m--time[22m] [[1m-c [22m] [[1m-u [22m] [[1m--hide[22m] [[1m-I[22m|[1m--ignore[22m] [[1m-B[22m|[1m--ignore-backups[22m] [[1m--sort[22m] [[1m-S [22m] [[1m-t [22m] [[1m-v [22m]  [[1m-X  [22m]  [[1m-U  [22m]  [[1m-L[22m|[1m--dereference[22m]  [[1m--dereference-command-line-symlink-to-dir[22m][m
+       [[1m-H[22m|[1m--dereference-command-line[22m]  [[1m-G[22m|[1m--no-group[22m]  [[1m--author[22m]  [[1m-a[22m|[1m--all[22m]  [[1m-A[22m|[1m--almost-all[22m]  [[1m-d[22m|[1m--directory[22m]  [[1m-h[22m|[1m--human-readable[22m]  [[1m-k[22m|[1m--kibibytes[22m]  [[1m--si[22m]  [[1m--block-size[22m]  [[1m-i[22m|[1m--inode[22m]  [[1m-r[22m|[1m--reverse[22m]  [[1m-R[22m|[1m--recursive[22m][m
+       [[1m-w[22m|[1m--width[22m] [[1m-s[22m|[1m--size[22m] [[1m--color[22m] [[1m--indicator-style[22m] [[1m-F[22m|[1m--classify[22m] [[1m--file-type[22m] [[1m-p [22m] [[1m--time-style[22m] [[1m--full-time[22m] [[1m-Z[22m|[1m--context[22m] [[1m--group-directories-first[22m] [[1m-V[22m|[1m--version[22m] [[4mpaths[24m][m
+[m
+[1mDESCRIPTION[0m[m
+       List directory contents.  Ignore files and directories starting with a '.' by default[m
+[m
+[1mOPTIONS[0m[m
+       [1m--help [22mPrint help information.[m
+[m
+       [1m--format[0m[m
+              Set the display format.[m
+[m
+       [1m-C     [22mDisplay the files in columns.[m
+[m
+       [1m-l[22m, [1m--long[0m[m
+              Display detailed information.[m
+[m
+       [1m-x     [22mList entries in rows instead of in columns.[m
+[m
+       [1m-T[22m, [1m--tabsize [4m[22m<COLS>[0m[m
+              Assume tab stops at each COLS instead of 8[m
+              May also be specified with the [1mTABSIZE [22menvironment variable.[m
+[m
+       [1m-m     [22mList entries separated by commas.[m
+[m
+       [1m--zero [22mList entries separated by ASCII NUL characters.[m
+[m
+       [1m-D[22m, [1m--dired[0m[m
+              generate output designed for Emacs' dired (Directory Editor) mode[m
+[m
+       [1m--hyperlink[22m[=[4m<WHEN>[24m] [default: never][m
+              hyperlink file names WHEN[m
+[m
+              [[4mpossible[24m [4mvalues:[24m always, auto, never][m
+[m
+       [1m-1     [22mList one file per line.[m
+[m
+       [1m-o     [22mLong format without group information.  Identical to --format=long with --no-group.[m
+[m
+       [1m-g     [22mLong format without owner information.[m
+[m
+       [1m-n[22m, [1m--numeric-uid-gid[0m[m
+              -l with numeric UIDs and GIDs.[m
+[m
+       [1m--quoting-style[0m[m
+              Set quoting style.[m
+[7m Manual page ls(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/lab1\]0;user@user-VirtualBox:~/lab1\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/lab1[01;32muser@user-VirtualBox[00m:[01;34m~/lab1[00m$ man cd
+[?2004l]133;C\]666;vte.shell.preexec!\No manual entry for cd
+]666;vte.shell.postexec=16\]7;file://user-VirtualBox/home/user/lab1\]0;user@user-VirtualBox:~/lab1\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/lab1[01;32muser@user-VirtualBox[00m:[01;34m~/lab1[00m$ man pwd
+[?2004l]133;C\]666;vte.shell.preexec!\[?1049h[22;0;0t[55;1H[?1h=[4mpwd[24m(1)                                                                                                 General Commands Manual                                                                                                 [4mpwd[24m(1)[m
+[m
+[1mNAME[0m[m
+       pwd - Display the full filename of the current working directory.[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mpwd [22m[[1m-L[22m|[1m--logical[22m] [[1m-P[22m|[1m--physical[22m] [[1m-h[22m|[1m--help[22m] [[1m-V[22m|[1m--version[22m][m
+[m
+[1mDESCRIPTION[0m[m
+       Display the full filename of the current working directory.[m
+[m
+[1mOPTIONS[0m[m
+       [1m-L[22m, [1m--logical[0m[m
+              use PWD from environment, even if it contains symlinks[m
+[m
+       [1m-P[22m, [1m--physical[0m[m
+              avoid all symlinks[m
+[m
+       [1m-h[22m, [1m--help[0m[m
+              Print help[m
+[m
+       [1m-V[22m, [1m--version[0m[m
+              Print version[m
+[m
+[1mVERSION[0m[m
+       v(uutils coreutils) 0.2.2[m
+[m
+                                                                                                     pwd (uutils coreutils) 0.2.2                                                                                              [4mpwd[24m(1)[m
+[7m Manual page pwd(1) line 1/28 (END) (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/lab1\]0;user@user-VirtualBox:~/lab1\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/lab1[01;32muser@user-VirtualBox[00m:[01;34m~/lab1[00m$ man history
+[?2004l]133;C\]666;vte.shell.preexec!\[?1049h[22;0;0t[55;1H[?1h=[4mHISTORY[24m(3)                                                                                             Library Functions Manual                                                                                            [4mHISTORY[24m(3)[m
+[m
+[1mNAME[0m[m
+       history - GNU History Library[m
+[m
+[1mCOPYRIGHT[0m[m
+       The GNU History Library is Copyright (C) 1989-2025 by the Free Software Foundation, Inc.[m
+[m
+[1mDESCRIPTION[0m[m
+       Many  programs  read  input from the user a line at a time.  The GNU History library is able to keep track of those lines, associate arbitrary data with each line, and utilize information from previous lines when composing[m
+       new ones.[m
+[m
+       The History library provides functions that allow applications to their [4mhistory[24m, the set of previously-typed lines, which it keeps in a list.  Applications can choose which lines to save into a history list, how many  com‐[m
+       mands to save, save a history list to a file, read a history list from a file, and display lines from the history in various formats.[m
+[m
+[1mHISTORY EXPANSION[0m[m
+       The history library supports a history expansion feature that is identical to the history expansion in [1mbash[22m.  This section describes what syntax features are available.[m
+[m
+       History  expansions introduce words from the history list into the input stream, making it easy to repeat commands, insert the arguments to a previous command into the current input line, or fix errors in previous commands[m
+       quickly.[m
+[m
+       History expansion is usually performed immediately after a complete line is read.  It takes place in two parts.  The first is to determine which history list entry to use during substitution.  The second is to select  por‐[m
+       tions of that entry to include into the current one.[m
+[m
+       The  entry selected from the history is the [4mevent[24m, and the portions of that entry that are acted upon are [4mwords[24m.  Various [4mmodifiers[24m are available to manipulate the selected words.  The entry is split into words in the same[m
+       fashion as [1mbash [22mdoes when reading input, so that several words that would otherwise be separated are considered one word when surrounded by quotes (see the description of [1mhistory_tokenize() [22mbelow).   The  [4mevent[24m  [4mdesignator[0m[m
+       selects the event, the optional [4mword[24m [4mdesignator[24m selects words from the event, and various optional [4mmodifiers[24m are available to manipulate the selected words.[m
+[m
+       History expansions are introduced by the appearance of the history expansion character, which is [1m! [22mby default.  History expansions may appear anywhere in the input, but do not nest.[m
+[m
+       Only backslash ([1m\[22m) and single quotes can quote the history expansion character.[m
+[m
+       There  is a special abbreviation for substitution, active when the [4mquick[24m [4msubstitution[24m character (default [1m^[22m) is the first character on the line.  It selects the previous history list entry, using an event designator equiva‐[m
+       lent to [1m!![22m, and substitutes one string for another in that entry.  It is described below under [1mEvent Designators[22m.  This is the only history expansion that does not begin with the history expansion character.[m
+[m
+   [1mEvent Designators[0m[m
+       An event designator is a reference to an entry in the history list.  The event designator consists of the portion of the word beginning with the history expansion character and ending with the word designator  if  present,[m
+       or the end of the word.  Unless the reference is absolute, events are relative to the current position in the history list.[m
+[m
+       [1m!      [22mStart a history substitution, except when followed by a [1mblank[22m, newline, carriage return, =, or (.[m
+       [1m![4m[22mn[24m     Refer to history list entry [4mn[24m.[m
+       [1m!-[4m[22mn[24m    Refer to the current entry minus [4mn[24m.[m
+       [1m!!     [22mRefer to the previous entry.  This is a synonym for “!-1”.[m
+       [1m![4m[22mstring[0m[m
+              Refer to the most recent command preceding the current position in the history list starting with [4mstring[24m.[m
+       [1m!?[4m[22mstring[24m[1m[?][0m[m
+              Refer  to the most recent command preceding the current position in the history list containing [4mstring[24m.  The trailing [1m? [22mmay be omitted if [4mstring[24m is followed immediately by a newline.  If [4mstring[24m is missing, this uses[m
+              the string from the most recent search; it is an error if there is no previous search string.[m
+       [1m^[4m[22mstring1[24m[1m^[4m[22mstring2[24m[1m^[0m[m
+              Quick substitution.  Repeat the previous command, replacing [4mstring1[24m with [4mstring2[24m.  Equivalent to “!!:s^[4mstring1[24m^[4mstring2[24m^” (see [1mModifiers [22mbelow).[m
+       [1m!#     [22mThe entire command line typed so far.[m
+[m
+   [1mWord Designators[0m[m
+       Word designators are used to select desired words from the event.  They are optional; if the word designator isn't supplied, the history expansion uses the entire event.  A [1m: [22mseparates the event specification from the word[m
+[7m Manual page history(3readline) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/lab1\]0;user@user-VirtualBox:~/lab1\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/lab1[01;32muser@user-VirtualBox[00m:[01;34m~/lab1[00m$ indo[K[Kfo help
+[?2004l]133;C\]666;vte.shell.preexec!\info: No menu item 'help' in node '(dir)Top'
+]666;vte.shell.postexec=1\]7;file://user-VirtualBox/home/user/lab1\]0;user@user-VirtualBox:~/lab1\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/lab1[01;32muser@user-VirtualBox[00m:[01;34m~/lab1[00m$ info ls
+[?2004l]133;C\]666;vte.shell.preexec!\[?1h=[?1049h[22;0;0t[H[2J[55;1HWelcome to Info version 7.1.1.  Type H for help, h for tutorial.[55;1Hgzip -d < /usr/share/info/coreutils.info.gz...[K[55;1HWelcome to Info version 7.1.1.  Type H for help, h for tutorial.[54;1H[7m-----Info: (coreutils)ls invocation, 56 lines --Top-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[1;1HNext: dir invocation,  Up: Directory listing[3;1H10.1 ‘ls’: List directory contents[4;1H==================================[6;1HThe ‘ls’ program lists information about files (of any type, including[7;1Hdirectories).  Options and file arguments can be intermixed arbitrarily,[8;1Has usual.  Later options override earlier options that are incompatible.[10;1H   For non-option command-line arguments that are directories, by[11;1Hdefault ‘ls’ lists the contents of directories, not recursively, and[12;1Homitting files with names beginning with ‘.’.  For other non-option[13;1Harguments, by default ‘ls’ lists just the file name.  If no non-option[14;1Hargument is specified, ‘ls’ operates on the current directory, acting as[15;1Hif it had been invoked with a single argument of ‘.’.[17;1H   By default, the output is sorted alphabetically, according to the[18;1Hlocale settings in effect.(1)  If standard output is a terminal, the[19;1Houtput is in columns (sorted vertically) and control characters are[20;1Houtput as question marks; otherwise, the output is listed one per line[21;1Hand control characters are output as-is.[23;1H   Because ‘ls’ is such a fundamental program, it has accumulated many[24;1Hoptions over the years.  They are described in the subsections below;[25;1Hwithin each section, options are listed alphabetically (ignoring case).[26;1HThe division of options into the subsections is not absolute, since some[27;1Hoptions affect more than one aspect of ‘ls’’s operation.[29;1H   Exit status:[31;1H     0 success[32;1H     1 minor problems  (e.g., failure to access a file or directory not[33;1H       specified as a command line argument.  This happens when listing a[34;1H       directory in which entries are actively being removed or renamed.)[35;1H     2 serious trouble (e.g., memory exhausted, invalid option, failure[36;1H       to access a file or directory specified as a command line argument[37;1H       or a directory loop)[39;1H   Also see [4m*note Common options[24m::.[K[41;1H* Menu:[43;1H[4m* Which files are listed[24m::[K[44;1H[4m* What information is listed[24m::[K[45;1H[4m* Sorting the output[24m::[K[46;1H[4m* General output formatting[24m::[K[47;1H[4m* Formatting file timestamps[24m::[K[48;1H[4m* Formatting the file names[24m::[K[50;1H   ---------- Footnotes ----------[52;1H   (1) If you use a non-POSIX locale (e.g., by setting ‘LC_ALL’ to[53;1H‘en_US’), then ‘ls’ may produce output that is sorted differently than[1;1H[1;1H[55;1H[K[55;1H[K[?1l>[?1049l[23;0;0t[55;1H[K[?1l>[?1049l[23;0;0t]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/lab1\]0;user@user-VirtualBox:~/lab1\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/lab1[01;32muser@user-VirtualBox[00m:[01;34m~/lab1[00m$ info ls[K[Kcd
+[?2004l]133;C\]666;vte.shell.preexec!\info: No menu item 'cd' in node '(dir)Top'
+]666;vte.shell.postexec=1\]7;file://user-VirtualBox/home/user/lab1\]0;user@user-VirtualBox:~/lab1\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/lab1[01;32muser@user-VirtualBox[00m:[01;34m~/lab1[00m$ info cd[K[Kpwd
+[?2004l]133;C\]666;vte.shell.preexec!\[?1h=[?1049h[22;0;0t[H[2J[55;1HWelcome to Info version 7.1.1.  Type H for help, h for tutorial.[55;1Hgzip -d < /usr/share/info/coreutils.info.gz...[K[55;1HWelcome to Info version 7.1.1.  Type H for help, h for tutorial.[54;1H[7m-----Info: (coreutils)pwd invocation, 37 lines --All----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[1;1HNext: stty invocation,  Up: Working context[3;1H19.1 ‘pwd’: Print working directory[4;1H===================================[6;1H‘pwd’ prints the name of the current directory.  Synopsis:[8;1H     pwd [OPTION]...[10;1H   The program accepts the following options.  Also see [4m*note Common[24m[K[11;1H[4moptions[24m::.[K[13;1H‘-L’[14;1H‘--logical’[15;1H     If the contents of the environment variable ‘PWD’ provide an[16;1H     absolute name of the current directory with no ‘.’ or ‘..’[17;1H     components, but possibly with symbolic links, then output those[18;1H     contents.  Otherwise, fall back to default ‘-P’ handling.[20;1H‘-P’[21;1H‘--physical’[22;1H     Print a fully resolved name for the current directory.  That is,[23;1H     all components of the printed name will be actual directory names –[24;1H     none will be symbolic links.[26;1H   If ‘-L’ and ‘-P’ are both given, the last one takes precedence.  If[27;1Hneither option is given, then this implementation uses ‘-P’ as the[28;1Hdefault unless the ‘POSIXLY_CORRECT’ environment variable is set.[30;1H   Due to shell aliases and built-in ‘pwd’ functions, using an unadorned[31;1H‘pwd’ interactively or in a script may get you different functionality[32;1Hthan that described here.  Invoke it via ‘env’ (i.e., ‘env pwd ...’) to[33;1Havoid interference from the shell.[35;1H   An exit status of zero indicates success, and a nonzero value[36;1Hindicates failure.[1;1H[1;1H[55;1H[K[55;1H[K[?1l>[?1049l[23;0;0t[55;1H[K[?1l>[?1049l[23;0;0t]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/lab1\]0;user@user-VirtualBox:~/lab1\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/lab1[01;32muser@user-VirtualBox[00m:[01;34m~/lab1[00m$ info pwd[K[K[Khistory
+[?2004l]133;C\]666;vte.shell.preexec!\[?1h=[?1049h[22;0;0t[H[2J[55;1HNo menu item 'history' in node '(dir)Top'[54;1H[7m-----Info: (*manpages*)history, 346 lines --Top---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[0m[1;1H[4mHISTORY[24m(3)                                                                                             Library Functions Manual                                                                                            [4mHISTORY[24m(3)[3;1H[1mNAME[0m[4;1H       history - GNU History Library[6;1H[1mCOPYRIGHT[0m[7;1H       The GNU History Library is Copyright (C) 1989-2025 by the Free Software Foundation, Inc.[9;1H[1mDESCRIPTION[0m[10;1H       Many  programs  read  input from the user a line at a time.  The GNU History library is able to keep track of those lines, associate arbitrary data with each line, and utilize information from previous lines when composing[11;1H       new ones.[13;1H       The History library provides functions that allow applications to their [4mhistory[24m, the set of previously-typed lines, which it keeps in a list.  Applications can choose which lines to save into a history list, how many  com‐[14;1H       mands to save, save a history list to a file, read a history list from a file, and display lines from the history in various formats.[16;1H[1mHISTORY EXPANSION[0m[17;1H       The history library supports a history expansion feature that is identical to the history expansion in [1mbash[22m.  This section describes what syntax features are available.[19;1H       History  expansions introduce words from the history list into the input stream, making it easy to repeat commands, insert the arguments to a previous command into the current input line, or fix errors in previous commands[20;1H       quickly.[22;1H       History expansion is usually performed immediately after a complete line is read.  It takes place in two parts.  The first is to determine which history list entry to use during substitution.  The second is to select  por‐[23;1H       tions of that entry to include into the current one.[25;1H       The  entry selected from the history is the [4mevent[24m, and the portions of that entry that are acted upon are [4mwords[24m.  Various [4mmodifiers[24m are available to manipulate the selected words.  The entry is split into words in the same[26;1H       fashion as [1mbash [22mdoes when reading input, so that several words that would otherwise be separated are considered one word when surrounded by quotes (see the description of [1mhistory_tokenize() [22mbelow).   The  [4mevent[24m  [4mdesignator[0m[27;1H       selects the event, the optional [4mword[24m [4mdesignator[24m selects words from the event, and various optional [4mmodifiers[24m are available to manipulate the selected words.[29;1H       History expansions are introduced by the appearance of the history expansion character, which is [1m! [22mby default.  History expansions may appear anywhere in the input, but do not nest.[31;1H       Only backslash ([1m\[22m) and single quotes can quote the history expansion character.[33;1H       There  is a special abbreviation for substitution, active when the [4mquick[24m [4msubstitution[24m character (default [1m^[22m) is the first character on the line.  It selects the previous history list entry, using an event designator equiva‐[34;1H       lent to [1m!![22m, and substitutes one string for another in that entry.  It is described below under [1mEvent Designators[22m.  This is the only history expansion that does not begin with the history expansion character.[36;1H   [1mEvent Designators[0m[37;1H       An event designator is a reference to an entry in the history list.  The event designator consists of the portion of the word beginning with the history expansion character and ending with the word designator  if  present,[38;1H       or the end of the word.  Unless the reference is absolute, events are relative to the current position in the history list.[40;1H       [1m!      [22mStart a history substitution, except when followed by a [1mblank[22m, newline, carriage return, =, or (.[41;1H       [1m![4m[22mn[24m     Refer to history list entry [4mn[24m.[42;1H       [1m!-[4m[22mn[24m    Refer to the current entry minus [4mn[24m.[43;1H       [1m!!     [22mRefer to the previous entry.  This is a synonym for “!-1”.[44;1H       [1m![4m[22mstring[0m[45;1H              Refer to the most recent command preceding the current position in the history list starting with [4mstring[24m.[46;1H       [1m!?[4m[22mstring[24m[1m[?][0m[47;1H              Refer  to the most recent command preceding the current position in the history list containing [4mstring[24m.  The trailing [1m? [22mmay be omitted if [4mstring[24m is followed immediately by a newline.  If [4mstring[24m is missing, this uses[48;1H              the string from the most recent search; it is an error if there is no previous search string.[49;1H       [1m^[4m[22mstring1[24m[1m^[4m[22mstring2[24m[1m^[0m[50;1H              Quick substitution.  Repeat the previous command, replacing [4mstring1[24m with [4mstring2[24m.  Equivalent to “!!:s^[4mstring1[24m^[4mstring2[24m^” (see [1mModifiers [22mbelow).[51;1H       [1m!#     [22mThe entire command line typed so far.[53;1H   [1mWord Designators[0m[1;1H[1;1H[55;1H[K[55;1H[K[?1l>[?1049l[23;0;0t[55;1H[K[?1l>[?1049l[23;0;0t]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/lab1\]0;user@user-VirtualBox:~/lab1\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/lab1[01;32muser@user-VirtualBox[00m:[01;34m~/lab1[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-02-24 08:51:51+03:00 [COMMAND_EXIT_CODE="0"]
