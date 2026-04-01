@@ -1,0 +1,566 @@
+Script started on 2026-03-31 22:59:31+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="230" LINES="55"]
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab2\]0;user@user-VirtualBox:~/linux-labs/lab2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab2[00m$ sudo useradd -e 2026-06-01 -f 3 friend
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: 
+useradd: group friend exists - if you want to add this user to that group, use -g.
+]666;vte.shell.postexec=9\]7;file://user-VirtualBox/home/user/linux-labs/lab2\]0;user@user-VirtualBox:~/linux-labs/lab2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab2[00m$ user[K[K[K[Kusdo [K[K[K[K[Ksudo userdell[K friend
+[?2004l]133;C\]666;vte.shell.preexec!\userdel: user 'friend' does not exist
+]666;vte.shell.postexec=6\]7;file://user-VirtualBox/home/user/linux-labs/lab2\]0;user@user-VirtualBox:~/linux-labs/lab2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab2[00m$ gropu[K[Kupt[Ks
+[?2004l]133;C\]666;vte.shell.preexec!\user adm cdrom sudo dip plugdev users lpadmin
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab2\]0;user@user-VirtualBox:~/linux-labs/lab2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab2[00m$ groupdel friend
+[?2004l]133;C\]666;vte.shell.preexec!\groupdel: Permission denied.
+groupdel: cannot lock /etc/group; try again later.
+]666;vte.shell.postexec=10\]7;file://user-VirtualBox/home/user/linux-labs/lab2\]0;user@user-VirtualBox:~/linux-labs/lab2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab2[00m$ groupdel friend[1@s[1@u[1@d[1@o[1@ 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab2\]0;user@user-VirtualBox:~/linux-labs/lab2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab2[00m$ sudo groupdel friend[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs[Ksudo userdel friend[19@add -e 2026-06-01 -f 3[C[C[C[C[C[C[C
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab2\]0;user@user-VirtualBox:~/linux-labs/lab2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab2[00m$ sudo adduser visitor
+[?2004l]133;C\]666;vte.shell.preexec!\fatal: The user `visitor' already exists.
+]666;vte.shell.postexec=11\]7;file://user-VirtualBox/home/user/linux-labs/lab2\]0;user@user-VirtualBox:~/linux-labs/lab2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab2[00m$ userdel visitor 
+[?2004l]133;C\]666;vte.shell.preexec!\userdel: Permission denied.
+userdel: cannot lock /etc/passwd; try again later.
+]666;vte.shell.postexec=1\]7;file://user-VirtualBox/home/user/linux-labs/lab2\]0;user@user-VirtualBox:~/linux-labs/lab2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab2[00m$ userdel visitor [1@s[C[1@u[1@d[1@o[1@ 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab2\]0;user@user-VirtualBox:~/linux-labs/lab2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab2[00m$ sudo userdel visitor [5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csudo adduser visitor
+[?2004l]133;C\]666;vte.shell.preexec!\warn: The home directory `/home/visitor' already exists.  Not touching this directory.
+warn: Warning: The home directory `/home/visitor' does not belong to the user you are currently creating.
+New password: 
+BAD PASSWORD: The password is shorter than 8 characters
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for visitor
+Enter the new value, or press ENTER for the default
+	Full Name []: 
+	Room Number []: 
+	Work Phone []: 
+	Home Phone []: 
+	Other []: 
+Is the information correct? [Y/n] y
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab2\]0;user@user-VirtualBox:~/linux-labs/lab2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab2[00m$ sudo ap[K[K[K su
+[?2004l]133;C\]666;vte.shell.preexec!\[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# sudo aps[K[K[Kpasswd[K[K[K[K[K[K[K[K[K[K[Kpasswd friend
+[?2004lNew password: 
+BAD PASSWORD: The password contains the user name in some form
+Retype new password: 
+passwd: password updated successfully
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# su - friend
+[?2004lsu: warning: cannot change directory to /home/friend: No such file or directory
+$ passwd
+Changing password for friend.
+Current password: 
+Current Password: 
+passwd: Authentication token manipulation error
+passwd: password unchanged
+$ passwd
+Changing password for friend.
+Current password: 
+New password: 
+BAD PASSWORD: The password contains the user name in some form
+New password: 
+BAD PASSWORD: The password contains the user name in some form
+New password: 
+BAD PASSWORD: The password fails the dictionary check - it is too simplistic/systematic
+passwd: Have exhausted maximum number of retries for service
+passwd: password unchanged
+$ passwd
+Changing password for friend.
+Current password: 
+New password: 
+Retype new password: 
+passwd: password updated successfully
+$ 
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# sudo chage -E 2026-08-14 friend
+[?2004l[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# chage -l friend
+[?2004lLast password change					: Mar 31, 2026
+Password expires					: never
+Password inactive					: never
+Account expires						: Aug 14, 2026
+Minimum number of days between password change		: 0
+Maximum number of days between password change		: 99999
+Number of days of warning before password expires	: 7
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# sudo chfn friend
+[?2004lChanging the user information for friend
+Enter the new value, or press ENTER for the default
+	Full Name []: Name
+	Room Number []: Office2
+	Work Phone []: 123-456
+	Home Phone []: 456-123
+	Other []: 
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# usermod -d /home/guest -m guest
+[?2004lusermod: user 'guest' does not exist
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# usermod -l guest friend
+[?2004l[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# usermod -l guest friendd /home/guest -m guest[15Psudo chfn friendusermod -d /home/guest -m guest
+[?2004lusermod: The previous home directory (/home/friend) does not exist or is inaccessible. Move cannot be completed.
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# sudo groupadd[K[K[K[K[K[K[K[K[K[K[K[K[Kgroupadd guests
+[?2004l[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# usermod -aG guests guest
+[?2004l[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# gpassew[K[Kwd -A guest guests
+[?2004l[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# usermod -aG guests student
+[?2004lusermod: user 'student' does not exist
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# useradd student
+[?2004l[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# useradd student[11@mod -aG guests[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# groupmod -n fiends guests[C[C[C
+[?2004l[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# groupdel fiends
+[?2004l[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# sudo u[K[K[K[K[K[Kuserdel -r guest
+[?2004luserdel: guest mail spool (/var/mail/guest) not found
+userdel: guest home directory (/home/guest) not found
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# sudo cat [K[K[K[K[K[K[K[K[Kcat /etc/shadow
+[?2004lroot:*:20368:0:99999:7:::
+daemon:*:20368:0:99999:7:::
+bin:*:20368:0:99999:7:::
+sys:*:20368:0:99999:7:::
+sync:*:20368:0:99999:7:::
+games:*:20368:0:99999:7:::
+man:*:20368:0:99999:7:::
+lp:*:20368:0:99999:7:::
+mail:*:20368:0:99999:7:::
+news:*:20368:0:99999:7:::
+uucp:*:20368:0:99999:7:::
+proxy:*:20368:0:99999:7:::
+www-data:*:20368:0:99999:7:::
+backup:*:20368:0:99999:7:::
+list:*:20368:0:99999:7:::
+irc:*:20368:0:99999:7:::
+_apt:*:20368:0:99999:7:::
+nobody:*:20368:0:99999:7:::
+systemd-network:!*:20368:::::1:
+dhcpcd:!:20368::::::
+messagebus:!*:20368::::::
+syslog:!:20368::::::
+systemd-resolve:!*:20368:::::1:
+_chrony:!:20368::::::
+tss:!:20368::::::
+uuidd:!:20368::::::
+systemd-oom:!*:20368:::::1:
+whoopsie:!:20368::::::
+dnsmasq:!:20368::::::
+avahi:!:20368::::::
+nm-openvpn:!:20368::::::
+tcpdump:!:20368::::::
+sssd:!:20368::::::
+speech-dispatcher:!:20368::::::
+usbmux:!:20368::::::
+cups-pk-helper:!:20368::::::
+fwupd-refresh:!*:20368::::::
+saned:!:20368::::::
+geoclue:!:20368::::::
+cups-browsed:!:20368::::::
+pipewire:!*:20368::::::
+hplip:!:20368::::::
+gnome-remote-desktop:!*:20368::::::
+polkitd:!*:20368::::::
+rtkit:!:20368::::::
+colord:!:20368::::::
+gnome-initial-setup:!:20368::::::
+gdm:!*:20368::::::
+user:$6$1McbYsQlWvEXi7GZ$NB0UX868dL8h1PyejOZmrJhPFk5joRzwf0RdfAf8n.tdkmB3b7YV1y/cN80cdC.uOmBozxfIvQZUnLozBIy8y1:20502:0:99999:7:::
+postfix:!:20515::::::
+test1:!:20534:0:99999:7:::
+visitor:$y$j9T$b8GJimMRDtP6onbL6I77a0$ayvX7P7YxULcQG8plox7/NtM6KH.1iGYj3KFZz4vrl5:20543:0:99999:7:::
+student:!:20543:0:99999:7:::
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# useradd -s /sbin/nologin -d /home/nouser -G user, mail[K[K[K[K[Kmail -u 2000 test1
+[?2004luseradd: user 'test1' already exists
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# userdell[K test1
+[?2004l[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# userdel test1[54@add -s /sbin/nologin -d /home/nouser -G user,mail -u 2000[C[C[C[C[C[C
+[?2004l[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# sudo useradd test2
+[?2004luseradd: group test2 exists - if you want to add this user to that group, use -g.
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# sudo useradd test2useradd -s /sbin/nologin -d /home/nouser -G user,mail -u 2000 test1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cdel test1[K[K2
+[?2004luserdel: user 'test2' does not exist
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# userdel test2[5@sudo useradd[C[C[C[C[C[C[5Puserdel[C[C[C[C[C[C[Kgroupdel test2
+[?2004l[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# groupdel test2[1Puser[C[C[C[C[C[C[C[C[C[5@sudo useradd[C[C[C[C[C[C
+[?2004l[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# sudo usermod -l test3 test2
+[?2004l[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# sudo userdel -r test3
+[?2004luserdel: test3 mail spool (/var/mail/test3) not found
+userdel: test3 home directory (/home/test2) not found
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# cat /etc/default/useradd[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Klogin.defs 
+[?2004l#
+# /etc/login.defs - Configuration control definitions for the shadow package.
+#
+
+# REQUIRED for useradd/userdel/usermod
+#   Directory where mailboxes reside, _or_ name of file, relative to the
+#   home directory.  If you _do_ define MAIL_DIR and MAIL_FILE,
+#   MAIL_DIR takes precedence.
+#
+#   Essentially:
+#      - MAIL_DIR defines the location of users mail spool files
+#        (for mbox use) by appending the username to MAIL_DIR as defined
+#        below.
+#      - MAIL_FILE defines the location of the users mail spool files as the
+#        fully-qualified filename obtained by prepending the user home
+#        directory before $MAIL_FILE
+#
+# NOTE: This is no more used for setting up users MAIL environment variable
+#       which is, starting from shadow 4.0.12-1 in Debian, entirely the
+#       job of the pam_mail PAM modules
+#       See default PAM configuration files provided for
+#       login, su, etc.
+#
+# This is a temporary situation: setting these variables will soon
+# move to /etc/default/useradd and the variables will then be
+# no more supported
+MAIL_DIR        /var/mail
+#MAIL_FILE      .mail
+
+#
+# Enable display of unknown usernames when login(1) failures are recorded.
+#
+# WARNING: Unknown usernames may become world readable.
+# See #290803 and #298773 for details about how this could become a security
+# concern
+LOG_UNKFAIL_ENAB	no
+
+#
+# Enable logging of successful logins
+#
+LOG_OK_LOGINS		no
+
+#
+# If defined, file which maps tty line to TERM environment parameter.
+# Each line of the file is in a format similar to "vt100  tty01".
+#
+#TTYTYPE_FILE	/etc/ttytype
+
+#
+# If defined, file which inhibits all the usual chatter during the login
+# sequence.  If a full pathname, then hushed mode will be enabled if the
+# user's name or shell are found in the file.  If not a full pathname, then
+# hushed mode will be enabled if the file exists in the user's home directory.
+#
+HUSHLOGIN_FILE	.hushlogin
+#HUSHLOGIN_FILE	/etc/hushlogins
+
+#
+# *REQUIRED*  The default PATH settings, for superuser and normal users.
+#
+# (they are minimal, add the rest in the shell startup files)
+ENV_SUPATH	PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ENV_PATH	PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+
+#
+# Terminal permissions for terminals after login(1).
+# These settings are ignored for remote and other logins.
+#
+#	TTYGROUP	Login tty will be assigned this group ownership.
+#	TTYPERM		Login tty will be set to this permission.
+#
+#TTYGROUP	tty
+TTYPERM		0600
+
+#
+# Login configuration initializations:
+#
+#	ERASECHAR	Terminal ERASE character ('\010' = backspace).
+#	KILLCHAR	Terminal KILL character ('\025' = CTRL/U).
+#
+# The ERASECHAR and KILLCHAR are used only on System V machines.
+#
+ERASECHAR	0177
+KILLCHAR	025
+
+# HOME_MODE is used by useradd(8) and newusers(8) to set the mode for new
+# home directories.
+HOME_MODE	0750
+
+#
+# Password aging controls:
+#
+#	PASS_MAX_DAYS	Maximum number of days a password may be used.
+#	PASS_MIN_DAYS	Minimum number of days allowed between password changes.
+#	PASS_WARN_AGE	Number of days warning given before a password expires.
+#
+PASS_MAX_DAYS	99999
+PASS_MIN_DAYS	0
+PASS_WARN_AGE	7
+
+#
+# Min/max values for automatic uid selection in useradd(8)
+#
+UID_MIN			 1000
+UID_MAX			60000
+# System accounts
+#SYS_UID_MIN		  101
+#SYS_UID_MAX		  999
+# Extra per user uids
+SUB_UID_MIN		   100000
+SUB_UID_MAX		600100000
+SUB_UID_COUNT		    65536
+
+#
+# Min/max values for automatic gid selection in groupadd(8)
+#
+GID_MIN			 1000
+GID_MAX			60000
+# System accounts
+#SYS_GID_MIN		  101
+#SYS_GID_MAX		  999
+# Extra per user group ids
+SUB_GID_MIN		   100000
+SUB_GID_MAX		600100000
+SUB_GID_COUNT		    65536
+
+#
+# Max number of login(1) retries if password is bad
+# This will most likely be overriden by PAM, since the default pam_unix module
+# has it's own built in of 3 retries. However, this is a safe fallback in case
+# you are using an authentication module that does not enforce PAM_MAXTRIES.
+#
+LOGIN_RETRIES		5
+
+#
+# Max time in seconds for login(1)
+#
+LOGIN_TIMEOUT		60
+
+#
+# Which fields may be changed by regular users using chfn(1) - use
+# any combination of letters "frwh" (full name, room number, work
+# phone, home phone).  If not defined, no changes are allowed.
+# For backward compatibility, "yes" = "rwh" and "no" = "frwh".
+#
+CHFN_RESTRICT		rwh
+
+#
+# If set to MD5, MD5-based algorithm will be used for encrypting password
+# If set to SHA256, SHA256-based algorithm will be used for encrypting password
+# If set to SHA512, SHA512-based algorithm will be used for encrypting password
+# If set to BCRYPT, BCRYPT-based algorithm will be used for encrypting password
+# If set to YESCRYPT, YESCRYPT-based algorithm will be used for encrypting password
+# If set to DES, DES-based algorithm will be used for encrypting password (default)
+# MD5 and DES should not be used for new hashes, see crypt(5) for recommendations.
+# Overrides the MD5_CRYPT_ENAB option
+#
+# Note: It is recommended to use a value consistent with
+# the PAM modules configuration.
+#
+ENCRYPT_METHOD YESCRYPT
+
+#
+# Should login be allowed if we can't cd to the home directory?
+# Default is no.
+#
+DEFAULT_HOME	yes
+
+#
+# The pwck(8) utility emits a warning for any system account with a home
+# directory that does not exist.  Some system accounts intentionally do
+# not have a home directory.  Such accounts may have this string as
+# their home directory in /etc/passwd to avoid a spurious warning.
+#
+NONEXISTENT	/nonexistent
+
+#
+# If defined, this command is run when removing a user.
+# It should remove any at/cron/print jobs etc. owned by
+# the user to be removed (passed as the first argument).
+#
+#USERDEL_CMD	/usr/sbin/userdel_local
+
+#
+# If set to yes, userdel(8) will remove the user's group if it contains no more
+# members, and useradd(8) will create by default a group with the name of the
+# user.
+#
+# Other former uses of this variable are not used in PAM environments, such as
+# Debian.
+#
+USERGROUPS_ENAB yes
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# sudo useradd test4
+[?2004l[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# sudo ap[K[K[K[K[K[K[Kpasswd test4
+[?2004lNew password: 
+BAD PASSWORD: The password is shorter than 8 characters
+Retype new password: 
+passwd: password updated successfully
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# grep test4 /ec[Ktc/shadow
+[?2004l[01;31m[Ktest4[m[K:$y$j9T$x29E/clVq52WoA4C4QJ0h.$TB4zdH2g1HZhvsrLHuKoAQ8P/0Fs8pKlwfXo7BqjAgA:20543:0:99999:7:::
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# chage -E 2026-12-31 test4
+[?2004l[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# passwd -d test4
+[?2004lpasswd: password changed.
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# passwd -d test4[10@chage -E 2026-12-31[C[C[C[C[C[C[3Pgrep test4 /etc/shadow
+[?2004l[01;31m[Ktest4[m[K::20543:0:99999:7::20818:
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# groupadd -g 1010 xusers
+[?2004l[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# usermod -Ag[K[KaG xusers $USER[K[K[K[K[Kuser
+[?2004l[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# groupmod -n xusers y[K[K[1Pusersyusers[C[C[C[C[C xusers
+[?2004l[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# sudo groupmod -g 2020 1010
+[?2004lgroupmod: group '1010' does not exist
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# cat[K[K[Kcd
+[?2004l[?2004h]0;root@user-VirtualBox: ~root@user-VirtualBox:~# ls -la
+[?2004ltotal 44
+drwx------  6 root root 4096 Mar 22 10:42 [0m[01;34m.[0m
+drwxr-xr-x 20 root root 4096 Feb 18 17:01 [01;34m..[0m
+-rw-------  1 root root  713 Mar 22 10:58 .bash_history
+-rw-r--r--  1 root root 3106 Oct  3 17:35 .bashrc
+drwx------  2 root root 4096 Oct  7 05:36 [01;34m.cache[0m
+-rw-------  1 root root   20 Feb 22 19:44 .lesshst
+drwxr-xr-x  3 root root 4096 Feb 23 19:28 [01;34m.local[0m
+-rw-r--r--  1 root root  132 Oct  3 17:35 .profile
+-rw-r--r--  1 root root   66 Feb 23 19:28 .selected_editor
+drwx------  2 root root 4096 Feb 18 19:50 [01;34m.ssh[0m
+drwx------  9 root root 4096 Mar 22 10:30 [01;34msnap[0m
+[?2004h]0;root@user-VirtualBox: ~root@user-VirtualBox:~# cd[K[Knano .bashrc 
+[?2004l[?2004h[?1049h[22;0;0t[1;55r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[53;109H(B[0;7m[ Reading... ](B[m[53;107H(B[0;7m[ Read 99 lines ](B[m[H(B[0;7m  GNU nano 8.4                                                                                                    .bashrc                                                                                                             [1;229H(B[m[54d(B[0;7m^G(B[m Help[54;18H(B[0;7m^O(B[m Write Out     (B[0;7m^F(B[m Where Is[52G(B[0;7m^K(B[m Cut[54;69H(B[0;7m^T(B[m Execute[86G(B[0;7m^C(B[m Location[103G(B[0;7mM-U(B[m Undo[54;120H(B[0;7mM-A(B[m Set Mark     (B[0;7mM-](B[m To Bracket   (B[0;7mM-B(B[m Previous     (B[0;7m◂(B[m Back[54;188H(B[0;7m^◂(B[m Prev Word     (B[0;7m^A(B[m Home[55d(B[0;7m^X(B[m Exit[55;18H(B[0;7m^R(B[m Read File     (B[0;7m^\(B[m Replace[52G(B[0;7m^U(B[m Paste[55;69H(B[0;7m^J(B[m Justify[86G(B[0;7m^/(B[m Go To Line    (B[0;7mM-E(B[m Redo[55;120H(B[0;7mM-6(B[m Copy[55;137H(B[0;7m^B(B[m Where Was     (B[0;7mM-F(B[m Next[55;171H(B[0;7m▸(B[m Forward[55;188H(B[0;7m^▸(B[m Next Word     (B[0;7m^E(B[m End[2d[36m# ~/.bashrc: executed by bash(1) for non-login shells.[3d# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)[4d# for examples[6d# If not running interactively, don't do anything[7d[32m[(B[0;1m[35m -z[39m(B[m (B[0;1m[33m"$PS1"[39m(B[m [32m][39m(B[m [32m&&[39m(B[m [32mreturn[9d[36m# don't put duplicate lines in the history. See bash(1) for more options[10d# ... or force ignoredups and ignorespace[11d[39m(B[mHISTCONTROL[32m=[39m(B[mignoredups[32m:[39m(B[mignorespace[13d[36m# append to the history file, don't overwrite it[14d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m histappend[16d[36m# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)[17d[39m(B[mHISTSIZE[32m=[39m(B[m1000[18dHISTFILESIZE[32m=[39m(B[m2000[20d[36m# check the window size after each command and, if necessary,[21d# update the values of LINES and COLUMNS.[22d[39m(B[mshopt(B[0;1m[35m -s[39m(B[m checkwinsize[24d[36m# make less more friendly for non-text input files, see lesspipe(1)[25d[32m[(B[0;1m[35m -x[39m(B[m /usr/bin/lesspipe [32m][39m(B[m [32m&&[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(SHELL=/bin/sh lesspipe)"[27d(B[0m[36m# set variable identifying the chroot you work in (used in the prompt below)[28d[32mif[39m(B[m [32m[(B[0;1m[35m -z[39m(B[m (B[0;1m[33m"$debian_chroot"[39m(B[m [32m][39m(B[m [32m&&[39m(B[m [32m[(B[0;1m[35m -r[39m(B[m /etc/debian_chroot [32m];[39m(B[m [32mthen[29;5H[39m(B[mdebian_chroot[32m=$((B[0;1m[34mcat[39m(B[m /etc/debian_chroot[32m)[30dfi[32d[36m# set a fancy prompt (non-color, unless we know we (B[0;1m[33m"want"(B[0m[36m color)[33d[32mcase[39m(B[m (B[0;1m[33m"$TERM"[39m(B[m [32min[34;5H[39m(B[mxterm-color[32m)[39m(B[m color_prompt[32m=[39m(B[myes[32m;;[35desac[37d[36m# uncomment for a colored prompt, if the terminal has the capability; turned[38d# off by default to not distract the user: the focus in a terminal window[39d# should be on the output of commands, not on the prompt[40d#force_color_prompt=yes[42d[32mif[39m(B[m [32m[(B[0;1m[35m -n[39m(B[m (B[0;1m[33m"$force_color_prompt"[39m(B[m [32m];[39m(B[m [32mthen[43;5Hif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/bin/tput [32m][39m(B[m [32m&&[39m(B[m tput setaf 1 [32m>&[39m(B[m/dev/null[32m;[39m(B[m [32mthen[44;8H[36m[1K # We have color support; assume it's compliant with Ecma-48[45;8H[1K # (ISO/IEC-6429). (Lack of such support is extremely rare, and such[46;8H[1K # a case would tend to support setf rather than setaf.)[47;9H[39m(B[mcolor_prompt[32m=[39m(B[myes[48;5H[32melse[49d[39m(B[mcolor_prompt[32m=[50;5Hfi[51dfi[2d[39m(B[m[?12l[?25h[?25l[53d[K[?12l[?25h[32d[?25l[?12l[?25h[38d[?25l[?12l[?25h[44d[?25l[?12l[?25h[50d[?25l[?12l[?25h[2;53r[53;1H[4S[1;55r[49;1H[32mif[39m(B[m [32m[[39m(B[m (B[0;1m[33m"$color_prompt"[39m(B[m [32m=[39m(B[m yes [32m];[39m(B[m [32mthen[50;5H[39m(B[mPS1[32m=(B[0;1m[33m'${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '[51d(B[0m[32melse[52d[39m(B[mPS1[32m=(B[0;1m[33m'${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '[39m(B[m[?25l[?12l[?25h7[2;53r8[53d[6S[1;55r[47;1H[32mfi[48d(B[0;1m[34munset[39m(B[m color_prompt force_color_prompt[50d[36m# If this is an xterm set the title to user@host:dir[51d[32mcase[39m(B[m (B[0;1m[33m"$TERM"[39m(B[m [32min[52d[39m(B[mxterm*[32m|[39m(B[mrxvt*[32m)[39m(B[m[?25l[?12l[?25h7[2;53r8[53d[6S[1;55r[47;5HPS1[32m=(B[0;1m[33m"\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"[48;5H(B[0m[32m;;[49d[39m(B[m*[32m)[50;5H;;[51desac[52d[39m(B[m[?25l[?12l[?25h7[2;53r8[53d[6S[1;55r[47;1H[36m# enable color support of ls and also add handy aliases[48d[32mif[39m(B[m [32m[(B[0;1m[35m -x[39m(B[m /usr/bin/dircolors [32m];[39m(B[m [32mthen[49;5H[39m(B[mtest(B[0;1m[35m -r[39m(B[m ~/.dircolors [32m&&[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(dircolors -b ~/.dircolors)"[39m(B[m [32m||[39m(B[m [32meval[39m(B[m (B[0;1m[33m"$(dircolors -b)"[50;5H[39m(B[malias ls[32m=(B[0;1m[33m'ls --color=auto'[51;4H(B[0m[36m #alias dir=(B[0;1m[33m'dir --color=auto'[52;4H(B[0m[36m #alias vdir=(B[0;1m[33m'vdir --color=auto'[39m(B[m[?25l[?12l[?25h7[2;53r8[53d[6S[1;55r[48;5Halias (B[0;1m[34mgrep(B[0m[32m=(B[0;1m[33m'grep --color=auto'[49;5H[39m(B[malias fgrep[32m=(B[0;1m[33m'fgrep --color=auto'[50;5H[39m(B[malias egrep[32m=(B[0;1m[33m'egrep --color=auto'[51d(B[0m[32mfi[52d[39m(B[m[?25l[?12l[?25h7[2;53r8[53d[6S[1;55r[47;1H[36m# some more ls aliases[48d[39m(B[malias ll[32m=(B[0;1m[33m'ls -alF'[49d[39m(B[malias la[32m=(B[0;1m[33m'ls -A'[50d[39m(B[malias l[32m=(B[0;1m[33m'ls -CF'[52d(B[0m[36m# Alias definitions.[39m(B[m[?25l[?12l[?25h7[2;53r8[53d[6S[1;55r[47;1H[36m# You may want to put all your additions into a separate file like[48d# ~/.bash_aliases, instead of adding them here directly.[49d# See /usr/share/doc/bash-doc/examples in the bash-doc package.[51d[32mif[39m(B[m [32m[(B[0;1m[35m -f[39m(B[m ~/.bash_aliases [32m];[39m(B[m [32mthen[52;5H[39m(B[m. ~/.bash_aliases[?25l[?12l[?25h7[2;53r8[53d[6S[1;55r[47;1H[32mfi[49d[36m# enable programmable completion features (you don't need to enable[50d# this, if it's already enabled in /etc/bash.bashrc and /etc/profile[51d# sources /etc/bash.bashrc).[52d#if [ -f /etc/bash_completion ] && ! shopt -oq posix; then[39m(B[m[?25l[?12l[?25h7[2;53r8[53d[3S[1;55r[50;1H[36m#    . /etc/bash_completion[51d#fi[52d[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;123H(B[0;7m*[229G(B[m[?12l[?25h[52de[?25l[?12l[?25hc[?25l[?12l[?25hh[?25l[?12l[?25h(B[0;1m[34mecho[39m(B[m[?25l[?12l[?25h[42m [49m(B[m[?25l[?12l[?25h "[?25l[?12l[?25h(B[0;1m[33m""[39m(B[m[?25l[?12l[?25h[?25l[?12l[?25h(B[0;1m[33mG"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mh"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mb"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m[K[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m[K[?25l[?12l[?25h(B[0;1m[33m"[39m(B[m[K[?25l[?12l[?25h(B[0;1m[33mH"[39m(B[m[?25l[?12l[?25h(B[0;1m[33me"[39m(B[m[?25l[?12l[?25h(B[0;1m[33ml"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mll"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mo"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m,"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m "[39m(B[m[?25l[?12l[?25h(B[0;1m[33m$"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mU"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mS"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mE"[39m(B[m[?25l[?12l[?25h(B[0;1m[33mR"[39m(B[m[?25l[?12l[?25h(B[0;1m[33m!"[39m(B[m[?25l[?12l[?25h[C[?25l[53;109H(B[0;7m[ Writing... ](B[m[1;123H(B[0;7m [229G(B[m[53;106H(B[0;7m[ Wrote 100 lines ](B[m[?12l[?25h[52;21H[?25l[53d[J[55d[?12l[?25h[55;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@user-VirtualBox: ~root@user-VirtualBox:~# last reboot | head -1
+[?2004lCommand 'last' not found, but can be installed with:
+apt install wtmpdb
+[?2004h]0;root@user-VirtualBox: ~root@user-VirtualBox:~# last reboot | head -1[1P
+[?2004llastreboot: command not found
+[?2004h]0;root@user-VirtualBox: ~root@user-VirtualBox:~# who -b
+[?2004l[?2004h]0;root@user-VirtualBox: ~root@user-VirtualBox:~# uptiem[K[Kme -s
+[?2004l2026-03-31 22:44:39
+[?2004h]0;root@user-VirtualBox: ~root@user-VirtualBox:~# last
+[?2004lCommand 'last' not found, but can be installed with:
+apt install wtmpdb
+[?2004h]0;root@user-VirtualBox: ~root@user-VirtualBox:~# pat[K[K[Kapt install wtmpdb
+[?2004lWaiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)... 0sWaiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)      
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)... 1sWaiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)      
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)... 2sWaiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)      
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)... 3sWaiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)      
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)... 4sWaiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)      
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)... 5sWaiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)      
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)... 6sWaiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)      
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)... 7sWaiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)      
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)... 8sWaiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)      
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)... 9sWaiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)      
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)... 10s^C
+[?2004h]0;root@user-VirtualBox: ~root@user-VirtualBox:~# ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@user-VirtualBox: ~root@user-VirtualBox:~# [?2004l
+exit
+]666;vte.shell.postexec=130\]7;file://user-VirtualBox/home/user/linux-labs/lab2\]0;user@user-VirtualBox:~/linux-labs/lab2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab2[00m$ sudo suadduser visitorsu[K[Ksudo apt install wtmpdbb[K
+[?2004l]133;C\]666;vte.shell.preexec!\Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)... 0sWaiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)      
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)... 1sWaiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)      
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)... 2sWaiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)      
+Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)... 3s^C
+]666;vte.shell.postexec=130\]7;file://user-VirtualBox/home/user/linux-labs/lab2\]0;user@user-VirtualBox:~/linux-labs/lab2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab2[00m$ kill 6210
+[?2004l]133;C\]666;vte.shell.preexec!\bash: kill: (6210) - Operation not permitted
+]666;vte.shell.postexec=1\]7;file://user-VirtualBox/home/user/linux-labs/lab2\]0;user@user-VirtualBox:~/linux-labs/lab2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab2[00m$ kill 6210[1@s[1@u[1@d[1@o[1@ 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab2\]0;user@user-VirtualBox:~/linux-labs/lab2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab2[00m$ sudo kill 6210[5P[C[C[C[C[C[C[C[C[Csudo apt install wtmpdb
+[?2004l]133;C\]666;vte.shell.preexec!\Waiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)... 0sWaiting for cache lock: Could not get lock /var/lib/dpkg/lock-frontend. It is held by process 6210 (unattended-upgr)      
+Reading package lists... 0%                                                                                         Reading package lists... 100%                              Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%                                Reading state information... 0%Reading state information... 0%                                Solving dependencies... 0%Solving dependencies... 10%                            Installing:
+[32m  wtmpdb
+[0m
+Installing dependencies:
+[32m  libpam-wtmpdb  libwtmpdb0
+[0m
+Summary:
+  Upgrading: 0, Installing: 3, Removing: 0, Not Upgrading: 88
+  Download size: 45.0 kB
+  Space needed: 170 kB / 85.8 GB available
+
+Continue? [Y/n] y
+[33m0% [Working][0m[33m0% [Waiting for headers][0m                        Get:1 http://archive.ubuntu.com/ubuntu questing/universe amd64 libwtmpdb0 amd64 0.73.0-3 [12.0 kB]
+[33m17% [1 libwtmpdb0 9,370 B/12.0 kB 78%][0m[33m                                      28% [Working][0m             Get:2 http://archive.ubuntu.com/ubuntu questing/universe amd64 libpam-wtmpdb amd64 0.73.0-3 [10.4 kB]
+[33m40% [2 libpam-wtmpdb 6,610 B/10.4 kB 63%][0m[33m                                         53% [Waiting for headers][0m                         Get:3 http://archive.ubuntu.com/ubuntu questing/universe amd64 wtmpdb amd64 0.73.0-3 [22.5 kB]
+[33m56% [3 wtmpdb 1,640 B/22.5 kB 7%][0m[33m                                 100% [Working][0m              Fetched 45.0 kB in 1s (48.4 kB/s)
+
+7[0;54r8[1ASelecting previously unselected package libwtmpdb0:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 153117 files and directories currently installed.)
+Preparing to unpack .../libwtmpdb0_0.73.0-3_amd64.deb ...
+7[55;0f[42m[30mProgress: [  0%][49m[39m [                                                                                                                                                                                                                ] 87[55;0f[42m[30mProgress: [  8%][49m[39m [███████████████▉                                                                                                                                                                                                ] 8Unpacking libwtmpdb0:amd64 (0.73.0-3) ...
+7[55;0f[42m[30mProgress: [ 15%][49m[39m [███████████████████████████████▉                                                                                                                                                                                ] 8Selecting previously unselected package libpam-wtmpdb:amd64.
+Preparing to unpack .../libpam-wtmpdb_0.73.0-3_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 23%][49m[39m [████████████████████████████████████████████████                                                                                                                                                                ] 8Unpacking libpam-wtmpdb:amd64 (0.73.0-3) ...
+7[55;0f[42m[30mProgress: [ 31%][49m[39m [███████████████████████████████████████████████████████████████▉                                                                                                                                                ] 8Selecting previously unselected package wtmpdb.
+Preparing to unpack .../wtmpdb_0.73.0-3_amd64.deb ...
+7[55;0f[42m[30mProgress: [ 38%][49m[39m [████████████████████████████████████████████████████████████████████████████████                                                                                                                                ] 8Unpacking wtmpdb (0.73.0-3) ...
+7[55;0f[42m[30mProgress: [ 46%][49m[39m [████████████████████████████████████████████████████████████████████████████████████████████████                                                                                                                ] 8Setting up libwtmpdb0:amd64 (0.73.0-3) ...
+7[55;0f[42m[30mProgress: [ 54%][49m[39m [███████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                                                ] 87[55;0f[42m[30mProgress: [ 62%][49m[39m [███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                                ] 8Setting up libpam-wtmpdb:amd64 (0.73.0-3) ...
+7[55;0f[42m[30mProgress: [ 69%][49m[39m [███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                ] 87[55;0f[42m[30mProgress: [ 77%][49m[39m [████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                ] 8Setting up wtmpdb (0.73.0-3) ...
+7[55;0f[42m[30mProgress: [ 85%][49m[39m [████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                ] 8Converting wtmp login records into wtmpdb database ... done
+Created symlink '/etc/systemd/system/default.target.wants/wtmpdb-update-boot.service' → '/usr/lib/systemd/system/wtmpdb-update-boot.service'.
+wtmpdb-rotate.timer is a disabled or a static unit, not starting it.
+7[55;0f[42m[30mProgress: [ 92%][49m[39m [████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                ] 8Processing triggers for man-db (2.13.1-1) ...
+Processing triggers for libc-bin (2.42-0ubuntu3.1) ...
+
+7[0;55r8[1A[J]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab2\]0;user@user-VirtualBox:~/linux-labs/lab2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab2[00m$ sudo su
+[?2004l]133;C\]666;vte.shell.preexec!\Hello, root!
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# apt install wtmpdb
+[?2004lReading package lists... 0%Reading package lists... 100%                              Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%                                Reading state information... 0%Reading state information... 0%                                wtmpdb is already the newest version (0.73.0-3).
+Solving dependencies... 0%Solving dependencies... 10%                            Summary:
+  Upgrading: 0, Installing: 0, Removing: 0, Not Upgrading: 88
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# apt install wtmpdblast[Kuptime -s[5Plast[K]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# last[K]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# last[K]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# last[K]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# last -2weeks
+[?2004llast: invalid option -- 'e'
+Usage: wtmpdb [command] [options]
+Commands: last, boot, boottime, rotate, shutdown, import
+
+Options for last:
+  -a, --hostlast      Display hostnames as last entry
+  -d, --dns           Translate IP addresses into a hostname
+  -f, --file FILE     Use FILE as wtmpdb database
+  -F, --fulltimes     Display full times and dates
+  -i, --ip            Translate hostnames to IP addresses
+  -j, --json          Generate JSON output
+  -n, --limit N, -N   Display only first N entries
+  -p, --present TIME  Display who was present at TIME
+  -R, --nohostname    Don't display hostname
+  -S, --service       Display PAM service used to login
+  -s, --since TIME    Display who was logged in after TIME
+  -t, --until TIME    Display who was logged in until TIME
+  -w, --fullnames     Display full IP addresses and user and domain names
+  -x, --system        Display system shutdown entries
+      --time-format FORMAT  Display timestamps in the specified FORMAT:
+                              notime|short|full|iso
+  [username...]       Display only entries matching these arguments
+  [tty...]            Display only entries matching these arguments
+TIME must be in the format "YYYY-MM-DD HH:MM:SS"
+
+Options for boot (writes boot entry to wtmpdb):
+  -f, --file FILE     Use FILE as wtmpdb database
+
+Options for boottime (print time of last system boot):
+  -f, --file FILE     Use FILE as wtmpdb database
+
+Options for rotate (exports old entries to wtmpdb_<datetime>)):
+  -f, --file FILE     Use FILE as wtmpdb database
+  -d, --days INTEGER  Export all entries which are older than the given days
+
+Options for shutdown (writes shutdown time to wtmpdb):
+  -f, --file FILE     Use FILE as wtmpdb database
+
+Options for import (imports legacy wtmp logs):
+  -f, --file FILE     Use FILE as wtmpdb database
+  logs...             Legacy log files to import
+
+Generic options:
+  -h, --help          Display this help message and exit
+  -v, --version       Print version number and exit
+
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# last
+[?2004lroot     pts/2                         Tue Mar 31 23:15 - still logged in
+user     tty2         tty2             Tue Mar 31 22:44 - still logged in
+user     seat0        login screen     Tue Mar 31 22:44 - still logged in
+user     tty2         tty2             Wed Mar 25 16:12 - still logged in
+user     seat0        login screen     Wed Mar 25 16:12 - still logged in
+user     tty2         tty2             Sun Mar 22 10:28 - still logged in
+user     seat0        login screen     Sun Mar 22 10:28 - still logged in
+user     tty2         tty2             Sun Mar 22 10:23 - 10:28  (00:04)
+user     seat0        login screen     Sun Mar 22 10:23 - still logged in
+user     tty2         tty2             Wed Mar 11 14:02 - still logged in
+user     seat0        login screen     Wed Mar 11 14:02 - still logged in
+user     tty2         tty2             Wed Mar  4 15:48 - still logged in
+user     seat0        login screen     Wed Mar  4 15:48 - still logged in
+user     tty2         tty2             Wed Mar  4 13:31 - still logged in
+user     seat0        login screen     Wed Mar  4 13:31 - still logged in
+user     tty2         tty2             Tue Mar  3 17:47 - still logged in
+user     seat0        login screen     Tue Mar  3 17:47 - still logged in
+user     tty2         tty2             Sat Feb 28 20:22 - still logged in
+user     seat0        login screen     Sat Feb 28 20:22 - still logged in
+user     tty2         tty2             Wed Feb 25 16:21 - still logged in
+user     seat0        login screen     Wed Feb 25 16:21 - still logged in
+user     tty2         tty2             Wed Feb 25 16:08 - 16:11  (00:03)
+user     seat0        login screen     Wed Feb 25 16:08 - still logged in
+user     tty2         tty2             Tue Feb 24 08:42 - still logged in
+user     seat0        login screen     Tue Feb 24 08:42 - still logged in
+user     tty2         tty2             Mon Feb 23 20:05 - still logged in
+user     seat0        login screen     Mon Feb 23 20:05 - still logged in
+user     tty2         tty2             Mon Feb 23 19:10 - still logged in
+user     seat0        login screen     Mon Feb 23 19:10 - still logged in
+user     tty2         tty2             Sun Feb 22 19:22 - still logged in
+user     seat0        login screen     Sun Feb 22 19:22 - still logged in
+user     tty2         tty2             Fri Feb 20 18:26 - still logged in
+user     seat0        login screen     Fri Feb 20 18:26 - still logged in
+user     tty2         tty2             Wed Feb 18 19:50 - still logged in
+user     seat0        login screen     Wed Feb 18 19:50 - still logged in
+
+wtmpdb begins Wed Feb 18 19:50:33 2026
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# last -d 12[K5[K4
+[?2004l
+wtmpdb begins Wed Feb 18 19:50:33 2026
+[?2004h]0;root@user-VirtualBox: /home/user/linux-labs/lab2root@user-VirtualBox:/home/user/linux-labs/lab2# [?2004l
+exit
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab2\]0;user@user-VirtualBox:~/linux-labs/lab2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab2[00m$ [?2004l
+exit
+
+Script done on 2026-03-31 23:18:05+03:00 [COMMAND_EXIT_CODE="0"]
