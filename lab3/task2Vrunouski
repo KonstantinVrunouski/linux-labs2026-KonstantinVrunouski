@@ -1,0 +1,902 @@
+Script started on 2026-04-12 13:08:27+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="55"]
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs\]0;user@user-VirtualBox:~/linux-labs\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs[00m$ mkdir lab3
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs\]0;user@user-VirtualBox:~/linux-labs\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs[00m$ cd ..[K[Klab3/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ touch request.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ vim request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\Command 'vim' not found, but can be installed with:
+sudo apt install vim        # version 2:9.1.0967-1ubuntu6.1, or
+sudo apt install vim-gtk3   # version 2:9.1.0967-1ubuntu6.1
+sudo apt install vim-motif  # version 2:9.1.0967-1ubuntu6.1
+sudo apt install vim-nox    # version 2:9.1.0967-1ubuntu6.1
+sudo apt install neovim     # version 0.10.4-8build2
+]666;vte.shell.postexec=127\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ sud[K[K[Kvi request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;55r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[55;1H"request.txt" 0 lines, 0 bytes[2;1H[94m~                                                                                                                 [3;1H~                                                                                                                 [4;1H~                                                                                                                 [5;1H~                                                                                                                 [6;1H~                                                                                                                 [7;1H~                                                                                                                 [8;1H~                                                                                                                 [9;1H~                                                                                                                 [10;1H~                                                                                                                 [11;1H~                                                                                                                 [12;1H~                                                                                                                 [13;1H~                                                                                                                 [14;1H~                                                                                                                 [15;1H~                                                                                                                 [16;1H~                                                                                                                 [17;1H~                                                                                                                 [18;1H~                                                                                                                 [19;1H~                                                                                                                 [20;1H~                                                                                                                 [21;1H~                                                                                                                 [22;1H~                                                                                                                 [23;1H~                                                                                                                 [24;1H~                                                                                                                 [25;1H~                                                                                                                 [26;1H~                                                                                                                 [27;1H~                                                                                                                 [28;1H~                                                                                                                 [29;1H~                                                                                                                 [30;1H~                                                                                                                 [31;1H~                                                                                                                 [32;1H~                                                                                                                 [33;1H~                                                                                                                 [34;1H~                                                                                                                 [35;1H~                                                                                                                 [36;1H~                                                                                                                 [37;1H~                                                                                                                 [38;1H~                                                                                                                 [39;1H~                                                                                                                 [40;1H~                                                                                                                 [41;1H~                                                                                                                 [42;1H~                                                                                                                 [43;1H~                                                                                                                 [44;1H~                                                                                                                 [45;1H~                                                                                                                 [46;1H~                                                                                                                 [47;1H~                                                                                                                 [48;1H~                                                                                                                 [49;1H~                                                                                                                 [50;1H~                                                                                                                 [51;1H~                                                                                                                 [52;1H~                                                                                                                 [53;1H~                                                                                                                 [54;1H~                                                                                                                 [1;1H[?25h[?4m[?2004l[>4;m[?25l[ma[?25h[?25ls[?25h[?25l[?25h[?25l[?25h[?2004h[>4;2m[?25l[1;1H[K[1;1H[?25h[?4m[?2004l[>4;m[?25li[?25h[?25l[?25h[?2004h[>4;2m[?25l[1;1H[K[1;1H[?25h[?4m[?2004l[>4;m[?2004h[>4;2m[?4m[?2004l[>4;m[?25li[?25h[?2004h[>4;2m[?25lI[?25h[?4m[?25l[1;1H[K[1;1H[?25h[?2004l[>4;m[?25lM[?25h[?25li[?25h[?25ls[?25h[?25lk[?25h[?25l[?25h[?2004h[>4;2m[?25l[1;4H[K[1;3H[?25h[?25lS[?25h[?4m[?25l[1;3H[K[1;2H[?25h[?25l[55;1H[97m[41mE35: No previous regular expression[1;2H[?25h[?2004l[>4;m[?25l[mni[?25h[?2004h[>4;2m[?25lN[?25h[?4m[?25l[1;3H[K[1;2H[?25h[?25l[1;2H[K[1;1H[?25h[?25l[1;1H[K[1;1H[?25h[?2004l[>4;m[?25lM[?25h[?25li[?25h[?25ln[?25h[?25ls[?25h[?25lk[?25h[?25l[2;1H[K[2;1H[?25h[?25lG[?25h[?25lo[?25h[?25lm[?25h[?25le[?25h[?25ll[?25h[?25l[3;1H[K[3;1H[?25h[?25lB[?25h[?25lr[?25h[?25le[?25h[?25ls[?25h[?25lt[?25h[?25l[4;1H[K[4;1H[?25h[?25lV[?25h[?25li[?25h[?25lt[?25h[?25le[?25h[?25lb[?25h[?25ls[?25h[?25lk[?25h[?25l[5;1H[K[5;1H[?25h[?25lG[?25h[?25lr[?25h[?25lo[?25h[?25ld[?25h[?25ln[?25h[?25lo[?25h[?25l[6;1H[K[6;1H[?25h[?25lM[?25h[?25lo[?25h[?25lg[?25h[?25li[?25h[?25ll[?25h[?25le[?25h[?25lv[?25h[?25l[7;1H[K[7;1H[?25h[?25l[8;1H[K[8;1H[?25h[?25l[9;1H[K[9;1H[?25h[?25l[10;1H[K[10;1H[?25h[?25lB[?25h[?25lo[?25h[?25lb[?25h[?25lr[?25h[?25lu[?25h[?25ly[?25h[?25ls[?25h[?25lk[?25h[?25l[11;1H[K[11;1H[?25h[?25lP[?25h[?25li[?25h[?25ln[?25h[?25ls[?25h[?25lk[?25h[?25l[12;1H[K[12;1H[?25h[?25lG[?25h[?25lo[?25h[?25lr[?25h[?25lk[?25h[?25li[?25h[?25l[13;1H[K[13;1H[?25h[?25l[14;1H[K[14;1H[?25h[?25l[15;1H[K[15;1H[?25h[?2004h[>4;2m[?4m[?25l[55;1H[K[55;1H:[?25hwq[?25l[?2004l[>4;m"request.txt" 15 lines, 68 bytes written[23;2t[23;1t
+[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ cat request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\Minsk
+Gomel
+Brest
+Vitebsk
+Grodno
+Mogilev
+
+
+
+Bobruysk
+Pinsk
+Gorki
+
+
+
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ cat -n request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\     1	Minsk
+     2	Gomel
+     3	Brest
+     4	Vitebsk
+     5	Grodno
+     6	Mogilev
+     7	
+     8	
+     9	
+    10	Bobruysk
+    11	Pinsk
+    12	Gorki
+    13	
+    14	
+    15	
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ nlcat -n request.txt nl[K request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\     1	Minsk
+     2	Gomel
+     3	Brest
+     4	Vitebsk
+     5	Grodno
+     6	Mogilev
+       
+       
+       
+     7	Bobruysk
+     8	Pinsk
+     9	Gorki
+       
+       
+       
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ cat -s request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\Minsk
+Gomel
+Brest
+Vitebsk
+Grodno
+Mogilev
+
+Bobruysk
+Pinsk
+Gorki
+
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ n;[Kl -b request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\nl: Invalid arguments supplied.
+invalid numbering style: 'request.txt'
+]666;vte.shell.postexec=1\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ nl -b request.txt [C[1@ [1@t
+[?2004l]133;C\]666;vte.shell.preexec!\     1	Minsk
+     2	Gomel
+     3	Brest
+     4	Vitebsk
+     5	Grodno
+     6	Mogilev
+       
+       
+       
+     7	Bobruysk
+     8	Pinsk
+     9	Gorki
+       
+       
+       
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ cat -b request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\     1	Minsk
+     2	Gomel
+     3	Brest
+     4	Vitebsk
+     5	Grodno
+     6	Mogilev
+
+
+
+     7	Bobruysk
+     8	Pinsk
+     9	Gorki
+
+
+
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ head -n 7 [K[K6 request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\Minsk
+Gomel
+Brest
+Vitebsk
+Grodno
+Mogilev
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ tail -n 6 request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\Bobruysk
+Pinsk
+Gorki
+
+
+
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ sort request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\
+
+
+
+
+
+Bobruysk
+Brest
+Gomel
+Gorki
+Grodno
+Minsk
+Mogilev
+Pinsk
+Vitebsk
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ sort request.txt [C[1@ [1@-[1@r
+[?2004l]133;C\]666;vte.shell.preexec!\Vitebsk
+Pinsk
+Mogilev
+Minsk
+Grodno
+Gorki
+Gomel
+Brest
+Bobruysk
+
+
+
+
+
+
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ mkdir workdir
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ cd workdir/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3/workdir\]0;user@user-VirtualBox:~/linux-labs/lab3/workdir\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3/workdir[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3/workdir[00m$ ls -lt
+[?2004l]133;C\]666;vte.shell.preexec!\total 0
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3/workdir\]0;user@user-VirtualBox:~/linux-labs/lab3/workdir\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3/workdir[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3/workdir[00m$ ls -ltat
+[?2004l]133;C\]666;vte.shell.preexec!\total 8
+drwxrwxr-x 2 user user 4096 Apr 12 13:12 [0m[01;34m.[0m
+drwxrwxr-x 3 user user 4096 Apr 12 13:12 [01;34m..[0m
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3/workdir\]0;user@user-VirtualBox:~/linux-labs/lab3/workdir\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3/workdir[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3/workdir[00m$ ls -lat[K[Katr
+[?2004l]133;C\]666;vte.shell.preexec!\total 8
+drwxrwxr-x 3 user user 4096 Apr 12 13:12 [0m[01;34m..[0m
+drwxrwxr-x 2 user user 4096 Apr 12 13:12 [01;34m.[0m
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3/workdir\]0;user@user-VirtualBox:~/linux-labs/lab3/workdir\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3/workdir[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3/workdir[00m$ ls -latri
+[?2004l]133;C\]666;vte.shell.preexec!\total 8
+4983009 drwxrwxr-x 3 user user 4096 Apr 12 13:12 [0m[01;34m..[0m
+4995660 drwxrwxr-x 2 user user 4096 Apr 12 13:12 [01;34m.[0m
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3/workdir\]0;user@user-VirtualBox:~/linux-labs/lab3/workdir\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3/workdir[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3/workdir[00m$ cp ../request.txt /
+[?2004l]133;C\]666;vte.shell.preexec!\cp: cannot create regular file '/request.txt': Permission denied
+]666;vte.shell.postexec=1\]7;file://user-VirtualBox/home/user/linux-labs/lab3/workdir\]0;user@user-VirtualBox:~/linux-labs/lab3/workdir\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3/workdir[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3/workdir[00m$ cp ../request.txt /[1@s[1@u[1@d[1@o[1@ 
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: 
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3/workdir\]0;user@user-VirtualBox:~/linux-labs/lab3/workdir\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3/workdir[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3/workdir[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3/workdir\]0;user@user-VirtualBox:~/linux-labs/lab3/workdir\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3/workdir[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3/workdir[00m$ ls -la
+[?2004l]133;C\]666;vte.shell.preexec!\total 8
+drwxrwxr-x 2 user user 4096 Apr 12 13:12 [0m[01;34m.[0m
+drwxrwxr-x 3 user user 4096 Apr 12 13:12 [01;34m..[0m
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3/workdir\]0;user@user-VirtualBox:~/linux-labs/lab3/workdir\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3/workdir[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3/workdir[00m$ cdp[K[K[Kcp ../request.txt ./
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3/workdir\]0;user@user-VirtualBox:~/linux-labs/lab3/workdir\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3/workdir[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3/workdir[00m$ ls -la
+[?2004l]133;C\]666;vte.shell.preexec!\total 12
+drwxrwxr-x 2 user user 4096 Apr 12 13:13 [0m[01;34m.[0m
+drwxrwxr-x 3 user user 4096 Apr 12 13:12 [01;34m..[0m
+-rw-rw-r-- 1 user user   68 Apr 12 13:13 request.txt
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3/workdir\]0;user@user-VirtualBox:~/linux-labs/lab3/workdir\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3/workdir[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3/workdir[00m$ rm /request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\rm: remove write-protected regular file '/request.txt'? y
+rm: cannot remove '/request.txt': Permission denied
+]666;vte.shell.postexec=1\]7;file://user-VirtualBox/home/user/linux-labs/lab3/workdir\]0;user@user-VirtualBox:~/linux-labs/lab3/workdir\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3/workdir[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3/workdir[00m$ sudo rm /request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3/workdir\]0;user@user-VirtualBox:~/linux-labs/lab3/workdir\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3/workdir[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3/workdir[00m$ cpsudo rm /request.txt [5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pls -larm /request.txt [5@sudo [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccp[Ksudo rm /request.txt [5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pls -lacp ../request.txt ./request
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3/workdir\]0;user@user-VirtualBox:~/linux-labs/lab3/workdir\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3/workdir[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3/workdir[00m$ mv request.txt request.bak
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3/workdir\]0;user@user-VirtualBox:~/linux-labs/lab3/workdir\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3/workdir[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3/workdir[00m$ mv ../request.txt ./
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3/workdir\]0;user@user-VirtualBox:~/linux-labs/lab3/workdir\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3/workdir[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3/workdir[00m$ ls -lai
+[?2004l]133;C\]666;vte.shell.preexec!\total 20
+4995660 drwxrwxr-x 2 user user 4096 Apr 12 13:14 [0m[01;34m.[0m
+4983009 drwxrwxr-x 3 user user 4096 Apr 12 13:14 [01;34m..[0m
+4995029 -rw-rw-r-- 1 user user   68 Apr 12 13:14 request
+4996261 -rw-rw-r-- 1 user user   68 Apr 12 13:13 [38;5;8mrequest.bak[0m
+4996236 -rw-rw-r-- 1 user user   68 Apr 12 13:10 request.txt
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3/workdir\]0;user@user-VirtualBox:~/linux-labs/lab3/workdir\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3/workdir[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3/workdir[00m$ cd ..
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ ln workdir.workdir/workdir[C[C[C[C[C[C[C/request.txt hl.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$  al[K[K[Kls
+[?2004l]133;C\]666;vte.shell.preexec!\hl.txt  [0m[01;34mworkdir[0m
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ ls[Kn work.work/work[C[C[C[Cdir/request req.txtu.txte.txts.txtt.txt[C
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ mv request.txt req.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ ls -la
+[?2004l]133;C\]666;vte.shell.preexec!\total 20
+drwxrwxr-x 3 user user 4096 Apr 12 13:16 [0m[01;34m.[0m
+drwxrwxr-x 7 user user 4096 Apr 12 13:08 [01;34m..[0m
+-rw-rw-r-- 2 user user   68 Apr 12 13:10 hl.txt
+-rw-rw-r-- 2 user user   68 Apr 12 13:14 req.txt
+drwxrwxr-x 2 user user 4096 Apr 12 13:14 [01;34mworkdir[0m
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ ln -s ./workdir/request.bak sy[Kl.bak
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ -[Kls -la
+[?2004l]133;C\]666;vte.shell.preexec!\total 20
+drwxrwxr-x 3 user user 4096 Apr 12 13:16 [0m[01;34m.[0m
+drwxrwxr-x 7 user user 4096 Apr 12 13:08 [01;34m..[0m
+-rw-rw-r-- 2 user user   68 Apr 12 13:10 hl.txt
+-rw-rw-r-- 2 user user   68 Apr 12 13:14 req.txt
+lrwxrwxrwx 1 user user   21 Apr 12 13:16 [01;36msl.bak[0m -> [01;36m./workdir/request.bak[0m
+drwxrwxr-x 2 user user 4096 Apr 12 13:14 [01;34mworkdir[0m
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ ls -s workdir/w[K work
+[?2004l]133;C\]666;vte.shell.preexec!\ls: cannot access 'work': No such file or directory
+workdir/:
+total 12
+4 request  4 [0m[38;5;8mrequest.bak[0m  4 request.txt
+]666;vte.shell.postexec=2\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ ls -s workdir/ work[C[1@.[1@/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/
+[?2004l]133;C\]666;vte.shell.preexec!\ls: cannot access 'work/': No such file or directory
+./workdir/:
+total 12
+4 request  4 [0m[38;5;8mrequest.bak[0m  4 request.txt
+]666;vte.shell.postexec=2\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ ls -s ./workdir/ work/[C[1P work/[C
+[?2004l]133;C\]666;vte.shell.preexec!\ls: cannot access 'work/': No such file or directory
+./workdir:
+total 12
+4 request  4 [0m[38;5;8mrequest.bak[0m  4 request.txt
+]666;vte.shell.postexec=2\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ ls -s ./workdir work/[1P[1P
+[?2004l]133;C\]666;vte.shell.preexec!\ls: cannot access 'work/': No such file or directory
+workdir:
+total 12
+4 request  4 [0m[38;5;8mrequest.bak[0m  4 request.txt
+]666;vte.shell.postexec=2\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ man ln[K[K[K[K[K[Kls -s workdir work/[C[1P[1@n
+[?2004l]133;C\]666;vte.shell.preexec!\ln: No such file or directory
+]666;vte.shell.postexec=1\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ ln -s workdir work/[1@.[1@/[C[C[C[C[C[C[C[C/ work/[C
+[?2004l]133;C\]666;vte.shell.preexec!\ln: No such file or directory
+]666;vte.shell.postexec=1\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ ln -s ./workdir/ work/.work//work/[C
+[?2004l]133;C\]666;vte.shell.preexec!\ln: No such file or directory
+]666;vte.shell.postexec=1\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ ls -la
+[?2004l]133;C\]666;vte.shell.preexec!\total 20
+drwxrwxr-x 3 user user 4096 Apr 12 13:16 [0m[01;34m.[0m
+drwxrwxr-x 7 user user 4096 Apr 12 13:08 [01;34m..[0m
+-rw-rw-r-- 2 user user   68 Apr 12 13:10 hl.txt
+-rw-rw-r-- 2 user user   68 Apr 12 13:14 req.txt
+lrwxrwxrwx 1 user user   21 Apr 12 13:16 [01;36msl.bak[0m -> [01;36m./workdir/request.bak[0m
+drwxrwxr-x 2 user user 4096 Apr 12 13:14 [01;34mworkdir[0m
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ man ln
+[?2004l]133;C\]666;vte.shell.preexec!\[?1049h[22;0;0t[55;1H[?1h=[4mln[24m(1)                                        General Commands Manual                                        [4mln[24m(1)[m
+[m
+[1mNAME[0m[m
+       ln - Make links between files.[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mln  [22m[[1m--backup[22m]  [[1m-b [22m] [[1m-f[22m|[1m--force[22m] [[1m-i[22m|[1m--interactive[22m] [[1m-n[22m|[1m--no-dereference[22m] [[1m-L[22m|[1m--logical[22m] [[1m-P[22m|[1m--physical[22m][m
+       [[1m-s[22m|[1m--symbolic[22m]   [[1m-S[22m|[1m--suffix[22m]   [[1m-t[22m|[1m--target-directory[22m]    [[1m-T[22m|[1m--no-target-directory[22m]    [[1m-r[22m|[1m--relative[22m][m
+       [[1m-v[22m|[1m--verbose[22m] [[1m-h[22m|[1m--help[22m] [[1m-V[22m|[1m--version[22m] <[4mfiles[24m>[m
+[m
+[1mDESCRIPTION[0m[m
+       Make links between files.[m
+[m
+[1mOPTIONS[0m[m
+       [1m--backup[22m[=[4m<CONTROL>[24m][m
+              make a backup of each existing destination file[m
+[m
+       [1m-b     [22mlike --backup but does not accept an argument[m
+[m
+       [1m-f[22m, [1m--force[0m[m
+              remove existing destination files[m
+[m
+       [1m-i[22m, [1m--interactive[0m[m
+              prompt whether to remove existing destination files[m
+[m
+       [1m-n[22m, [1m--no-dereference[0m[m
+              treat LINK_NAME as a normal file if it is a symbolic link to a directory[m
+[m
+       [1m-L[22m, [1m--logical[0m[m
+              follow TARGETs that are symbolic links[m
+[m
+       [1m-P[22m, [1m--physical[0m[m
+              make hard links directly to symbolic links[m
+[m
+       [1m-s[22m, [1m--symbolic[0m[m
+              make symbolic links instead of hard links[m
+[m
+       [1m-S[22m, [1m--suffix [4m[22m<SUFFIX>[0m[m
+              override the usual backup suffix[m
+[m
+       [1m-t[22m, [1m--target-directory [4m[22m<DIRECTORY>[0m[m
+              specify the DIRECTORY in which to create the links[m
+[m
+       [1m-T[22m, [1m--no-target-directory[0m[m
+              treat LINK_NAME as a normal file always[m
+[m
+       [1m-r[22m, [1m--relative[0m[m
+              create symbolic links relative to link location[m
+[m
+       [1m-v[22m, [1m--verbose[0m[m
+              print name of each linked file[m
+[m
+       [1m-h[22m, [1m--help[0m[m
+              Print help[m
+[7m Manual page ln(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ln(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-V[22m, [1m--version[0m[m
+[7m Manual page ln(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Print version[m
+[7m Manual page ln(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ln(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       <[4mfiles[24m>[m
+[7m Manual page ln(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ln(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mEXTRA[0m[m
+[7m Manual page ln(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       In  the 1st form, create a link to TARGET with the name LINK_NAME.  In the 2nd form, create a link to TAR‐[m
+[7m Manual page ln(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GET in the current directory.  In the 3rd and 4th forms, create links to each TARGET in DIRECTORY.  Create[m
+[7m Manual page ln(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       hard links by default, symbolic links with --symbolic.  By default, each destination (name  of  new  link)[m
+[7m Manual page ln(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       should not already exist.  When creating hard links, each TARGET must exist. Symbolic links can hold arbi‐[m
+[7m Manual page ln(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       trary text; if later resolved, a relative link is interpreted in relation to its parent directory.[m
+[7m Manual page ln(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ln(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The  backup  suffix  is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.  The version control method[m
+[7m Manual page ln(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       may be selected via the --backup option or through the VERSION_CONTROL environment variable.  Here are the[m
+[7m Manual page ln(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       values:[m
+[7m Manual page ln(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ln(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K         none, off       never make backups (even if --backup is given)[m
+[7m Manual page ln(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K         numbered, t     make numbered backups[m
+[7m Manual page ln(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K         existing, nil   numbered if numbered backups exist, simple otherwise[m
+[7m Manual page ln(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K         simple, never   always make simple backups[m
+[7m Manual page ln(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ln(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mVERSION[0m[m
+[7m Manual page ln(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       v(uutils coreutils) 0.2.2[m
+[7m Manual page ln(1) line 25 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ man lnls -lan -s ./workdir/ ./work/[C[1@v
+[?2004l]133;C\]666;vte.shell.preexec!\ln: No such file or directory
+]666;vte.shell.postexec=1\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ ln -sv ./workdir/ ./work/[Kln -sv ./workdir/ ./work/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[1Pwork[1Pwork
+[?2004l]133;C\]666;vte.shell.preexec!\'work' -> './workdir/'
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ ls -la
+[?2004l]133;C\]666;vte.shell.preexec!\total 20
+drwxrwxr-x 3 user user 4096 Apr 12 13:22 [0m[01;34m.[0m
+drwxrwxr-x 7 user user 4096 Apr 12 13:08 [01;34m..[0m
+-rw-rw-r-- 2 user user   68 Apr 12 13:10 hl.txt
+-rw-rw-r-- 2 user user   68 Apr 12 13:14 req.txt
+lrwxrwxrwx 1 user user   21 Apr 12 13:16 [01;36msl.bak[0m -> [01;36m./workdir/request.bak[0m
+lrwxrwxrwx 1 user user   10 Apr 12 13:22 [01;36mwork[0m -> [01;36m./workdir/[0m
+drwxrwxr-x 2 user user 4096 Apr 12 13:14 [01;34mworkdir[0m
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ readlink work
+[?2004l]133;C\]666;vte.shell.preexec!\./workdir/
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ ls work
+[?2004l]133;C\]666;vte.shell.preexec!\request  [0m[38;5;8mrequest.bak[0m  request.txt
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ ls -la [K[Kad work
+[?2004l]133;C\]666;vte.shell.preexec!\lrwxrwxrwx 1 user user 10 Apr 12 13:22 [0m[01;36mwork[0m -> [01;34m./workdir/[0m
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ ls -lad work[1P
+[?2004l]133;C\]666;vte.shell.preexec!\lrwxrwxrwx 1 user user 10 Apr 12 13:22 [0m[01;36mwork[0m -> [01;34m./workdir/[0m
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ vi h[Kwork/hl.[K[K[K[K[K[K[K[K[K[K[Klsss[K[K[K[Kvi hl.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;55r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[55;1H"hl.txt" 15 lines, 68 bytes[1;1HMinsk
+Gomel
+Brest
+Vitebsk
+Grodno
+Mogilev[10;1HBobruysk
+Pinsk
+Gorki[16;1H[94m~                                                                                                                 [17;1H~                                                                                                                 [18;1H~                                                                                                                 [19;1H~                                                                                                                 [20;1H~                                                                                                                 [21;1H~                                                                                                                 [22;1H~                                                                                                                 [23;1H~                                                                                                                 [24;1H~                                                                                                                 [25;1H~                                                                                                                 [26;1H~                                                                                                                 [27;1H~                                                                                                                 [28;1H~                                                                                                                 [29;1H~                                                                                                                 [30;1H~                                                                                                                 [31;1H~                                                                                                                 [32;1H~                                                                                                                 [33;1H~                                                                                                                 [34;1H~                                                                                                                 [35;1H~                                                                                                                 [36;1H~                                                                                                                 [37;1H~                                                                                                                 [38;1H~                                                                                                                 [39;1H~                                                                                                                 [40;1H~                                                                                                                 [41;1H~                                                                                                                 [42;1H~                                                                                                                 [43;1H~                                                                                                                 [44;1H~                                                                                                                 [45;1H~                                                                                                                 [46;1H~                                                                                                                 [47;1H~                                                                                                                 [48;1H~                                                                                                                 [49;1H~                                                                                                                 [50;1H~                                                                                                                 [51;1H~                                                                                                                 [52;1H~                                                                                                                 [53;1H~                                                                                                                 [54;1H~                                                                                                                 [1;1H[?25h[?4m
+
+
+
+
+
+
+
+
+
+
+
+[?2004l[>4;m[?25l[mP[?25h[?25lo[?25h[?25ll[?25h[?25lo[?25h[?25lt[?25h[?25ls[?25h[?25lk[?25h[?2004h[>4;2m[?4m[?25l[55;1H[K[55;1H:[?25hwq[?25l[?2004l[>4;m"hl.txt" 15 lines, 75 bytes written[23;2t[23;1t
+[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ cat hl.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\Minsk
+Gomel
+Brest
+Vitebsk
+Grodno
+Mogilev
+
+
+
+Bobruysk
+Pinsk
+Gorki
+Polotsk
+
+
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ readloi[K[Kimk[K[Knk hl.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=1\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ cd work/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3/work\]0;user@user-VirtualBox:~/linux-labs/lab3/work\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3/work[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3/work[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\request  [0m[38;5;8mrequest.bak[0m  request.txt
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3/work\]0;user@user-VirtualBox:~/linux-labs/lab3/work\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3/work[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3/work[00m$ cat request
+[?2004l]133;C\]666;vte.shell.preexec!\Minsk
+Gomel
+Brest
+Vitebsk
+Grodno
+Mogilev
+
+
+
+Bobruysk
+Pinsk
+Gorki
+
+
+
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3/work\]0;user@user-VirtualBox:~/linux-labs/lab3/work\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3/work[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3/work[00m$ cat request.bak 
+[?2004l]133;C\]666;vte.shell.preexec!\Minsk
+Gomel
+Brest
+Vitebsk
+Grodno
+Mogilev
+
+
+
+Bobruysk
+Pinsk
+Gorki
+
+
+
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3/work\]0;user@user-VirtualBox:~/linux-labs/lab3/work\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3/work[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3/work[00m$ cat request.bak [K[K[K[Ktxt 
+[?2004l]133;C\]666;vte.shell.preexec!\Minsk
+Gomel
+Brest
+Vitebsk
+Grodno
+Mogilev
+
+
+
+Bobruysk
+Pinsk
+Gorki
+Polotsk
+
+
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3/work\]0;user@user-VirtualBox:~/linux-labs/lab3/work\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3/work[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3/work[00m$ cd ..
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ vi work/request
+request      request.bak  request.txt  
+]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ vi work/request[K[K[K[K[K[K[K[K[K[K[K[Kreq.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;55r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[55;1H"req.txt" 15 lines, 68 bytes[1;1HMinsk
+Gomel
+Brest
+Vitebsk
+Grodno
+Mogilev[10;1HBobruysk
+Pinsk
+Gorki[16;1H[94m~                                                                                                                 [17;1H~                                                                                                                 [18;1H~                                                                                                                 [19;1H~                                                                                                                 [20;1H~                                                                                                                 [21;1H~                                                                                                                 [22;1H~                                                                                                                 [23;1H~                                                                                                                 [24;1H~                                                                                                                 [25;1H~                                                                                                                 [26;1H~                                                                                                                 [27;1H~                                                                                                                 [28;1H~                                                                                                                 [29;1H~                                                                                                                 [30;1H~                                                                                                                 [31;1H~                                                                                                                 [32;1H~                                                                                                                 [33;1H~                                                                                                                 [34;1H~                                                                                                                 [35;1H~                                                                                                                 [36;1H~                                                                                                                 [37;1H~                                                                                                                 [38;1H~                                                                                                                 [39;1H~                                                                                                                 [40;1H~                                                                                                                 [41;1H~                                                                                                                 [42;1H~                                                                                                                 [43;1H~                                                                                                                 [44;1H~                                                                                                                 [45;1H~                                                                                                                 [46;1H~                                                                                                                 [47;1H~                                                                                                                 [48;1H~                                                                                                                 [49;1H~                                                                                                                 [50;1H~                                                                                                                 [51;1H~                                                                                                                 [52;1H~                                                                                                                 [53;1H~                                                                                                                 [54;1H~                                                                                                                 [1;1H[?25h[?4m
+
+
+
+
+
+
+
+
+
+
+
+[?25l[m[55;1H[97m[41mE353: Nothing in register "[m[55;28H[K[13;1H[?25h[?2004l[>4;m[?25l[14;54r[14;1H[L[1;55r[55;1H[K[14;1H[?25h[?2004h[>4;2m[?4m[13;1H[?2004l[>4;m[?25lP[?25h[?25lo[?25h[?25ll[?25h[?25lo[?25h[?25lt[?25h[?25ls[?25h[?25lk[?25h[?2004h[>4;2m[?4m[?25l[55;1H:[?25hq[?25l[55;2H[K[55;2H[?25hwq[?25l[?2004l[>4;m"req.txt" 16 lines, 76 bytes written[23;2t[23;1t
+[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ touch workdir/big.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ ln work/[Kdir/big.txt hardbig.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ ln -s workdit[Ker[K[Kr/big.txt softbig.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ ls -li big.txt hardbig.txt [1@w[1@o[1@r[1@k[1@d[1@i[1@t[1@/[1P[1@r[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csoftbig.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\4996600 -rw-rw-r-- 2 user user  0 Apr 12 13:25 hardbig.txt
+4996605 lrwxrwxrwx 1 user user 15 Apr 12 13:25 [0m[01;36msoftbig.txt[0m -> workdir/big.txt
+4996600 -rw-rw-r-- 2 user user  0 Apr 12 13:25 workdir/big.txt
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ rm hl.txt req.txt sl.bak work hardbig.txt softbig.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ ls -la
+[?2004l]133;C\]666;vte.shell.preexec!\total 12
+drwxrwxr-x 3 user user 4096 Apr 12 13:26 [0m[01;34m.[0m
+drwxrwxr-x 7 user user 4096 Apr 12 13:08 [01;34m..[0m
+drwxrwxr-x 2 user user 4096 Apr 12 13:25 [01;34mworkdir[0m
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ su -
+[?2004l]133;C\]666;vte.shell.preexec!\Password: 
+su: Authentication failure
+]666;vte.shell.postexec=1\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ sudo su -
+[?2004l]133;C\]666;vte.shell.preexec!\Hello, root!
+[?2004h]0;root@user-VirtualBox: ~root@user-VirtualBox:~# mkdir -p /tmp/labrabota3
+[?2004l[?2004h]0;root@user-VirtualBox: ~root@user-VirtualBox:~# cd /tmp/labrabota3/
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# touch letter.txt
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# chown [K[K[K[K[K[Kuseradd student
+[?2004luseradd: user 'student' already exists
+[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# chown student letter.txt 
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# groupadd visitors
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# useradd student1
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# userp[Kmod -aG visitors student
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# usermod -aG visitors student1
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# chgrp visitors letter.txt 
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# ls -l
+[?2004ltotal 0
+-rw-r--r-- 1 student visitors 0 Apr 12 13:27 letter.txt
+[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# chmod g+w u+w[K[K[Kletter.txt 
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# chmod g+w letter.txt ls -l[K
+[?2004ltotal 0
+-rw-rw-r-- 1 student visitors 0 Apr 12 13:27 letter.txt
+[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# ls -l[Ksu [K[K[Ksu student
+[?2004l$ vi /tmp/la	brabota3/letter.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;55r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[55;1H"/tmp/labrabota3/letter.txt" 0 lines, 0 bytes[2;1H[94m~                                                                                                                 [3;1H~                                                                                                                 [4;1H~                                                                                                                 [5;1H~                                                                                                                 [6;1H~                                                                                                                 [7;1H~                                                                                                                 [8;1H~                                                                                                                 [9;1H~                                                                                                                 [10;1H~                                                                                                                 [11;1H~                                                                                                                 [12;1H~                                                                                                                 [13;1H~                                                                                                                 [14;1H~                                                                                                                 [15;1H~                                                                                                                 [16;1H~                                                                                                                 [17;1H~                                                                                                                 [18;1H~                                                                                                                 [19;1H~                                                                                                                 [20;1H~                                                                                                                 [21;1H~                                                                                                                 [22;1H~                                                                                                                 [23;1H~                                                                                                                 [24;1H~                                                                                                                 [25;1H~                                                                                                                 [26;1H~                                                                                                                 [27;1H~                                                                                                                 [28;1H~                                                                                                                 [29;1H~                                                                                                                 [30;1H~                                                                                                                 [31;1H~                                                                                                                 [32;1H~                                                                                                                 [33;1H~                                                                                                                 [34;1H~                                                                                                                 [35;1H~                                                                                                                 [36;1H~                                                                                                                 [37;1H~                                                                                                                 [38;1H~                                                                                                                 [39;1H~                                                                                                                 [40;1H~                                                                                                                 [41;1H~                                                                                                                 [42;1H~                                                                                                                 [43;1H~                                                                                                                 [44;1H~                                                                                                                 [45;1H~                                                                                                                 [46;1H~                                                                                                                 [47;1H~                                                                                                                 [48;1H~                                                                                                                 [49;1H~                                                                                                                 [50;1H~                                                                                                                 [51;1H~                                                                                                                 [52;1H~                                                                                                                 [53;1H~                                                                                                                 [54;1H~                                                                                                                 [1;1H[?25h[?4m[?2004l[>4;m[?25l[mB[?25h[?25lS[?25h[?25lU[?25h[?25l[?25h[?25l[?25h[?2004h[>4;2m[?25l[1;2H[K[1;1H[?25h[?25lb[?25h[?4m[?25l[1;1H[K[1;1H[?25h[?2004l[>4;m[?25lB[?25h[?25lG[?25h[?25lU[?25h[?25l[2;1H[K[2;1H[?25h[?25lB[?25h[?25lG[?25h[?25lU[?25h[?25lI[?25h[?25lR[?25h[?25l[3;1H[K[3;1H[?25h[?25lB[?25h[?25lG[?25h[?25lE[?25h[?25lU[?25h[?25l[4;1H[K[4;1H[?25h[?25lB[?25h[?25lG[?25h[?25lM[?25h[?25lU[?25h[?25l[5;1H[K[5;1H[?25h[?25lB[?25h[?25lG[?25h[?25lS[?25h[?25lH[?25h[?25l[6;1H[K[6;1H[?25h[?25l:[?25h[?25l[?25h[?2004h[>4;2m[?25l[6;1H[K[6;1H[?25h[?4m[?25l[55;1H[K[55;1H:[?25hsq[?25l[55;3H[K[55;3H[?25h[?25l[55;2H[K[55;2H[?25hwq[?25l[?2004l[>4;m"letter.txt" 6 lines, 26 bytes written[23;2t[23;1t
+[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m$ 
+[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# chmod 440 letter.txt 
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# umask
+[?2004l0022
+[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# umask -S
+[?2004lu=rwx,g=rx,o=rx
+[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# umask -[K007
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# touch getmask.txt
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# mkdir somedir
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# ls -la
+[?2004ltotal 4
+drwxr-xr-x  3 root    root     100 Apr 12 13:32 [0m[01;34m.[0m
+drwxrwxrwt 18 root    root     400 Apr 12 13:27 [30;42m..[0m
+-rw-rw----  1 root    root       0 Apr 12 13:32 getmask.txt
+-r--r-----  1 student visitors  26 Apr 12 13:31 letter.txt
+drwxrwx---  2 root    root      40 Apr 12 13:32 [01;34msomedir[0m
+[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# umask 022
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# umask
+[?2004l0022
+[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# 
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# touch file1.txt file2.txt file3.txt file4.txt
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# chmod 700 file1.txt
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# chmod 647 file2.txt
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# chmod 304 l[Kfile3.txt
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# chmod 20[K76
+[?2004lchmod: missing operand after ‘276’
+Try 'chmod --help' for more information.
+[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# chmod 276 file4.xt[K[Kxt[K[Ktxyt[K[Kt
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# ls -la
+[?2004ltotal 4
+drwxr-xr-x  3 root    root     180 Apr 12 13:33 [0m[01;34m.[0m
+drwxrwxrwt 18 root    root     400 Apr 12 13:27 [30;42m..[0m
+-rwx------  1 root    root       0 Apr 12 13:33 [01;32mfile1.txt[0m
+-rw-r--rwx  1 root    root       0 Apr 12 13:33 [01;32mfile2.txt[0m
+--wx---r--  1 root    root       0 Apr 12 13:33 [01;32mfile3.txt[0m
+--w-rwxrw-  1 root    root       0 Apr 12 13:33 [01;32mfile4.txt[0m
+-rw-rw----  1 root    root       0 Apr 12 13:32 getmask.txt
+-r--r-----  1 student visitors  26 Apr 12 13:31 letter.txt
+drwxrwx---  2 root    root      40 Apr 12 13:32 [01;34msomedir[0m
+[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# toushc[K[K[Kch sfile.1[K[K1.txt sficle[K[K[Kle2.txt sfile3.txt sfile3[K5[K4/t[K[K.txt
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# chmod u=rwx,g=,o= sfile1.txt
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# chmod u=rwx,g=,o= sfile1.txt[1P[C[C[C[1@r[C[C[Cr sfile1.txtw sfile1.txtx sfile1.txt[C
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# chmod u=rw,g=r,o=rwx sfile1.txt[3Px,g=,o=[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# chmod u=rwx,g=,o= sfile1.txt[3@,g=r,o=rwx[C[C[C[C[C[C[C[C[C[C[C[1P.txt2.txt
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# chmod u=rw,g=r,o=rwx sfile2.txt[1P.txt3.txt[1P[C[1@x[C[C[C[C[1P[C[C[C[C[C[C[1P sfile3.txt[1P sfile3.txt
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# chmod u=wx,g=,o=r sfile3.txt[C[1P[C[C[C[1@r[1@w[1@x[C[C[C[C[1P sfile3.txtr sfile3.txtw sfile3.txt
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# chmod u=w,g=rwx,o=rw sfile3.txt[3Px,g=,o=r[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# chmod u=wx,g=,o=r sfile3.txt[3@,g=rwx,o=rw[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.txt4.txt
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# chgrp visitors someditr[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls -la
+[?2004ltotal 4
+drwxr-xr-x  3 root    root     260 Apr 12 13:35 [0m[01;34m.[0m
+drwxrwxrwt 18 root    root     400 Apr 12 13:27 [30;42m..[0m
+-rwx------  1 root    root       0 Apr 12 13:33 [01;32mfile1.txt[0m
+-rw-r--rwx  1 root    root       0 Apr 12 13:33 [01;32mfile2.txt[0m
+--wx---r--  1 root    root       0 Apr 12 13:33 [01;32mfile3.txt[0m
+--w-rwxrw-  1 root    root       0 Apr 12 13:33 [01;32mfile4.txt[0m
+-rw-rw----  1 root    root       0 Apr 12 13:32 getmask.txt
+-r--r-----  1 student visitors  26 Apr 12 13:31 letter.txt
+-rwx------  1 root    root       0 Apr 12 13:35 [01;32msfile1.txt[0m
+-rw-r--rwx  1 root    root       0 Apr 12 13:35 [01;32msfile2.txt[0m
+--wx---r--  1 root    root       0 Apr 12 13:35 [01;32msfile3.txt[0m
+--w-rwxrw-  1 root    root       0 Apr 12 13:35 [01;32msfile4.txt[0m
+drwxrwx---  2 root    root      40 Apr 12 13:32 [01;34msomedir[0m
+[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# chgrp visitors somedir/
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# ls -la
+[?2004ltotal 4
+drwxr-xr-x  3 root    root     260 Apr 12 13:35 [0m[01;34m.[0m
+drwxrwxrwt 18 root    root     400 Apr 12 13:27 [30;42m..[0m
+-rwx------  1 root    root       0 Apr 12 13:33 [01;32mfile1.txt[0m
+-rw-r--rwx  1 root    root       0 Apr 12 13:33 [01;32mfile2.txt[0m
+--wx---r--  1 root    root       0 Apr 12 13:33 [01;32mfile3.txt[0m
+--w-rwxrw-  1 root    root       0 Apr 12 13:33 [01;32mfile4.txt[0m
+-rw-rw----  1 root    root       0 Apr 12 13:32 getmask.txt
+-r--r-----  1 student visitors  26 Apr 12 13:31 letter.txt
+-rwx------  1 root    root       0 Apr 12 13:35 [01;32msfile1.txt[0m
+-rw-r--rwx  1 root    root       0 Apr 12 13:35 [01;32msfile2.txt[0m
+--wx---r--  1 root    root       0 Apr 12 13:35 [01;32msfile3.txt[0m
+--w-rwxrw-  1 root    root       0 Apr 12 13:35 [01;32msfile4.txt[0m
+drwxrwx---  2 root    visitors  40 Apr 12 13:32 [01;34msomedir[0m
+[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# chmods[K g+s somedit[Kr
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# chmod g+s somedir[11Pls -la
+[?2004ltotal 4
+drwxr-xr-x  3 root    root     260 Apr 12 13:35 [0m[01;34m.[0m
+drwxrwxrwt 18 root    root     400 Apr 12 13:27 [30;42m..[0m
+-rwx------  1 root    root       0 Apr 12 13:33 [01;32mfile1.txt[0m
+-rw-r--rwx  1 root    root       0 Apr 12 13:33 [01;32mfile2.txt[0m
+--wx---r--  1 root    root       0 Apr 12 13:33 [01;32mfile3.txt[0m
+--w-rwxrw-  1 root    root       0 Apr 12 13:33 [01;32mfile4.txt[0m
+-rw-rw----  1 root    root       0 Apr 12 13:32 getmask.txt
+-r--r-----  1 student visitors  26 Apr 12 13:31 letter.txt
+-rwx------  1 root    root       0 Apr 12 13:35 [01;32msfile1.txt[0m
+-rw-r--rwx  1 root    root       0 Apr 12 13:35 [01;32msfile2.txt[0m
+--wx---r--  1 root    root       0 Apr 12 13:35 [01;32msfile3.txt[0m
+--w-rwxrw-  1 root    root       0 Apr 12 13:35 [01;32msfile4.txt[0m
+drwxrws---  2 root    visitors  40 Apr 12 13:32 [01;34msomedir[0m
+[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# sud[K student1
+[?2004l$ cd /tmp/l;a  an brabota/somedit
+sh: 1: cd: can't cd to /tmp/labrabota/somedit
+$ ^[[A^[[B        cd /tmp/labrabota3/somedir
+$ touch new	file.txt
+$ mkdir newdir
+$ ls -ld newfile.txt newdir
+drwxrwxr-x 2 student1 visitors 40 Apr 12 13:38 newdir
+-rw-rw-r-- 1 student1 visitors  0 Apr 12 13:38 newfile.txt
+$ 
+[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# mkdir -p example_[K-acl
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3root@user-VirtualBox:/tmp/labrabota3# cd /tmp/labrabota3/example-acl/
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3/example-aclroot@user-VirtualBox:/tmp/labrabota3/example-acl# ls -la /etc > file.txt
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3/example-aclroot@user-VirtualBox:/tmp/labrabota3/example-acl# ls -la
+[?2004ltotal 24
+drwxr-xr-x 2 root root    60 Apr 12 13:40 [0m[01;34m.[0m
+drwxr-xr-x 4 root root   280 Apr 12 13:39 [01;34m..[0m
+-rw-r--r-- 1 root root 21113 Apr 12 13:40 file.txt
+[?2004h]0;root@user-VirtualBox: /tmp/labrabota3/example-aclroot@user-VirtualBox:/tmp/labrabota3/example-acl# setfack [K[Kl -m u:student:rw file.[K1.txt[1P.txtls -la[K[K[K[K[K[K[Kmv file.txt[11@ls -la /etc >[C[C[C[C[C[C[C[C[C[11Pmv[C[C[C[C[C[C[C[C[C file1.txt
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3/example-aclroot@user-VirtualBox:/tmp/labrabota3/example-acl# mv file.txt file1.txtls -la[Kmv file.txt file1.txt[Ksetfack[Kl -m u:student:rw file1.txt
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3/example-aclroot@user-VirtualBox:/tmp/labrabota3/example-acl# su student
+[?2004l$ vim /tmp/labr             pwd
+/tmp/labrabota3/example-acl
+$ vi fie	 le1.txt
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[1;55r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[55;1H"file1.txt" 245 lines, 21113 bytes[1;1Htotal 1204
+drwxr-xr-x 144 root[17Croot[17C12288 Apr 12 13:28 .
+drwxr-xr-x  21 root[17Croot[18C4096 Apr 12 13:13 ..
+-rw-------   1 root[17Croot[21C0 Oct  7  2025 .pwd.lock
+-rw-r--r--   1 root[17Croot[19C862 Oct  7  2025 .resolv.conf.systemd-resolved.bak
+-rw-r--r--   1 root[17Croot[19C208 Oct  7  2025 .updated
+drwxr-xr-x   5 root[17Croot[18C4096 Oct  7  2025 ModemManager
+drwxr-xr-x   8 root[17Croot[18C4096 Feb 23 20:13 NetworkManager
+drwxr-xr-x   2 root[17Croot[18C4096 Feb 23 20:12 PackageKit
+drwxr-xr-x   2 root[17Croot[18C4096 Oct  7  2025 UPower
+drwxr-xr-x  11 root[17Croot[18C4096 Oct  7  2025 X11
+-rw-r--r--   1 root[17Croot[18C4027 May 23  2025 adduser.conf
+-rw-r--r--   1 root[17Croot[20C51 Mar  3 19:06 aliases
+-rw-r--r--   1 root[17Croot[17C12288 Mar  3 19:06 aliases.db
+drwxr-xr-x   3 root[17Croot[18C4096 Oct  7  2025 alsa
+drwxr-xr-x   2 root[17Croot[18C4096 Apr  6 17:26 alternatives
+-rw-r--r--   1 root[17Croot[19C394 Jun 12  2025 anacrontab
+drwxr-xr-x   8 root[17Croot[18C4096 Apr  6 17:26 apache2
+drwxr-xr-x   5 root[17Croot[18C4096 Oct  7  2025 apm
+drwxr-xr-x   2 root[17Croot[18C4096 Feb 23 20:12 apparmor
+drwxr-xr-x   9 root[17Croot[17C12288 Apr  6 17:26 apparmor.d
+drwxr-xr-x   3 root[17Croot[18C4096 Oct  7  2025 apport
+drwxr-xr-x   9 root[17Croot[18C4096 Feb 23 20:05 apt
+drwxr-xr-x   3 root[17Croot[18C4096 Feb 22 19:31 avahi
+-rw-r--r--   1 root[17Croot[18C3718 Sep  8  2025 bash.bashrc
+-rw-r--r--   1 root[17Croot[20C45 Jan 12  2025 bash_completion
+drwxr-xr-x   2 root[17Croot[18C4096 Feb 22 19:47 bash_completion.d
+-rw-r--r--   1 root[17Croot[19C367 Aug  5  2025 bindresvport.blacklist
+drwxr-xr-x   2 root[17Croot[18C4096 Sep 25  2025 binfmt.d
+drwxr-xr-x   2 root[17Croot[18C4096 Feb 23 20:12 bluetooth
+-rw-r-----   1 root[17Croot[20C33 Oct  7  2025 brlapi.key
+drwxr-xr-x   7 root[17Croot[18C4096 Oct  7  2025 brltty
+-rw-r--r--   1 root[17Croot[17C30761 Mar  4  2025 brltty.conf
+drwxr-xr-x   3 root[17Croot[18C4096 Oct  7  2025 ca-certificates
+-rw-r--r--   1 root[17Croot[18C6422 Oct  7  2025 ca-certificates.conf
+drwxr-s---   2 root[17Cdip[19C4096 Oct  7  2025 chatscripts
+drwxr-xr-x   4 root[17Croot[18C4096 Oct  7  2025 chrony
+drwxr-xr-x   5 root[17Croot[18C4096 Feb 18 19:50 cloud
+drwxr-xr-x   2 colord[15Ccolord[16C4096 Feb 18 19:50 colord
+drwxr-xr-x   2 root[17Croot[18C4096 Feb 18 17:00 console-setup
+drwxr-xr-x   2 root[17Croot[18C4096 Oct  7  2025 cracklib
+drwx------   2 root[17Croot[18C4096 Sep 25  2025 credstore
+drwx------   2 root[17Croot[18C4096 Sep 25  2025 credstore.encrypted
+drwxr-xr-x   2 root[17Croot[18C4096 Oct  7  2025 cron.d
+drwxr-xr-x   2 root[17Croot[18C4096 Apr  6 17:26 cron.daily
+drwxr-xr-x   2 root[17Croot[18C4096 Oct  7  2025 cron.hourly
+drwxr-xr-x   2 root[17Croot[18C4096 Oct  7  2025 cron.monthly
+drwxr-xr-x   2 root[17Croot[18C4096 Oct  7  2025 cron.weekly
+drwxr-xr-x   2 root[17Croot[18C4096 Oct  7  2025 cron.yearly
+-rw-r--r--   1 root[17Croot[18C1136 Sep  3  2025 crontab
+drwxr-xr-x   5 root[17Clp[20C4096 Apr 12 13:11 cups
+drwxr-xr-x   2 root[17Croot[18C4096 Oct  7  2025 cupshelpers
+drwxr-xr-x   4 root[17Croot[18C4096 Oct  7  2025 dbus-1
+drwxr-xr-x   4 root[17Croot[18C4096 Oct  7  2025 dconf[1;1H[?25h[?4m
+
+[2;1H[1;1Ht[?2004l[>4;m[?25l[2;54r[2;1H[L[1;55r[1;1H[K[2;1Htotal 1204[55;1H[K[2;1H[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[2;54r[2;1H[L[1;55r[2;1HA[?4m[?25h[?25l[?25h[?2004h[>4;2m[?25l[2;1H[K[2;1H[?25h[?4m[1;1H[?2004l[>4;m[?2004h[>4;2m[?4m
+[?2004l[>4;m[?2004h[>4;2m[?4m
+[2;1H[1;1H
+[1;1H[?25l[?25h[?25l[?25h[?25l[30m[48;5;248m 
+[?25h[?25l 
+[mt[30m[48;5;248motal 1204 [?25h[?25lt
+[md[30m[48;5;248mrwxr-xr-x 144 root                 root                 12288 Apr 12 13:28 . [?25h[?25ld
+[md[30m[48;5;248mrwxr-xr-x  21 root                 root                  4096 Apr 12 13:13 .. [?25h[?25ld
+[m-[30m[48;5;248mrw-------   1 root                 root                     0 Oct  7  2025 .pwd.lock [?25h[?25l-
+[m-[30m[48;5;248mrw-r--r--   1 root                 root                   862 Oct  7  2025 .resolv.conf.systemd-resolved.bak [?25h[?25l-
+[m-[30m[48;5;248mrw-r--r--   1 root                 root                   208 Oct  7  2025 .updated [?25h[?25l-
+[md[30m[48;5;248mrwxr-xr-x   5 root                 root                  4096 Oct  7  2025 ModemManager [?25h[?25ld
+[md[30m[48;5;248mrwxr-xr-x   8 root                 root                  4096 Feb 23 20:13 NetworkManager [?25h[?25ld
+[md[30m[48;5;248mrwxr-xr-x   2 root                 root                  4096 Feb 23 20:12 PackageKit [?25h[?25ld
+[md[30m[48;5;248mrwxr-xr-x   2 root                 root                  4096 Oct  7  2025 UPower [?25h[?25ld
+[md[30m[48;5;248mrwxr-xr-x  11 root                 root                  4096 Oct  7  2025 X11 [?25h[?25ld
+[m-[30m[48;5;248mrw-r--r--   1 root                 root                  4027 May 23  2025 adduser.conf [?25h[?25l-
+[m-[30m[48;5;248mrw-r--r--   1 root                 root                    51 Mar  3 19:06 aliases [?25h[?25l-
+[m-[30m[48;5;248mrw-r--r--   1 root                 root                 12288 Mar  3 19:06 aliases.db [?25h[?25l-
+[md[30m[48;5;248mrwxr-xr-x   3 root                 root                  4096 Oct  7  2025 alsa [?25h[?25ld
+[md[30m[48;5;248mrwxr-xr-x   2 root                 root                  4096 Apr  6 17:26 alternatives [?25h[?25ld
+[m-[30m[48;5;248mrw-r--r--   1 root                 root                   394 Jun 12  2025 anacrontab [?25h[?25l-
+[md[30m[48;5;248mrwxr-xr-x   8 root                 root                  4096 Apr  6 17:26 apache2 [?25h[?25ld
+[md[30m[48;5;248mrwxr-xr-x   5 root                 root                  4096 Oct  7  2025 apm [?25h[?25ld
+[md[30m[48;5;248mrwxr-xr-x   2 root                 root                  4096 Feb 23 20:12 apparmor [?25h[?25ld
+[md[30m[48;5;248mrwxr-xr-x   9 root                 root                 12288 Apr  6 17:26 apparmor.d [?25h[?25ld
+[md[30m[48;5;248mrwxr-xr-x   3 root                 root                  4096 Oct  7  2025 apport [?25h[?25ld
+[md[30m[48;5;248mrwxr-xr-x   9 root                 root                  4096 Feb 23 20:05 apt [?25h[?25ld
+[md[30m[48;5;248mrwxr-xr-x   3 root                 root                  4096 Feb 22 19:31 avahi [?25h[?25ld
+[m-[30m[48;5;248mrw-r--r--   1 root                 root                  3718 Sep  8  2025 bash.bashrc [?25h[?25l-
+[m-[30m[48;5;248mrw-r--r--   1 root                 root                    45 Jan 12  2025 bash_completion [?25h[?25l-
+[md[30m[48;5;248mrwxr-xr-x   2 root                 root                  4096 Feb 22 19:47 bash_completion.d [?25h[?25ld
+[m-[30m[48;5;248mrw-r--r--   1 root                 root                   367 Aug  5  2025 bindresvport.blacklist [?25h[?25l-
+[md[30m[48;5;248mrwxr-xr-x   2 root                 root                  4096 Sep 25  2025 binfmt.d [?25h[?25l[m[30;1H-
+drwxr-xr-x   2 root                 root                  4096 Sep 25  2025 binfmt.d[31;85H[K[30;1H[?25h[?25l[29;1Hd
+-rw-r--r--   1 root                 root                   367 Aug  5  2025 bindresvport.blacklist[30;99H[K[29;1H[?25h[?25l[28;1H-
+drwxr-xr-x   2 root                 root                  4096 Feb 22 19:47 bash_completion.d[29;94H[K[28;1H[?25h[?25l[27;1H-
+-rw-r--r--   1 root                 root                    45 Jan 12  2025 bash_completion[28;92H[K[27;1H[?25h[?25l[26;1Hd
+-rw-r--r--   1 root                 root                  3718 Sep  8  2025 bash.bashrc[27;88H[K[26;1H[?25h[?25l[25;1Hd
+drwxr-xr-x   3 root                 root                  4096 Feb 22 19:31 avahi[26;82H[K[25;1H[?25h[?25l[24;1Hd
+drwxr-xr-x   9 root                 root                  4096 Feb 23 20:05 apt[25;80H[K[24;1H[?25h[?25l[23;1Hd
+drwxr-xr-x   3 root                 root                  4096 Oct  7  2025 apport[24;83H[K[23;1H[?25h[?25l[22;1Hd
+drwxr-xr-x   9 root                 root                 12288 Apr  6 17:26 apparmor.d[23;87H[K[22;1H[?25h[?25l[21;1Hd
+drwxr-xr-x   2 root                 root                  4096 Feb 23 20:12 apparmor[22;85H[K[21;1H[?25h[?25l[20;1Hd
+drwxr-xr-x   5 root                 root                  4096 Oct  7  2025 apm[21;80H[K[20;1H[?25h[?25l[19;1H-
+drwxr-xr-x   8 root                 root                  4096 Apr  6 17:26 apache2[20;84H[K[19;1H[?25h[?25l[18;1Hd
+-rw-r--r--   1 root                 root                   394 Jun 12  2025 anacrontab[19;87H[K[18;1H[?25h[?25l[17;1Hd
+drwxr-xr-x   2 root                 root                  4096 Apr  6 17:26 alternatives[18;89H[K[17;1H[?25h[?25l[16;1H-
+drwxr-xr-x   3 root                 root                  4096 Oct  7  2025 alsa[17;81H[K[16;1H[?25h[?25l[15;1H-
+-rw-r--r--   1 root                 root                 12288 Mar  3 19:06 aliases.db[16;87H[K[15;1H[?25h[?25l[14;1H-
+-rw-r--r--   1 root                 root                    51 Mar  3 19:06 aliases[15;84H[K[14;1H[?25h[?25l[13;1Hd
+-rw-r--r--   1 root                 root                  4027 May 23  2025 adduser.conf[14;89H[K[13;1H[?25h[?25l[12;1Hd
+drwxr-xr-x  11 root                 root                  4096 Oct  7  2025 X11[13;80H[K[12;1H[?25h[?25l[11;1Hd
+drwxr-xr-x   2 root                 root                  4096 Oct  7  2025 UPower[12;83H[K[11;1H[?25h[?25l[10;1Hd
+drwxr-xr-x   2 root                 root                  4096 Feb 23 20:12 PackageKit[11;87H[K[10;1H[?25h[?25l[9;1Hd
+drwxr-xr-x   8 root                 root                  4096 Feb 23 20:13 NetworkManager[10;91H[K[9;1H[?25h[?25l[8;1H-
+drwxr-xr-x   5 root                 root                  4096 Oct  7  2025 ModemManager[9;89H[K[8;1H[?25h[?25l[7;1H-
+-rw-r--r--   1 root                 root                   208 Oct  7  2025 .updated[8;85H[K[7;1H[?25h[?25l[6;1H-
+-rw-r--r--   1 root                 root                   862 Oct  7  2025 .resolv.conf.systemd-resolved.bak[7;110H[K[6;1H[?25h[?25l[5;1Hd
+-rw-------   1 root                 root                     0 Oct  7  2025 .pwd.lock[6;86H[K[5;1H[?25h[?25l[4;1Hd
+drwxr-xr-x  21 root                 root                  4096 Apr 12 13:13 ..[5;79H[K[4;1H[?25h[?25l[3;1Ht
+drwxr-xr-x 144 root                 root                 12288 Apr 12 13:28 .[4;78H[K[3;1H[?25h[?25l[2;1H[K[3;2Hotal 1204[3;11H[K[2;1H[?25h[?25l[1;1H[K[1;1H[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?25l[?25h[?2004l[>4;m[?25lV[?25h[?25lr[?25h[?25lu[?25h[?25ln[?25h[?25lo[?25h[?25lu[?25h[?25ls[?25h[?25lk[?25h[?25li[?25h[?2004h[>4;2m[?2004l[>4;m[?25lB[1;2H[K[2;1HVrunouski[3;1H[K[4;1Htotal 1204[4;12H[K[5;12H144[43C12288[11C28[5;78H[K[6;1Hdrwxr-xr-x  2[45C4096 Apr 12 13:13 ..[6;79H[K[7;5H----[51C  0[15Cpwd.lock[7;86H[K[8;60H862[15Cresolv.conf.systemd-resolved.bak
+-rw-r--r--   1[44C 208[14C.updated[9;85H[K[10;14H5[49COct  7  2025 ModemManager[10;89H[K[11;14H8[60C3 NetworkManager[12;64HFeb 23 20:12 PackageKit[13;13H 2[62CUPower
+drwxr-xr-x  1[47C96 Oct  7[7CX11[14;80H[K[15;59H4027 May 23  2025 adduser.conf[16;58H   51[16;84H[K[17;1H-rw-r--r--   1[43C12288 Mar  3 19:06 aliases.db[18;14H3[49COct  7  2025 alsa[18;81H[K[19;1Hdrwxr-xr-x   2[44C4096 Apr  6 17:26 alternatives
+-rw-r--r--   1[44C 394 Jun 12  2025 anacrontab[21;14H8[49CApr  6 17:26 apache2[22;14H5[49COct  7  2025 apm[22;80H[K[23;14H2[43C 4096 Feb 23 20:12[23;85H[K[24;14H9[43C12288 Apr  6 17:26 apparmor.d[25;14H3[49COct  7  2025 apport[26;14H9[54C3 20:05 apt[26;80H[K[27;1Hdrwxr-xr-x   3[44C4096 Feb 22 19:31 avahi[27;82H[K[28;59H3718 Sep  8[11C.bashrc[28;88H[K[29;1H-rw-r--r--   1[44C  45 Jan 12  2025[29;92H[K[30;1Hdrwxr-xr-x   2[44C4096 Feb 22 19:47 bash_completion.d[30;94H[K[31;1H-rw-r--r--   1[44C 367 Aug  [11Cdresvport.blacklist[32;64HSep 25  2025 binfmt.d[32;85H[K[33;1Hdrwxr-xr-x   2[44C4096 Feb 23 20:12 bluetooth[33;86H[K[34;1H-rw-r-----   1[44C  33[17Capi.key
+drwxr-xr-x   7[43C 4096 Oct  7[35;83H[K[36;1H-rw-r--r--   1[43C30761 Mar  4[7Cbrltty.conf[36;88H[K[37;1Hdrwxr-xr-x   3[44C4096[37;92H[K[38;1H-rw-r--r--   1[22Croot[18C6422[15Ca-certificates.conf[39;7Hs---   2[22Cdip [38Catscripts[40;14H4[49COct  7  2025 chrony[41;14H5 root  [15Croot  [35Cloud[41;82H[K[42;16Hcolord[15Ccolord[29C9:50 colord[42;83H[K[43;64HFeb 18 17:00 console-setup
+drwxr-xr-x[53COct  7[9Cacklib[44;85H[K[45;86H[K[46;5H------[53CSep 25[9Cedstore.encrypted[47;64HOct  7  2025[47;83H[K[48;64HApr  6 17:26 cron.daily[48;87H[K[49;82Hhourly[49;88H[K[50;82Hmonthly[51;82Hweek
+drwxr-xr-x   2[44C4096 Oct  7[11C.yearly
+-rw-r--r--   1[22Croot[18C1136 Sep  3  2025 crontab[54;14H5[22Clp  [23CApr 12 13:11[54;81H[K[1;2H[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?25lA
+B[2;2H[K[3;1HVrunouski[4;1H[K[5;1Htotal 1204[5;12H[K[6;12H144[43C12288[11C28[6;78H[K[7;1Hdrwxr-xr-x  2[45C4096 Apr 12 13:13 ..[7;79H[K[8;5H----[51C  0[15Cpwd.lock[8;86H[K[9;60H862[15Cresolv.conf.systemd-resolved.bak
+-rw-r--r--   1[44C 208[14C.updated[10;85H[K[11;14H5[49COct  7  2025 ModemManager[11;89H[K[12;14H8[60C3 NetworkManager[13;64HFeb 23 20:12 PackageKit[14;13H 2[62CUPower
+drwxr-xr-x  1[47C96 Oct  7[7CX11[15;80H[K[16;59H4027 May 23  2025 adduser.conf[17;58H   51[17;84H[K[18;1H-rw-r--r--   1[43C12288 Mar  3 19:06 aliases.db[19;14H3[49COct  7  2025 alsa[19;81H[K[20;1Hdrwxr-xr-x   2[44C4096 Apr  6 17:26 alternatives
+-rw-r--r--   1[44C 394 Jun 12  2025 anacrontab[22;14H8[49CApr  6 17:26 apache2[23;14H5[49COct  7  2025 apm[23;80H[K[24;14H2[43C 4096 Feb 23 20:12[24;85H[K[25;14H9[43C12288 Apr  6 17:26 apparmor.d[26;14H3[49COct  7  2025 apport[27;14H9[54C3 20:05 apt[27;80H[K[28;1Hdrwxr-xr-x   3[44C4096 Feb 22 19:31 avahi[28;82H[K[29;59H3718 Sep  8[11C.bashrc[29;88H[K[30;1H-rw-r--r--   1[44C  45 Jan 12  2025[30;92H[K[31;1Hdrwxr-xr-x   2[44C4096 Feb 22 19:47 bash_completion.d[31;94H[K[32;1H-rw-r--r--   1[44C 367 Aug  [11Cdresvport.blacklist[33;64HSep 25  2025 binfmt.d[33;85H[K[34;1Hdrwxr-xr-x   2[44C4096 Feb 23 20:12 bluetooth[34;86H[K[35;1H-rw-r-----   1[44C  33[17Capi.key
+drwxr-xr-x   7[43C 4096 Oct  7[36;83H[K[37;1H-rw-r--r--   1[43C30761 Mar  4[7Cbrltty.conf[37;88H[K[38;1Hdrwxr-xr-x   3[44C4096[38;92H[K[39;1H-rw-r--r--   1[22Croot[18C6422[15Ca-certificates.conf[40;7Hs---   2[22Cdip [38Catscripts[41;14H4[49COct  7  2025 chrony[42;14H5 root  [15Croot  [35Cloud[42;82H[K[43;16Hcolord[15Ccolord[29C9:50 colord[43;83H[K[44;64HFeb 18 17:00 console-setup
+drwxr-xr-x[53COct  7[9Cacklib[45;85H[K[46;86H[K[47;5H------[53CSep 25[9Cedstore.encrypted[48;64HOct  7  2025[48;83H[K[49;64HApr  6 17:26 cron.daily[49;87H[K[50;82Hhourly[50;88H[K[51;82Hmonthly[52;82Hweek
+drwxr-xr-x   2[44C4096 Oct  7[11C.yearly
+-rw-r--r--   1[22Croot[18C1136 Sep  3  2025 crontab[1;2H[?4m[?25h[?2004h[>4;2m[?25la[?25h[?4m[?25l[1;1H[K[1;1H[?25h
+[?25l[2;1H[K[2;1H[?25h
+
+[3;1H[2;1H[1;1H
+
+[2;1H[1;1H
+[1;1H
+
+
+
+
+[5;1H[4;1H[3;1H[2;1H[1;1H[?2004l[>4;m[?25l[2;54r[2;1H[L[1;55r[2;1H[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[2;54r[2;1H[L[1;55r[2;1HB[?4m[?25h[?2004h[>4;2m[?2004l[>4;m[?25l[2;54r[2;1H[L[1;55r[2;1HD[?4m[?25h[?2004h[>4;2m[?25ld[?25h[?4m[?25l[2;1H[K[2;1H[?25h
+[?25l[3;1H[K[3;1H[?25h[2;1H[?25l[55;1H[97m[41mE349: No identifier under cursor[2;1H[?25h[?2004l[>4;m[?25l[mK[?25h[?25lo[?25h[?25ln[?25h[?25ls[?25h[?25lt[?25h[?25la[?25h[?25ln[?25h[?25lt[?25h[?25li[?25h[?25ln[?25h[?2004h[>4;2m[?4m[?25l[55;1H[K[55;1H:[?25hwq[?25l[?2004l[>4;m"file1.txt" 252 lines, 21139 bytes written[23;2t[23;1t
+[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m$ 
+[?2004h]0;root@user-VirtualBox: /tmp/labrabota3/example-aclroot@user-VirtualBox:/tmp/labrabota3/example-acl# ls /usr/bin > file2.txt
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3/example-aclroot@user-VirtualBox:/tmp/labrabota3/example-acl# getfacl file1.txt | setfacl --set-file=- file.2[K[K2.txt
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3/example-aclroot@user-VirtualBox:/tmp/labrabota3/example-acl# ls -la
+[?2004ltotal 40
+drwxr-xr-x 2 root root    80 Apr 12 13:42 [0m[01;34m.[0m
+drwxr-xr-x 4 root root   280 Apr 12 13:39 [01;34m..[0m
+-rw-rw-r--+ 1 root root 21139 Apr 12 13:42 file1.txt
+-rw-rw-r--+ 1 root root 16185 Apr 12 13:42 file2.txt
+[?2004h]0;root@user-VirtualBox: /tmp/labrabota3/example-aclroot@user-VirtualBox:/tmp/labrabota3/example-acl# cp --preserve=all file2.txt file.[K3.txt
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3/example-aclroot@user-VirtualBox:/tmp/labrabota3/example-acl# getfacl file1.txt file2.txt f3[Kile3.txt 
+[?2004l# file: file1.txt
+# owner: root
+# group: root
+user::rw-
+user:student:rw-
+group::r--
+mask::rw-
+other::r--
+
+# file: file2.txt
+# owner: root
+# group: root
+user::rw-
+user:student:rw-
+group::r--
+mask::rw-
+other::r--
+
+# file: file3.txt
+# owner: root
+# group: root
+user::rw-
+user:student:rw-
+group::r--
+mask::rw-
+other::r--
+
+[?2004h]0;root@user-VirtualBox: /tmp/labrabota3/example-aclroot@user-VirtualBox:/tmp/labrabota3/example-acl# setfacl -m g"[K:visitors/[K:rwx /tmp/labrabota3/example-acl/
+[?2004l[?2004h]0;root@user-VirtualBox: /tmp/labrabota3/example-aclroot@user-VirtualBox:/tmp/labrabota3/example-acl# su student
+[?2004l$ newgrp vi         newgrp visitors
+$ cat /tmp/lab	ra          ../letter.txt > file5/x  .txt
+$ ls -li /tmp/lab	        file. t 4.  5.txt
+172 -rw-rw-r-- 1 student visitors 26 Apr 12 13:46 file5.txt
+$ 
+$ 
+[?2004h]0;root@user-VirtualBox: /tmp/labrabota3/example-aclroot@user-VirtualBox:/tmp/labrabota3/example-acl# getfacl file[]1]-]5][C.txt
+[?2004l# file: file1.txt
+# owner: root
+# group: root
+user::rw-
+user:student:rw-
+group::r--
+mask::rw-
+other::r--
+
+# file: file2.txt
+# owner: root
+# group: root
+user::rw-
+user:student:rw-
+group::r--
+mask::rw-
+other::r--
+
+# file: file3.txt
+# owner: root
+# group: root
+user::rw-
+user:student:rw-
+group::r--
+mask::rw-
+other::r--
+
+# file: file5.txt
+# owner: student
+# group: visitors
+user::rw-
+group::rw-
+other::r--
+
+[?2004h]0;root@user-VirtualBox: /tmp/labrabota3/example-aclroot@user-VirtualBox:/tmp/labrabota3/example-acl# cd
+[?2004l[?2004h]0;root@user-VirtualBox: ~root@user-VirtualBox:~# rm -r [Kf /tmp/labrabota3
+[?2004l[?2004h]0;root@user-VirtualBox: ~root@user-VirtualBox:~# ls /tmp/
+[?2004l[0m[01;34msnap-private-tmp[0m
+[01;34msystemd-private-ef6a7a9e42644abcb2f5a063fe4f9ce8-ModemManager.service-vzqfE7[0m
+[01;34msystemd-private-ef6a7a9e42644abcb2f5a063fe4f9ce8-apache2.service-3GPVB0[0m
+[01;34msystemd-private-ef6a7a9e42644abcb2f5a063fe4f9ce8-chrony.service-KsxcWG[0m
+[01;34msystemd-private-ef6a7a9e42644abcb2f5a063fe4f9ce8-colord.service-0LkSPK[0m
+[01;34msystemd-private-ef6a7a9e42644abcb2f5a063fe4f9ce8-fwupd.service-jdi0Wb[0m
+[01;34msystemd-private-ef6a7a9e42644abcb2f5a063fe4f9ce8-polkit.service-nnCKIf[0m
+[01;34msystemd-private-ef6a7a9e42644abcb2f5a063fe4f9ce8-power-profiles-daemon.service-NSBBUm[0m
+[01;34msystemd-private-ef6a7a9e42644abcb2f5a063fe4f9ce8-switcheroo-control.service-Ey5ITm[0m
+[01;34msystemd-private-ef6a7a9e42644abcb2f5a063fe4f9ce8-systemd-logind.service-eahjyp[0m
+[01;34msystemd-private-ef6a7a9e42644abcb2f5a063fe4f9ce8-upower.service-fIIGnB[0m
+[?2004h]0;root@user-VirtualBox: ~root@user-VirtualBox:~# cd[K[K[?2004l
+logout
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ cd[K[Kls[K[Kls ~/ > task6.[K[K7.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ cat task6.[K[K7.tz[Kxt
+[?2004l]133;C\]666;vte.shell.preexec!\Desktop
+Documents
+Downloads
+KR
+Music
+Pictures
+Public
+Templates
+Videos
+Vrunouski
+a
+d}
+linux-labs
+snap
+test
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ sudo chattr +i task7.txt
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: 
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ lsattr task7.xt[K[Ktxt
+[?2004l]133;C\]666;vte.shell.preexec!\----i---------e------- task7.txt
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ echo ''[K[K"text[K[Kst" >> task6.[K[K7.x[Ktxt
+[?2004l]133;C\]666;vte.shell.preexec!\bash: task7.txt: Operation not permitted
+]666;vte.shell.postexec=1\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ mv tesk[K[K[Kask7.txt task7.txt [1@_[1@n[1@e[1@w
+[?2004l]133;C\]666;vte.shell.preexec!\mv: cannot move 'task7.txt' to 'task7_new.txt': Operation not permitted
+]666;vte.shell.postexec=1\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ rm task7.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\rm: cannot remove 'task7.txt': Operation not permitted
+]666;vte.shell.postexec=1\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ sudo chattr -i task6[K7.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ lsattr
+[?2004l]133;C\]666;vte.shell.preexec!\--------------e------- ./workdir
+--------------e------- ./task7.txt
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab3\]0;user@user-VirtualBox:~/linux-labs/lab3\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab3[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab3[00m$ [?2004l
+exit
+
+Script done on 2026-04-12 13:53:01+03:00 [COMMAND_EXIT_CODE="0"]
