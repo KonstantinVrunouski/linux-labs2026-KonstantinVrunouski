@@ -1,0 +1,528 @@
+Script started on 2026-04-21 18:57:36+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="55"]
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls -l /etc > request.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls -l /usr/bin > letter.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls -l /vat[Kr/log > order.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ zop[K[Kip arzip1 request.txt letter.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\  adding: request.txt (deflated 87%)
+  adding: letter.txt (deflated 83%)
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ zip arzip1 order.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\  adding: order.txt (deflated 80%)
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ mkdir oc[K[Kdocs
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ mv *.txt ./docks[K[Ks
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls -la [K[K ./docs
+[?2004l]133;C\]666;vte.shell.preexec!\total 132
+-rw-rw-r-- 1 user user 104652 Apr 21 18:58 letter.txt
+-rw-rw-r-- 1 user user   5382 Apr 21 18:58 order.txt
+-rw-rw-r-- 1 user user  20436 Apr 21 18:58 request.txt
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ zip -r arzip2 docs.docs/docs[C[C[C
+[?2004l]133;C\]666;vte.shell.preexec!\  adding: docs/ (stored 0%)
+  adding: docs/order.txt (deflated 80%)
+  adding: docs/request.txt (deflated 87%)
+  adding: docs/letter.txt (deflated 83%)
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ zip -rq arzip-quiet [1@2[C[C[C[C[C[C[Cdocs.docs/docs[C
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ zip -r -[K[K9 arzip2-max ./dio[K[Kocs
+[?2004l]133;C\]666;vte.shell.preexec!\  adding: docs/ (stored 0%)
+  adding: docs/order.txt (deflated 80%)
+  adding: docs/request.txt (deflated 87%)
+  adding: docs/letter.txt (deflated 83%)
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ unzip -l arzip1.zip 
+[?2004l]133;C\]666;vte.shell.preexec!\Archive:  arzip1.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+    20436  2026-04-21 18:58   request.txt
+   104652  2026-04-21 18:58   letter.txt
+     5382  2026-04-21 18:58   order.txt
+---------                     -------
+   130470                     3 files
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls -l
+[?2004l]133;C\]666;vte.shell.preexec!\total 108
+-rw-rw-r-- 1 user user 22191 Apr 21 18:58 [0m[01;31marzip1.zip[0m
+-rw-rw-r-- 1 user user 21953 Apr 21 19:00 [01;31marzip2-max.zip[0m
+-rw-rw-r-- 1 user user 22359 Apr 21 19:00 [01;31marzip2-quiet.zip[0m
+-rw-rw-r-- 1 user user 22359 Apr 21 18:59 [01;31marzip2.zip[0m
+drwxrwxr-x 2 user user  4096 Apr 21 18:59 [01;34mdocs[0m
+-rw-rw-r-- 1 user user  4096 Apr 21 19:00 timelog
+-rw-rw-r-- 1 user user  4096 Apr 21 19:00 typescript
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls -l arzip [K22[K
+arzip2-max.zip    arzip2-quiet.zip  arzip2.zip        
+]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls -l arzip2.zip 
+[?2004l]133;C\]666;vte.shell.preexec!\-rw-rw-r-- 1 user user 22359 Apr 21 18:59 [0m[01;31marzip2.zip[0m
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ zip -l arzip2.zip
+[?2004l]133;C\]666;vte.shell.preexec!\
+zip error: Nothing to do! (arzip2.zip)
+]666;vte.shell.postexec=12\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ zip -l arzip2.zip[1@u[1@n[C
+[?2004l]133;C\]666;vte.shell.preexec!\Archive:  arzip2.zip
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+        0  2026-04-21 18:59   docs/
+     5382  2026-04-21 18:58   docs/order.txt
+    20436  2026-04-21 18:58   docs/request.txt
+   104652  2026-04-21 18:58   docs/letter.txt
+---------                     -------
+   130470                     4 files
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ unzip -t arzip2.zip 
+[?2004l]133;C\]666;vte.shell.preexec!\Archive:  arzip2.zip
+    testing: docs/                    OK
+    testing: docs/order.txt           OK
+    testing: docs/request.txt         OK
+    testing: docs/letter.txt          OK
+No errors detected in compressed data of arzip2.zip.
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ head -c 32M /dev/urandom > ex[K[Ksample.t[K[K[Ke.exe
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ zip arzip3 sample.exe
+[?2004l]133;C\]666;vte.shell.preexec!\  adding: sample.exe (deflated 0%)
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ zop[K[Kip -s 10m arzip4 sample.exe 
+[?2004l]133;C\]666;vte.shell.preexec!\  adding: sample.exe (deflated 0%)
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls -l[K[K[K[K[Kunzip -l zi[K[Karzip4.zip 
+[?2004l]133;C\]666;vte.shell.preexec!\Archive:  arzip4.zip
+warning [arzip4.zip]:  zipfile claims to be last disk of a multi-part archive;
+  attempting to process anyway, assuming all parts have been concatenated
+  together in order.  Expect "errors" and warnings...true multi-part support
+  doesn't exist yet (coming soon).
+  Length      Date    Time    Name
+---------  ---------- -----   ----
+ 33554432  2026-04-21 19:02   sample.exe
+---------                     -------
+ 33554432                     1 file
+]666;vte.shell.postexec=1\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ mkdir Binary1
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ unzip arzip3.zip -d ./Binary1/
+[?2004l]133;C\]666;vte.shell.preexec!\Archive:  arzip3.zip
+  inflating: ./Binary1/sample.exe    
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ mkdir[K[K[K[K[Kls -l
+[?2004l]133;C\]666;vte.shell.preexec!\total 98436
+drwxrwxr-x 2 user user     4096 Apr 21 19:15 [0m[01;34mBinary1[0m
+-rw-rw-r-- 1 user user    22191 Apr 21 18:58 [01;31marzip1.zip[0m
+-rw-rw-r-- 1 user user    21953 Apr 21 19:00 [01;31marzip2-max.zip[0m
+-rw-rw-r-- 1 user user    22359 Apr 21 19:00 [01;31marzip2-quiet.zip[0m
+-rw-rw-r-- 1 user user    22359 Apr 21 18:59 [01;31marzip2.zip[0m
+-rw-rw-r-- 1 user user 33559722 Apr 21 19:02 [01;31marzip3.zip[0m
+-rw-rw-r-- 1 user user 10485760 Apr 21 19:14 arzip4.z01
+-rw-rw-r-- 1 user user 10485760 Apr 21 19:14 arzip4.z02
+-rw-rw-r-- 1 user user 10485760 Apr 21 19:14 arzip4.z03
+-rw-rw-r-- 1 user user  2102446 Apr 21 19:14 [01;31marzip4.zip[0m
+drwxrwxr-x 2 user user     4096 Apr 21 18:59 [01;34mdocs[0m
+-rw-rw-r-- 1 user user 33554432 Apr 21 19:02 sample.exe
+-rw-rw-r-- 1 user user     4096 Apr 21 19:00 timelog
+-rw-rw-r-- 1 user user     8192 Apr 21 19:01 typescript
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ unzip[K[K[K[K[Kmkdir Binary2
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ unzip arzip4.zip -d Binary2/
+[?2004l]133;C\]666;vte.shell.preexec!\Archive:  arzip4.zip
+warning [arzip4.zip]:  zipfile claims to be last disk of a multi-part archive;
+  attempting to process anyway, assuming all parts have been concatenated
+  together in order.  Expect "errors" and warnings...true multi-part support
+  doesn't exist yet (coming soon).
+file #1:  bad zipfile offset (local header sig):  4
+]666;vte.shell.postexec=2\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ unzip arzip4.zip -d Binary2/[C[C[1P[1P[2@ip[1P[1P[1@0[1@1
+[?2004l]133;C\]666;vte.shell.preexec!\Archive:  arzip4.z01
+  End-of-central-directory signature not found.  Either this file is not
+  a zipfile, or it constitutes one disk of a multi-part archive.  In the
+  latter case the central directory and zipfile comment will be found on
+  the last disk(s) of this archive.
+unzip:  cannot find zipfile directory in one of arzip4.z01 or
+        arzip4.z01.zip, and cannot find arzip4.z01.ZIP, period.
+]666;vte.shell.postexec=9\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ unzip arzip[Kp1.zip
+[?2004l]133;C\]666;vte.shell.preexec!\Archive:  arzip1.zip
+  inflating: request.txt             
+  inflating: letter.txt              
+  inflating: order.txt               
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ rm -r docs/.docs//docs/[C
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ unzip arzip2.zip 
+[?2004l]133;C\]666;vte.shell.preexec!\Archive:  arzip2.zip
+   creating: docs/
+  inflating: docs/order.txt          
+  inflating: docs/request.txt        
+  inflating: docs/letter.txt         
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls -l
+[?2004l]133;C\]666;vte.shell.preexec!\total 98580
+drwxrwxr-x 2 user user     4096 Apr 21 19:15 [0m[01;34mBinary1[0m
+drwxrwxr-x 2 user user     4096 Apr 21 19:16 [01;34mBinary2[0m
+-rw-rw-r-- 1 user user    22191 Apr 21 18:58 [01;31marzip1.zip[0m
+-rw-rw-r-- 1 user user    21953 Apr 21 19:00 [01;31marzip2-max.zip[0m
+-rw-rw-r-- 1 user user    22359 Apr 21 19:00 [01;31marzip2-quiet.zip[0m
+-rw-rw-r-- 1 user user    22359 Apr 21 18:59 [01;31marzip2.zip[0m
+-rw-rw-r-- 1 user user 33559722 Apr 21 19:02 [01;31marzip3.zip[0m
+-rw-rw-r-- 1 user user 10485760 Apr 21 19:14 arzip4.z01
+-rw-rw-r-- 1 user user 10485760 Apr 21 19:14 arzip4.z02
+-rw-rw-r-- 1 user user 10485760 Apr 21 19:14 arzip4.z03
+-rw-rw-r-- 1 user user  2102446 Apr 21 19:14 [01;31marzip4.zip[0m
+drwxrwxr-x 2 user user     4096 Apr 21 18:59 [01;34mdocs[0m
+-rw-rw-r-- 1 user user   104652 Apr 21 18:58 letter.txt
+-rw-rw-r-- 1 user user     5382 Apr 21 18:58 order.txt
+-rw-rw-r-- 1 user user    20436 Apr 21 18:58 request.txt
+-rw-rw-r-- 1 user user 33554432 Apr 21 19:02 sample.exe
+-rw-rw-r-- 1 user user     8192 Apr 21 19:16 timelog
+-rw-rw-r-- 1 user user    12288 Apr 21 19:16 typescript
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls -l docs
+[?2004l]133;C\]666;vte.shell.preexec!\total 132
+-rw-rw-r-- 1 user user 104652 Apr 21 18:58 letter.txt
+-rw-rw-r-- 1 user user   5382 Apr 21 18:58 order.txt
+-rw-rw-r-- 1 user user  20436 Apr 21 18:58 request.txt
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ cp docs/*.txt .
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ gzip request.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ gzip -c order.txt > order.txt.gz
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ gunzip -t request.txt.gz 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ gunzip -t request.txt.gz [1@v
+[?2004l]133;C\]666;vte.shell.preexec!\request.txt.gz:	 OK
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ gzip -k letter.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ gzip -k letter.txt [7@unzip -tv request.txt.gz[C[1P[1P[1P[1P[1P[1P[1P[1@l[1@e[1@t[1@t[1@e[1@r
+[?2004l]133;C\]666;vte.shell.preexec!\letter.txt.gz:	 OK
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ gzip -l letter.txt.gz 
+[?2004l]133;C\]666;vte.shell.preexec!\         compressed        uncompressed  ratio uncompressed_name
+              18038              104652  82.8% letter.txt
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ mkdir gzsamples
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ cp *.gz gzsamples/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls -l gzsamples/
+[?2004l]133;C\]666;vte.shell.preexec!\total 28
+-rw-rw-r-- 1 user user 18038 Apr 21 19:20 [0m[01;31mletter.txt.gz[0m
+-rw-rw-r-- 1 user user  1108 Apr 21 19:20 [01;31morder.txt.gz[0m
+-rw-rw-r-- 1 user user  2666 Apr 21 19:20 [01;31mrequest.txt.gz[0m
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ cd gzsamples/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4/gzsamples\]0;user@user-VirtualBox:~/linux-labs/lab4/gzsamples\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4/gzsamples[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4/gzsamples[00m$ gunzip -v request.txt.gz 
+[?2004l]133;C\]666;vte.shell.preexec!\request.txt.gz:	 87.1% -- replaced with request.txt
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4/gzsamples\]0;user@user-VirtualBox:~/linux-labs/lab4/gzsamples\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4/gzsamples[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4/gzsamples[00m$ gunzip -cv order.txt.gz > order.txt.gz [K[K[K[K
+[?2004l]133;C\]666;vte.shell.preexec!\order.txt.gz:	 79.9% -- replaced with stdout
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4/gzsamples\]0;user@user-VirtualBox:~/linux-labs/lab4/gzsamples\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4/gzsamples[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4/gzsamples[00m$ gunzo[Kip -dk letter.txt.gz
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4/gzsamples\]0;user@user-VirtualBox:~/linux-labs/lab4/gzsamples\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4/gzsamples[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4/gzsamples[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\letter.txt  [0m[01;31mletter.txt.gz[0m  order.txt  [01;31morder.txt.gz[0m  request.txt
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4/gzsamples\]0;user@user-VirtualBox:~/linux-labs/lab4/gzsamples\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4/gzsamples[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4/gzsamples[00m$ cd ..
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls -l
+[?2004l]133;C\]666;vte.shell.preexec!\total 98608
+drwxrwxr-x 2 user user     4096 Apr 21 19:15 [0m[01;34mBinary1[0m
+drwxrwxr-x 2 user user     4096 Apr 21 19:16 [01;34mBinary2[0m
+-rw-rw-r-- 1 user user    22191 Apr 21 18:58 [01;31marzip1.zip[0m
+-rw-rw-r-- 1 user user    21953 Apr 21 19:00 [01;31marzip2-max.zip[0m
+-rw-rw-r-- 1 user user    22359 Apr 21 19:00 [01;31marzip2-quiet.zip[0m
+-rw-rw-r-- 1 user user    22359 Apr 21 18:59 [01;31marzip2.zip[0m
+-rw-rw-r-- 1 user user 33559722 Apr 21 19:02 [01;31marzip3.zip[0m
+-rw-rw-r-- 1 user user 10485760 Apr 21 19:14 arzip4.z01
+-rw-rw-r-- 1 user user 10485760 Apr 21 19:14 arzip4.z02
+-rw-rw-r-- 1 user user 10485760 Apr 21 19:14 arzip4.z03
+-rw-rw-r-- 1 user user  2102446 Apr 21 19:14 [01;31marzip4.zip[0m
+drwxrwxr-x 2 user user     4096 Apr 21 18:59 [01;34mdocs[0m
+drwxrwxr-x 2 user user     4096 Apr 21 19:21 [01;34mgzsamples[0m
+-rw-rw-r-- 1 user user   104652 Apr 21 19:18 letter.txt
+-rw-rw-r-- 1 user user    18038 Apr 21 19:18 [01;31mletter.txt.gz[0m
+-rw-rw-r-- 1 user user     5382 Apr 21 19:18 order.txt
+-rw-rw-r-- 1 user user     1108 Apr 21 19:19 [01;31morder.txt.gz[0m
+-rw-rw-r-- 1 user user     2666 Apr 21 19:18 [01;31mrequest.txt.gz[0m
+-rw-rw-r-- 1 user user 33554432 Apr 21 19:02 sample.exe
+-rw-rw-r-- 1 user user    12288 Apr 21 19:19 timelog
+-rw-rw-r-- 1 user user    20480 Apr 21 19:20 typescript
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls -l docs
+[?2004l]133;C\]666;vte.shell.preexec!\total 132
+-rw-rw-r-- 1 user user 104652 Apr 21 18:58 letter.txt
+-rw-rw-r-- 1 user user   5382 Apr 21 18:58 order.txt
+-rw-rw-r-- 1 user user  20436 Apr 21 18:58 request.txt
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ cp docs/request.txt rq[Kequest.txt.gz [C[K[K[K[K[K[K[K[K1.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ cp docs/request.txt request1.txt[1P1.txt[1P1.txt[1P1.txt[1P1.txt[1P1.txt[1P1.txt[1P1.txto1.txtr1.txtd1.txte1.txtr1.txt[1P[1P[1P[1P[1P[1P[1P[1@o[1@r[1@d[1@e[1@r
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ cp docs/order.txt order1.txt[1P1.txt[1P1.txt[1P1.txt[1P1.txt[1P1.txtl1.txte1.txtt1.txtt1.txte1.txtr1.txt[1P[1P[1P[1P[1P[1@l[1@e[1@t[1@t[1@e[1@r
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ tar -cf artar1.tar [1@v[C[C[C[C[C[C[C[C[C[C[C[Car[K[Krequest1.txt
+[?2004l]133;C\]666;vte.shell.preexec!\tar: artar1.tar: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+]666;vte.shell.postexec=2\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ tar -cfv artar1.tar request1.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C letter1.txt order1.txt
+[?2004l]133;C\]666;vte.shell.preexec!\tar: artar1.tar: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+]666;vte.shell.postexec=2\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ tar -cfv artar1.tar request1.txt letter1.txt order1.txt[C[1P[1P[1P[1P
+[?2004l]133;C\]666;vte.shell.preexec!\tar: artar1: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+]666;vte.shell.postexec=2\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ tar -cfv artar1 request1.txt letter1.txt order1.txt[1P[1P[1P[1P[1P[1P[1P
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;34mBinary1[0m     [01;31marzip2-max.zip[0m    [01;31marzip3.zip[0m  arzip4.z03  [01;34mgzsamples[0m      letter1.txt   order1.txt      sample.exe  v
+[01;34mBinary2[0m     [01;31marzip2-quiet.zip[0m  arzip4.z01  [01;31marzip4.zip[0m  letter.txt     order.txt     [01;31mrequest.txt.gz[0m  timelog
+[01;31marzip1.zip[0m  [01;31marzip2.zip[0m        arzip4.z02  [01;34mdocs[0m        [01;31mletter.txt.gz[0m  [01;31morder.txt.gz[0m  request1.txt    typescript
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls -l
+[?2004l]133;C\]666;vte.shell.preexec!\total 98892
+drwxrwxr-x 2 user user     4096 Apr 21 19:15 [0m[01;34mBinary1[0m
+drwxrwxr-x 2 user user     4096 Apr 21 19:16 [01;34mBinary2[0m
+-rw-rw-r-- 1 user user    22191 Apr 21 18:58 [01;31marzip1.zip[0m
+-rw-rw-r-- 1 user user    21953 Apr 21 19:00 [01;31marzip2-max.zip[0m
+-rw-rw-r-- 1 user user    22359 Apr 21 19:00 [01;31marzip2-quiet.zip[0m
+-rw-rw-r-- 1 user user    22359 Apr 21 18:59 [01;31marzip2.zip[0m
+-rw-rw-r-- 1 user user 33559722 Apr 21 19:02 [01;31marzip3.zip[0m
+-rw-rw-r-- 1 user user 10485760 Apr 21 19:14 arzip4.z01
+-rw-rw-r-- 1 user user 10485760 Apr 21 19:14 arzip4.z02
+-rw-rw-r-- 1 user user 10485760 Apr 21 19:14 arzip4.z03
+-rw-rw-r-- 1 user user  2102446 Apr 21 19:14 [01;31marzip4.zip[0m
+drwxrwxr-x 2 user user     4096 Apr 21 18:59 [01;34mdocs[0m
+drwxrwxr-x 2 user user     4096 Apr 21 19:21 [01;34mgzsamples[0m
+-rw-rw-r-- 1 user user   104652 Apr 21 19:18 letter.txt
+-rw-rw-r-- 1 user user    18038 Apr 21 19:18 [01;31mletter.txt.gz[0m
+-rw-rw-r-- 1 user user   104652 Apr 21 19:23 letter1.txt
+-rw-rw-r-- 1 user user     5382 Apr 21 19:18 order.txt
+-rw-rw-r-- 1 user user     1108 Apr 21 19:19 [01;31morder.txt.gz[0m
+-rw-rw-r-- 1 user user     5382 Apr 21 19:22 order1.txt
+-rw-rw-r-- 1 user user     2666 Apr 21 19:18 [01;31mrequest.txt.gz[0m
+-rw-rw-r-- 1 user user    20436 Apr 21 19:22 request1.txt
+-rw-rw-r-- 1 user user 33554432 Apr 21 19:02 sample.exe
+-rw-rw-r-- 1 user user    16384 Apr 21 19:23 timelog
+-rw-rw-r-- 1 user user    28672 Apr 21 19:23 typescript
+-rw-rw-r-- 1 user user   143360 Apr 21 19:24 v
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ rm v[K[K[K[Kls v
+[?2004l]133;C\]666;vte.shell.preexec!\v
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls [K[K[Krm v
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ rm vls[C[C-l[Ktar -cfv request1.txt letter1.txt order1.txt[1P[C[1@ [1@a[1@r[1@t[1@a[1@r[1@1[1@.[1@t[1@r[1P[1@a[1@r
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls -l
+[?2004l]133;C\]666;vte.shell.preexec!\total 98896
+drwxrwxr-x 2 user user     4096 Apr 21 19:15 [0m[01;34mBinary1[0m
+drwxrwxr-x 2 user user     4096 Apr 21 19:16 [01;34mBinary2[0m
+-rw-rw-r-- 1 user user   143360 Apr 21 19:24 [01;31martar1.tar[0m
+-rw-rw-r-- 1 user user    22191 Apr 21 18:58 [01;31marzip1.zip[0m
+-rw-rw-r-- 1 user user    21953 Apr 21 19:00 [01;31marzip2-max.zip[0m
+-rw-rw-r-- 1 user user    22359 Apr 21 19:00 [01;31marzip2-quiet.zip[0m
+-rw-rw-r-- 1 user user    22359 Apr 21 18:59 [01;31marzip2.zip[0m
+-rw-rw-r-- 1 user user 33559722 Apr 21 19:02 [01;31marzip3.zip[0m
+-rw-rw-r-- 1 user user 10485760 Apr 21 19:14 arzip4.z01
+-rw-rw-r-- 1 user user 10485760 Apr 21 19:14 arzip4.z02
+-rw-rw-r-- 1 user user 10485760 Apr 21 19:14 arzip4.z03
+-rw-rw-r-- 1 user user  2102446 Apr 21 19:14 [01;31marzip4.zip[0m
+drwxrwxr-x 2 user user     4096 Apr 21 18:59 [01;34mdocs[0m
+drwxrwxr-x 2 user user     4096 Apr 21 19:21 [01;34mgzsamples[0m
+-rw-rw-r-- 1 user user   104652 Apr 21 19:18 letter.txt
+-rw-rw-r-- 1 user user    18038 Apr 21 19:18 [01;31mletter.txt.gz[0m
+-rw-rw-r-- 1 user user   104652 Apr 21 19:23 letter1.txt
+-rw-rw-r-- 1 user user     5382 Apr 21 19:18 order.txt
+-rw-rw-r-- 1 user user     1108 Apr 21 19:19 [01;31morder.txt.gz[0m
+-rw-rw-r-- 1 user user     5382 Apr 21 19:22 order1.txt
+-rw-rw-r-- 1 user user     2666 Apr 21 19:18 [01;31mrequest.txt.gz[0m
+-rw-rw-r-- 1 user user    20436 Apr 21 19:22 request1.txt
+-rw-rw-r-- 1 user user 33554432 Apr 21 19:02 sample.exe
+-rw-rw-r-- 1 user user    16384 Apr 21 19:23 timelog
+-rw-rw-r-- 1 user user    32768 Apr 21 19:24 typescript
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ tar -df artar1.tar
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ tar -df artar1.tarv artar1.tar
+[?2004l]133;C\]666;vte.shell.preexec!\tar: v: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+]666;vte.shell.postexec=2\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ tar -dfv artar1.tar[1P artar1.tar[1@v
+[?2004l]133;C\]666;vte.shell.preexec!\request1.txt
+letter1.txt
+order1.txt
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ echo ""N"e"w" "l"i"n"e" "1" "[C[1P"[C >> letter1.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ echo "New line 1" >> letter1.txt[1P1.txt[1P1.txt[1P1.txt[1P1.txt[1P1.txt[1P1.txto1.txtr1.txtd1.txte1.txtr1.txt[C[1P[1@2[C
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ tar -uf artar1.tar letter1.txt order1.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ cp dock[Ks/*.txt [K[K[K[K[K[Krequest.txt request2.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ cp docs/request.txt request2.txt[1P2.txt[1P2.txt[1P2.txt[1P2.txt[1P2.txt[1P2.txt[1P2.txto2.txtr2.txtd2.txte2.txtr2.txt[1P[1P[1P[1P[1P[1P[1P[1@o[1@r[1@d[1@e[1@r
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ cp docs/order.txt order2.txt[1P2.txt[1P2.txt[1P2.txt[1P2.txt[1P2.txtk2.txt[1P2.txtl2.txte2.txtt2.txtt2.txte2.txtr2.txt[1P[1P[1P[1P[1P[1@l[1@e[1@t[1@t[1@e[1@r
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ tar -cf artar2.tar request2.txt letter2.txt order2.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ tar -Af ara[Ktar1.tar artar2.tar [1@v
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls [K[K[Ktar -tf artar1.tar
+[?2004l]133;C\]666;vte.shell.preexec!\request1.txt
+letter1.txt
+order1.txt
+letter1.txt
+order1.txt
+request2.txt
+letter2.txt
+order2.txt
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ co[Kp docs/request.txt request3.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ cp docs/letter.txt letter3.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ cp docs/le[K[Korder.txt order3.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ chmod 600 request3.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls -la
+[?2004l]133;C\]666;vte.shell.preexec!\total 99568
+drwxrwxr-x 6 user user     4096 Apr 21 19:29 [0m[01;34m.[0m
+drwxrwxr-x 7 user user     4096 Apr 21 18:57 [01;34m..[0m
+drwxrwxr-x 2 user user     4096 Apr 21 19:15 [01;34mBinary1[0m
+drwxrwxr-x 2 user user     4096 Apr 21 19:16 [01;34mBinary2[0m
+-rw-rw-r-- 1 user user   389120 Apr 21 19:27 [01;31martar1.tar[0m
+-rw-rw-r-- 1 user user   143360 Apr 21 19:27 [01;31martar2.tar[0m
+-rw-rw-r-- 1 user user    22191 Apr 21 18:58 [01;31marzip1.zip[0m
+-rw-rw-r-- 1 user user    21953 Apr 21 19:00 [01;31marzip2-max.zip[0m
+-rw-rw-r-- 1 user user    22359 Apr 21 19:00 [01;31marzip2-quiet.zip[0m
+-rw-rw-r-- 1 user user    22359 Apr 21 18:59 [01;31marzip2.zip[0m
+-rw-rw-r-- 1 user user 33559722 Apr 21 19:02 [01;31marzip3.zip[0m
+-rw-rw-r-- 1 user user 10485760 Apr 21 19:14 arzip4.z01
+-rw-rw-r-- 1 user user 10485760 Apr 21 19:14 arzip4.z02
+-rw-rw-r-- 1 user user 10485760 Apr 21 19:14 arzip4.z03
+-rw-rw-r-- 1 user user  2102446 Apr 21 19:14 [01;31marzip4.zip[0m
+drwxrwxr-x 2 user user     4096 Apr 21 18:59 [01;34mdocs[0m
+drwxrwxr-x 2 user user     4096 Apr 21 19:21 [01;34mgzsamples[0m
+-rw-rw-r-- 1 user user   104652 Apr 21 19:18 letter.txt
+-rw-rw-r-- 1 user user    18038 Apr 21 19:18 [01;31mletter.txt.gz[0m
+-rw-rw-r-- 1 user user   104663 Apr 21 19:25 letter1.txt
+-rw-rw-r-- 1 user user   104652 Apr 21 19:26 letter2.txt
+-rw-rw-r-- 1 user user   104652 Apr 21 19:29 letter3.txt
+-rw-rw-r-- 1 user user     5382 Apr 21 19:18 order.txt
+-rw-rw-r-- 1 user user     1108 Apr 21 19:19 [01;31morder.txt.gz[0m
+-rw-rw-r-- 1 user user     5393 Apr 21 19:25 order1.txt
+-rw-rw-r-- 1 user user     5382 Apr 21 19:26 order2.txt
+-rw-rw-r-- 1 user user     5382 Apr 21 19:29 order3.txt
+-rw-rw-r-- 1 user user     2666 Apr 21 19:18 [01;31mrequest.txt.gz[0m
+-rw-rw-r-- 1 user user    20436 Apr 21 19:22 request1.txt
+-rw-rw-r-- 1 user user    20436 Apr 21 19:26 request2.txt
+-rw------- 1 user user    20436 Apr 21 19:29 request3.txt
+-rw-rw-r-- 1 user user 33554432 Apr 21 19:02 sample.exe
+-rw-rw-r-- 1 user user    24576 Apr 21 19:27 timelog
+-rw-rw-r-- 1 user user    40960 Apr 21 19:27 typescript
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ tar -cfg[K artar3.tar request3.txt letter3.txt order3.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ sy - [K[K[K[Ku - student
+[?2004l]133;C\]666;vte.shell.preexec!\$ tar -xpf artar3	.tar
+tar: artar3.tar: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+$ ^C
+$ 
+]666;vte.shell.postexec=130\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ tar[K[K[Kls -la
+[?2004l]133;C\]666;vte.shell.preexec!\total 99712
+drwxrwxr-x 6 user user     4096 Apr 21 19:30 [0m[01;34m.[0m
+drwxrwxr-x 7 user user     4096 Apr 21 18:57 [01;34m..[0m
+drwxrwxr-x 2 user user     4096 Apr 21 19:15 [01;34mBinary1[0m
+drwxrwxr-x 2 user user     4096 Apr 21 19:16 [01;34mBinary2[0m
+-rw-rw-r-- 1 user user   389120 Apr 21 19:27 [01;31martar1.tar[0m
+-rw-rw-r-- 1 user user   143360 Apr 21 19:27 [01;31martar2.tar[0m
+-rw-rw-r-- 1 user user   143360 Apr 21 19:30 [01;31martar3.tar[0m
+-rw-rw-r-- 1 user user    22191 Apr 21 18:58 [01;31marzip1.zip[0m
+-rw-rw-r-- 1 user user    21953 Apr 21 19:00 [01;31marzip2-max.zip[0m
+-rw-rw-r-- 1 user user    22359 Apr 21 19:00 [01;31marzip2-quiet.zip[0m
+-rw-rw-r-- 1 user user    22359 Apr 21 18:59 [01;31marzip2.zip[0m
+-rw-rw-r-- 1 user user 33559722 Apr 21 19:02 [01;31marzip3.zip[0m
+-rw-rw-r-- 1 user user 10485760 Apr 21 19:14 arzip4.z01
+-rw-rw-r-- 1 user user 10485760 Apr 21 19:14 arzip4.z02
+-rw-rw-r-- 1 user user 10485760 Apr 21 19:14 arzip4.z03
+-rw-rw-r-- 1 user user  2102446 Apr 21 19:14 [01;31marzip4.zip[0m
+drwxrwxr-x 2 user user     4096 Apr 21 18:59 [01;34mdocs[0m
+drwxrwxr-x 2 user user     4096 Apr 21 19:21 [01;34mgzsamples[0m
+-rw-rw-r-- 1 user user   104652 Apr 21 19:18 letter.txt
+-rw-rw-r-- 1 user user    18038 Apr 21 19:18 [01;31mletter.txt.gz[0m
+-rw-rw-r-- 1 user user   104663 Apr 21 19:25 letter1.txt
+-rw-rw-r-- 1 user user   104652 Apr 21 19:26 letter2.txt
+-rw-rw-r-- 1 user user   104652 Apr 21 19:29 letter3.txt
+-rw-rw-r-- 1 user user     5382 Apr 21 19:18 order.txt
+-rw-rw-r-- 1 user user     1108 Apr 21 19:19 [01;31morder.txt.gz[0m
+-rw-rw-r-- 1 user user     5393 Apr 21 19:25 order1.txt
+-rw-rw-r-- 1 user user     5382 Apr 21 19:26 order2.txt
+-rw-rw-r-- 1 user user     5382 Apr 21 19:29 order3.txt
+-rw-rw-r-- 1 user user     2666 Apr 21 19:18 [01;31mrequest.txt.gz[0m
+-rw-rw-r-- 1 user user    20436 Apr 21 19:22 request1.txt
+-rw-rw-r-- 1 user user    20436 Apr 21 19:26 request2.txt
+-rw------- 1 user user    20436 Apr 21 19:29 request3.txt
+-rw-rw-r-- 1 user user 33554432 Apr 21 19:02 sample.exe
+-rw-rw-r-- 1 user user    24576 Apr 21 19:27 timelog
+-rw-rw-r-- 1 user user    45056 Apr 21 19:30 typescript
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ su - student
+[?2004l]133;C\]666;vte.shell.preexec!\p$ wd   pwd
+/home/student
+$ cd    
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ cp [K[Kp artar3.tar /home;[K/student[1@s[1@u[1@d[1@o[1@ 
+[?2004l]133;C\]666;vte.shell.preexec!\[sudo: authenticate] Password: 
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ su - student
+[?2004l]133;C\]666;vte.shell.preexec!\$ tar -xpf artar3.tar
+$ ls -l
+total 280
+-rw-r--r-- 1 root    root    143360 Apr 21 19:32 artar3.tar
+-rw-rw-r-- 1 student student 104652 Apr 21 19:29 letter3.txt
+-rw-rw-r-- 1 student student    217 Apr  8 13:17 log.txt
+-rw-rw-r-- 1 student student   5382 Apr 21 19:29 order3.txt
+-rw------- 1 student student  20436 Apr 21 19:29 request3.txt
+drwx------ 4 student student   4096 Apr 21 19:30 snap
+$ cd /home/user/li	nux-labs
+-sh: 3: cd: can't cd to /home/user/linux-labs
+$ 
+]666;vte.shell.postexec=2\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ cp docs/request.txt request4.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ cp docs/letter.txt letter4.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ cp docs/order.txt order4.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ tar -czf artar4.tar.gh[Kz request4.txt letter4.txt order4.txt 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ mkdir tar_dir
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ cp artar4.tar.gz tar_dir/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ cd tar_dei[K[Kir
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4/tar_dir\]0;user@user-VirtualBox:~/linux-labs/lab4/tar_dir\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4/tar_dir[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4/tar_dir[00m$ ls [K
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;31martar4.tar.gz[0m
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4/tar_dir\]0;user@user-VirtualBox:~/linux-labs/lab4/tar_dir\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4/tar_dir[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4/tar_dir[00m$ tar -tzf artar4.tar.gz 
+[?2004l]133;C\]666;vte.shell.preexec!\request4.txt
+letter4.txt
+order4.txt
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4/tar_dir\]0;user@user-VirtualBox:~/linux-labs/lab4/tar_dir\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4/tar_dir[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4/tar_dir[00m$ tar -tzf artar4.tar.gz [1@v
+[?2004l]133;C\]666;vte.shell.preexec!\-rw-rw-r-- user/user     20436 2026-04-21 19:33 request4.txt
+-rw-rw-r-- user/user    104652 2026-04-21 19:33 letter4.txt
+-rw-rw-r-- user/user      5382 2026-04-21 19:33 order4.txt
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4/tar_dir\]0;user@user-VirtualBox:~/linux-labs/lab4/tar_dir\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4/tar_dir[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4/tar_dir[00m$ tar -tvzf artar4.tar.gz [C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l]133;C\]666;vte.shell.preexec!\request4.txt
+letter4.txt
+order4.txt
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4/tar_dir\]0;user@user-VirtualBox:~/linux-labs/lab4/tar_dir\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4/tar_dir[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4/tar_dir[00m$ tar -xzgf[K[Kf artar4.tar.gz 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4/tar_dir\]0;user@user-VirtualBox:~/linux-labs/lab4/tar_dir\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4/tar_dir[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4/tar_dir[00m$ cd ..
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ mkdir tar_dir2
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ tar -xzf tar/[K_dir/artar4.tar.gz -C ./tar_dir2
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls -l tar_dir
+[?2004l]133;C\]666;vte.shell.preexec!\total 156
+-rw-rw-r-- 1 user user  21845 Apr 21 19:34 [0m[01;31martar4.tar.gz[0m
+-rw-rw-r-- 1 user user 104652 Apr 21 19:33 letter4.txt
+-rw-rw-r-- 1 user user   5382 Apr 21 19:33 order4.txt
+-rw-rw-r-- 1 user user  20436 Apr 21 19:33 request4.txt
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls -l tar_dir2
+[?2004l]133;C\]666;vte.shell.preexec!\total 132
+-rw-rw-r-- 1 user user 104652 Apr 21 19:33 letter4.txt
+-rw-rw-r-- 1 user user   5382 Apr 21 19:33 order4.txt
+-rw-rw-r-- 1 user user  20436 Apr 21 19:33 request4.txt
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ mkdir docs/guides
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ mkdir docs/guides/mu[Kydocs
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls
+[?2004l]133;C\]666;vte.shell.preexec!\[0m[01;34mBinary1[0m     [01;31martar4.tar.gz[0m     [01;31marzip3.zip[0m  [01;34mdocs[0m           letter2.txt   order1.txt      request1.txt  [01;34mtar_dir[0m
+[01;34mBinary2[0m     [01;31marzip1.zip[0m        arzip4.z01  [01;34mgzsamples[0m      letter3.txt   order2.txt      request2.txt  [01;34mtar_dir2[0m
+[01;31martar1.tar[0m  [01;31marzip2-max.zip[0m    arzip4.z02  letter.txt     letter4.txt   order3.txt      request3.txt  timelog
+[01;31martar2.tar[0m  [01;31marzip2-quiet.zip[0m  arzip4.z03  [01;31mletter.txt.gz[0m  order.txt     order4.txt      request4.txt  typescript
+[01;31martar3.tar[0m  [01;31marzip2.zip[0m        [01;31marzip4.zip[0m  letter1.txt    [01;31morder.txt.gz[0m  [01;31mrequest.txt.gz[0m  sample.exe
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ echo ""M"a"i"n" "H"T"M"L" "f"i"l"e"[C > docs/guides/tot[Kdo.t[Khtml
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ echo 
+[?2004l]133;C\]666;vte.shell.preexec!\
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ 
+[?2004l]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ echo ""R"e"a"d"m"e"[C > docs/guides/README.md
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ echo "Config" ? [K[K> dock[Ks/gu[Kuides/config.cfg
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ echo ""M"y" "H"T"M"L" "f"i"l"e"[C > dock[Ks/gi[Kuides/mydocs/todo.t[Khtml
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ echo "My notes" > docs/guides/mydocs/notes.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ tar -d[Kczf guides.tar.gz -C docs guides --exclude/mydocs
+[?2004l]133;C\]666;vte.shell.preexec!\tar: unrecognized option '--exclude/mydocs'
+Try 'tar --help' or 'tar --usage' for more information.
+]666;vte.shell.postexec=64\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ tar -czf guides.tar.gz -C docs guides --exclude/mydocs[C /mydocsg/mydocsu/mydocsi/mydocsd/mydocse/mydocss/mydocs
+[?2004l]133;C\]666;vte.shell.preexec!\tar: The following options were used after non-option arguments.  These options are positional and affect only arguments that follow them.  Please, rearrange them properly.
+tar: --exclude ‘guides/mydocs’ has no effect
+tar: Exiting with failure status due to previous errors
+]666;vte.shell.postexec=2\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ tar -czf guides.tar.gz -C docs guides --exclude guides/mydocs[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[C[C[1@ [1@-[1@-[1@e[1@x[1@c[1@l[1@u[1@d[1@e[C[1@ [1@g[1@u[1@i[1@d[1@e[1@s[1@/[1@m[1@y[1@d[1@o[1@c[1@s[C
+[?2004l]133;C\]666;vte.shell.preexec!\tar: guides/mydocs: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+]666;vte.shell.postexec=2\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ tar -czf --exclude guides/mydocs guides.tar.gz -C docs guides[1@D[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [1@-[1@-[1@e[1@x[1@c[1@l[1@u[1@d[1@e[C[1@ [1@g[1@u[1@i[1@d[1@e[1@s[1@/[1@m[1@y[1@d[1@o[1@c[1@s[C
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ tar -czf guides.tar.gz --exclude guides/mydocs -C docs guides[C[1@-[1@e[1@x[1@c[1@l[1@u[1@d[1@e[1@-[1@f[1@i[1@le.tar.gz --exclude guides/mydocs -C docs guides [A]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1@t[1@o[1@d[1@o[1@.h -C docs guides [A]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct -C docs guides[A]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cm -C docs guides[A]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl -C docs guides[A]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ mkdir example-xa[Kz
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ cd example-xz/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4/example-xz\]0;user@user-VirtualBox:~/linux-labs/lab4/example-xz\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4/example-xz[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4/example-xz[00m$ for i in {}1}.}.}5}[C; do head -c 10M /dev/urandom > file%i[K[K$i.txt; done [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ke
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4/example-xz\]0;user@user-VirtualBox:~/linux-labs/lab4/example-xz\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4/example-xz[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4/example-xz[00m$ for i in {1..5}; do head -c 10M /dev/urandom > file$i.txt; done [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1@d[1@o[1@c
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4/example-xz\]0;user@user-VirtualBox:~/linux-labs/lab4/example-xz\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4/example-xz[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4/example-xz[00m$ xz example-xz/file1.txt
+[?2004l]133;C\]666;vte.shell.preexec!\xz: example-xz/file1.txt: No such file or directory
+]666;vte.shell.postexec=1\]7;file://user-VirtualBox/home/user/linux-labs/lab4/example-xz\]0;user@user-VirtualBox:~/linux-labs/lab4/example-xz\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4/example-xz[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4/example-xz[00m$ ls [K[K[Kcd ..
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ xz example-xz/file.txt
+[?2004l]133;C\]666;vte.shell.preexec!\xz: example-xz/file.txt: No such file or directory
+]666;vte.shell.postexec=1\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ xz example-xz/file.txt[C1.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ tar -cJf example-xz/[K[Kz.tar.xz example-xz/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ XZ_OPT='-T#[K3' tar -cJf example-xz-threaded.tar.xz example.xz[K[K[K-xz
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ tar -CJF[Kf[K[K[KcJf eoc[K[K[Kdocs-only.tar.xz example-xz/*.doc
+[?2004l]133;C\]666;vte.shell.preexec!\tar: example-xz/*.doc: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+]666;vte.shell.postexec=2\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls -l[K[K[K[K[Ktar -cJf docs-only.tar.xz example-xz/*.doc.example-xz/*.doc/example-xz/*.doc[C
+[?2004l]133;C\]666;vte.shell.preexec!\tar: ./example-xz/*.doc: Cannot stat: No such file or directory
+tar: Exiting with failure status due to previous errors
+]666;vte.shell.postexec=2\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls example-xz
+[?2004l]133;C\]666;vte.shell.preexec!\doc1.txt  doc3.txt  doc5.txt      file2.txt  file4.txt
+doc2.txt  doc4.txt  [0m[01;31mfile1.txt.xz[0m  file3.txt  file5.txt
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ ls example-xztar -cJf docs-only.tar.xz ./example-xz/*.doc[K[K[K[K[Kdoc*.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ mkdir rsync ba[K[K[K0[K-backup temp
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ cp docs/*.txt res[K[Ksync-backy[Kup/
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ rsync -av rsync-backup/ temp/
+[?2004l]133;C\]666;vte.shell.preexec!\sending incremental file list
+./
+letter.txt
+order.txt
+request.txt
+
+sent 130,746 bytes  received 76 bytes  261,644.00 bytes/sec
+total size is 130,470  speedup is 1.00
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ echo "Changed via rsync" >> re[Ksync-backup/tel[K[K[Kletter.txt
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ rsync -av resync[K[K[K[K[Ksync-backuyp[K[Kp/ temp/
+[?2004l]133;C\]666;vte.shell.preexec!\sending incremental file list
+letter.txt
+
+sent 104,860 bytes  received 35 bytes  209,790.00 bytes/sec
+total size is 130,488  speedup is 1.24
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab4\]0;user@user-VirtualBox:~/linux-labs/lab4\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab4[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab4[00m$ [?2004l
+exit
+
+Script done on 2026-04-21 19:46:35+03:00 [COMMAND_EXIT_CODE="0"]
