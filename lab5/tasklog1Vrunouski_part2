@@ -1,0 +1,439 @@
+Script started on 2026-05-05 11:56:37+03:00 [TERM="linux" TTY="/dev/tty3" COLUMNS="160" LINES="50"]
+$ ps -u sy tudent
+    PID TTY          TIME CMD
+  13018 tty3     00:00:00 sh
+  13403 tty4     00:00:00 sh
+  13782 tty3     00:00:00 script
+  13783 pts/0    00:00:00 sh
+  13785 pts/0    00:00:00 ps
+$ touch /tmp/testfile.txt
+$ lsof /tmp/tex stfile.txt
+lsof: WARNING: can't stat() fuse.portal file system /run/user/1000/doc
+      Output information may be incomplete.
+lsof: WARNING: can't stat() fuse.gvfsd-fuse file system /run/user/1000/gvfs
+      Output information may be incomplete.
+$ ^[[A^[[A^[[B            cat   echo ""^[[D     This is text" >> /tmp/testfile.txt
+$ fuser /tmp/testfile.txt
+$ ^[[A    fuser /tmp/testfile.txt
+$ ^[[A^[[B        fuser /tmp/testfile.txt
+$ python3
+Python 3.13.7 (main, Mar  3 2026, 12:19:54) [GCC 15.2.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+[?2004h[?25l[?1c[1A
+[1;35m>>> [0m[4D[?25h[?0c[4C[4D
+[?2004l$ python 3  3 -m http.server 8081
+Serving HTTP on 0.0.0.0 port 8081 (http://0.0.0.0:8081/) ...
+^C
+Keyboard interrupt received, exiting.
+$ yes > /dev/null &
+$ ps -p       jp obs -l
+[1] + 14809 Running              yes 1>/dev/null
+$ ps -p 14809 -o -id,    pid,ni,comm
+    PID  NI COMMAND
+  14809   0 yes
+$ renice +10 -p 14809
+14809 (process ID) old priority 0, new priority 10
+$ kill 14809
+$ nice -n 4 sleep 100
+sleep     ^C
+[1] + Terminated                 yes 1>/dev/null
+$ ^C
+$ sl  jobs
+$ sleep 1000 &
+$ sleep 1000 &
+$ sleep 1000 &
+$ jobs
+[3] + Running                    sleep 1000
+[2] - Running                    sleep 1000
+[1]   Running                    sleep 1000
+$ pgrep sleep
+14813
+14814
+14815
+$ pkill sleep
+[3] + Terminated                 sleep 1000
+[2] + Terminated                 sleep 1000
+[1] + Terminated                 sleep 1000
+$ job
+sh: 23: job: not found
+$ ^[[As     jobs
+$ slee[ p 1000 & se leep 1000 & sleep 1000 &
+$ pkill -9 sleep
+$ ps aux | head -n 8
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.1  0.1  26164 16964 ?        Ss   11:39   0:03 /usr/lib/systemd/systemd --switched-root --system --deserialize=48 splash
+root           2  0.0  0.0      0     0 ?        S    11:39   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    11:39   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   11:39   0:00 [kworker/R-rcu_gp]
+root           5  0.0  0.0      0     0 ?        I<   11:39   0:00 [kworker/R-sync_wq]
+root           6  0.0  0.0      0     0 ?        I<   11:39   0:00 [kworker/R-kvfree_rcu_reclaim]
+root           7  0.0  0.0      0     0 ?        I<   11:39   0:00 [kworker/R-slub_flushwq]
+[3] + Killed                     sleep 1000
+[2] + Killed                     sleep 1000
+[1] + Killed                     sleep 1000
+$ ^[[A^[[A^[[B^[[B                ps aux | head -n 7
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.1  0.1  26164 16964 ?        Ss   11:39   0:03 /usr/lib/systemd/systemd --switched-root --system --deserialize=48 splash
+root           2  0.0  0.0      0     0 ?        S    11:39   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    11:39   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   11:39   0:00 [kworker/R-rcu_gp]
+root           5  0.0  0.0      0     0 ?        I<   11:39   0:00 [kworker/R-sync_wq]
+root           6  0.0  0.0      0     0 ?        I<   11:39   0:00 [kworker/R-kvfree_rcu_reclaim]
+$ ps aux --sort=-%mem | head -n 6
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+user        6482  5.5  4.8 5010428 515784 ?      Ssl  11:39   1:52 /usr/bin/gnome-shell
+user        8775  0.0  1.0 899036 114408 ?       Sl   11:41   0:00 /usr/libexec/mutter-x11-frames
+user        8843  0.0  0.6 374544 69316 ?        Sl   11:41   0:00 /usr/libexec/ibus-x11
+user        8763  0.0  0.6 215444 68396 ?        S    11:41   0:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.Z9SHO3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+user        6771  0.0  0.6 833900 64584 ?        Sl   11:39   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+$ ^[[D^[[C        ^[[A    ^[[A^[[B        ps aux --sort=+ %cpy u | head -n 5
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           3  0.0  0.0      0     0 ?        S    11:39   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   11:39   0:00 [kworker/R-rcu_gp]
+root           5  0.0  0.0      0     0 ?        I<   11:39   0:00 [kworker/R-sync_wq]
+root           6  0.0  0.0      0     0 ?        I<   11:39   0:00 [kworker/R-kvfree_rcu_reclaim]
+$ ps -eLf --sort  =-%mem | head -n 20
+UID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+user        6482    6154    6482  5   39 11:39 ?        00:01:52 /usr/bin/gnome-shell
+user        8775    6482    8775  0   23 11:41 ?        00:00:00 /usr/libexec/mutter-x11-frames
+user        8843    6154    8843  0    4 11:41 ?        00:00:00 /usr/libexec/ibus-x11
+user        8763    6482    8763  0    1 11:41 ?        00:00:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.Z9SHO3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+user        6771    6460    6771  0    8 11:39 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+user        7200    6154    7200  0    6 11:39 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gnome
+root       13938       1   13938  0    4 12:00 ?        00:00:00 /usr/libexec/fwupd/fwupd
+root       10267       1   10267  0   15 11:45 ?        00:00:03 /snap/snapd/current/usr/lib/snapd/snapd
+user        6670    6154    6670  0    5 11:39 ?        00:00:00 /usr/libexec/evolution-source-registry
+user        6847    6704    6847  0    6 11:39 ?        00:00:02 /usr/libexec/ibus-extension-gtk3
+user        6745    6460    6745  0    6 11:39 ?        00:00:00 /usr/bin/update-notifier
+user        6680    6154    6680  0   12 11:39 ?        00:00:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+user        6927    6154    6927  0   12 11:39 ?        00:00:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+user        8882    8876    8882  0    1 11:41 ?        00:00:00 python3 /usr/bin/wsdd --no-host --discovery --listen /run/user/1000/gvfsd/wsdd
+root         468       1     468  0    1 11:39 ?        00:00:00 /usr/lib/systemd/systemd-journald
+user        6716    6246    6716  0    5 11:39 ?        00:00:00 /snap/snapd-desktop-integration/343/usr/bin/snapd-desktop-integration
+root        5948       1    5948  0    2 11:39 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+user        7038    6154    7038  0    7 11:39 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+user        6929    6154    6929  0    8 11:39 ?        00:00:00 /usr/libexec/localsearch-3
+$ echo "" This is string from echo" > text.txt
+$ ls -l
+total 32
+-rw-rw-r-- 1 student student  147 May  5 11:53 archive.tar.gz
+drwxrwxr-x 3 student student 4096 Apr 21 20:59 docs
+-rw-rw-r-- 1 student student  279 May  5 11:52 log.txt
+drwx------ 5 student student 4096 May  5 11:44 snap
+-rw-rw-r-- 1 student student   25 May  5 12:47 text.txt
+-rw-rw-r-- 1 student student 8192 May  5 12:14 timelog
+-rw-rw-r-- 1 student student 4096 May  5 12:13 typescript
+$ cat tex	t.txt
+This is string from echo
+$ ls > file. _list.txt
+$ cat file_list.txt
+archive.tar.gz
+docs
+file_list.txt
+log.txt
+snap
+text.txt
+timelog
+typescript
+$ mkdir dock s > md kdir_log.txt
+mkdir: docs: File exists
+$ ls -l
+total 36
+-rw-rw-r-- 1 student student  147 May  5 11:53 archive.tar.gz
+drwxrwxr-x 3 student student 4096 Apr 21 20:59 docs
+-rw-rw-r-- 1 student student   75 May  5 12:48 file_list.txt
+-rw-rw-r-- 1 student student  279 May  5 11:52 log.txt
+-rw-rw-r-- 1 student student    0 May  5 12:48 mkdir_log.txt
+drwx------ 5 student student 4096 May  5 11:44 snap
+-rw-rw-r-- 1 student student   25 May  5 12:47 text.txt
+-rw-rw-r-- 1 student student 8192 May  5 12:14 timelog
+-rw-rw-r-- 1 student student 4096 May  5 12:13 typescript
+$ rm -r ./dock s
+$ mkdir docks  s > mkdir. _log.txt
+$ cat mkdir >  _log.txt
+$ cp    mk  rm -r ./docs
+$ mkdir dock s > mkdir_log.txt 2>% &1
+$ cat mkdit.  r_log.txt
+$ cp mkdir log.txt mkdir_log
+cp: target 'mkdir_log': No such file or directory
+$ ^[[A    cp mkdir_log.txt mkdir_log
+$ whi   o > users.txt
+$ cat users.txt
+$ who
+$ who -;
+$ who 0 -l
+$ man who
+[4mwho[24m(1)                                                              General Commands Manual                                                              [4mwho[24m(1)[m
+[m
+[1mNAME[0m[m
+       who - Print information about users who are currently logged in.[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mwho [22m[[1m-a[22m|[1m--all[22m] [[1m-b[22m|[1m--boot[22m] [[1m-d[22m|[1m--dead[22m] [[1m-H[22m|[1m--heading[22m] [[1m-l[22m|[1m--login[22m] [[1m--lookup[22m] [[1m-m [22m] [[1m-p[22m|[1m--process[22m] [[1m-q[22m|[1m--count[22m] [[1m-r[22m|[1m--runlevel[22m] [[1m-s[22m|[1m--short[22m] [[1m-t[22m|[1m--time[22m][m
+       [[1m-u[22m|[1m--users[22m] [[1m-T[22m|[1m--mesg[22m] [[1m-h[22m|[1m--help[22m] [[1m-V[22m|[1m--version[22m] [[4mFILE[24m][m
+[m
+[1mDESCRIPTION[0m[m
+       Print information about users who are currently logged in.[m
+[m
+[1mOPTIONS[0m[m
+       [1m-a[22m, [1m--all[0m[m
+              same as -b -d --login -p -r -t -T -u[m
+[m
+       [1m-b[22m, [1m--boot[0m[m
+              time of last system boot[m
+[m
+       [1m-d[22m, [1m--dead[0m[m
+              print dead processes[m
+[m
+       [1m-H[22m, [1m--heading[0m[m
+              print line of column headings[m
+[m
+       [1m-l[22m, [1m--login[0m[m
+              print system login processes[m
+[m
+       [1m--lookup[0m[m
+              attempt to canonicalize hostnames via DNS[m
+[m
+       [1m-m     [22monly hostname and user associated with stdin[m
+[m
+       [1m-p[22m, [1m--process[0m[m
+              print active processes spawned by init[m
+[m
+       [1m-q[22m, [1m--count[0m[m
+              all login names and number of users logged on[m
+[m
+       [1m-r[22m, [1m--runlevel[0m[m
+              print current runlevel[m
+[m
+       [1m-s[22m, [1m--short[0m[m
+              print only name, line, and time (default)[m
+[m
+       [1m-t[22m, [1m--time[0m[m
+              print last system clock change[m
+[m
+       [1m-u[22m, [1m--users[0m[m
+[7m Manual page who(1) line 1 (press h for help or q to quit)[27m[K[K$ who -a
+$ a echo "" thegeekstuff" | tr '' aeiou' 'AEIOU'
+thEgEEkstUff
+$ echo "thegeekstuff" | tr '[:lower:]' '["upper      :upper:' ]'
+THEGEEKSTUFF
+$ echp o ""^[[D     my IF D is 73535 | te r -d 0-9
+> 1
+> 2
+> 3
+> q
+> ^C
+$ ^[[A    ehco   chp "my ID is 14212" | tr -d 0-9
+sh: 61: echp: not found
+$ echo "my ID is 12453  : : " | re  tr -d 0-9
+my ID is 
+$ echo "my ID is 12543" | tr -d   '[:alpha:]{P  [:space:]'
+12543$ mkdit r -p example9
+$ cd exap mple9
+$ touch   file{}^[[D     a..j}.txt
+$ ls -l
+total 0
+-rw-rw-r-- 1 student student 0 May  5 12:54 file{a..j}.txt
+$ ba  rm file{a..j}.txt
+$ echo % $s SHELL
+/bin/sh
+$ bash -c '' touch fiel  le{} a..j}.txt'^[[D    
+$ ls -l
+total 0
+-rw-rw-r-- 1 student student 0 May  5 12:56 filea.txt
+-rw-rw-r-- 1 student student 0 May  5 12:56 fileb.txt
+-rw-rw-r-- 1 student student 0 May  5 12:56 filec.txt
+-rw-rw-r-- 1 student student 0 May  5 12:56 filed.txt
+-rw-rw-r-- 1 student student 0 May  5 12:56 filee.txt
+-rw-rw-r-- 1 student student 0 May  5 12:56 filef.txt
+-rw-rw-r-- 1 student student 0 May  5 12:56 fileg.txt
+-rw-rw-r-- 1 student student 0 May  5 12:56 fileh.txt
+-rw-rw-r-- 1 student student 0 May  5 12:56 filei.txt
+-rw-rw-r-- 1 student student 0 May  5 12:56 filej.txt
+$ cp /path/to           cd ..
+$ mkdir dummy\
+> ^C
+$ mkdir dummy
+$ cd    touch ./dummy/archo     dymm   ummy.tar.gz
+$ cd -
+/home/student/example9
+$ ls    cd ../dummy/dymm   ummy.tar.gz .
+sh: 77: cd: can't cd to ../dummy/dummy.tar.gz
+$ cp ../dummy/dummb y.tar.gz
+cp: missing destination file operand after '../dummy/dummy.tar.gz'
+Try 'cp --help' for more information.
+$ cp ../dummy/dummy.tar.gz z .
+$ ls - *.txt | sed 
+Usage: sed [OPTION]... {script-only-if-no-other-script} [input-file]...
+
+  -n, --quiet, --silent
+                 suppress automatic printing of pattern space
+      --debug
+                 annotate program execution
+  -e script, --expression=script
+                 add the script to the commands to be executed
+  -f script-file, --file=script-file
+                 add the contents of script-file to the commands to be executed
+  --follow-symlinks
+                 follow symlinks when processing in place
+  -i[SUFFIX], --in-place[=SUFFIX]
+                 edit files in place (makes backup if SUFFIX supplied)
+  -l N, --line-length=N
+                 specify the desired line-wrap length for the `l' command
+  --posix
+                 disable all GNU extensions.
+  -E, -r, --regexp-extended
+                 use extended regular expressions in the script
+                 (for portability use POSIX -E).
+  -s, --separate
+                 consider files as separate rather than as a single,
+                 continuous long stream.
+      --sandbox
+                 operate in sandbox mode (disable e/r/w commands).
+  -u, --unbuffered
+                 load minimal amounts of data from the input files and flush
+                 the output buffers more often
+  -z, --null-data
+                 separate lines by NUL characters
+      --help     display this help and exit
+      --version  output version information and exit
+
+If no -e, --expression, -f, or --file option is given, then the first
+non-option argument is taken as the sed script to interpret.  All
+remaining arguments are names of input files; if no input files are
+specified, then the standard input is read.
+
+GNU sed home page: <https://www.gnu.org/software/sed/>.
+General help using GNU software: <https://www.gnu.org/gethelp/>.
+$ ls *.txt | sed 's/e/E/g' > ls_log. .txt
+$ ls  cat ls- _log.txt
+filEa.txt
+filEb.txt
+filEc.txt
+filEd.txt
+filEE.txt
+filEf.txt
+filEg.txt
+filEh.txt
+filEi.txt
+filEj.txt
+$ ls -la | tee wordcount.txt
+total 12
+drwxrwxr-x 2 student student 4096 May  5 13:00 .
+drwxr-xr-x 9 student student 4096 May  5 12:57 ..
+-rw-rw-r-- 1 student student    0 May  5 12:58 dummy.tar.gz
+-rw-rw-r-- 1 student student    0 May  5 12:56 filea.txt
+-rw-rw-r-- 1 student student    0 May  5 12:56 fileb.txt
+-rw-rw-r-- 1 student student    0 May  5 12:56 filec.txt
+-rw-rw-r-- 1 student student    0 May  5 12:56 filed.txt
+-rw-rw-r-- 1 student student    0 May  5 12:56 filee.txt
+-rw-rw-r-- 1 student student    0 May  5 12:56 filef.txt
+-rw-rw-r-- 1 student student    0 May  5 12:56 fileg.txt
+-rw-rw-r-- 1 student student    0 May  5 12:56 fileh.txt
+-rw-rw-r-- 1 student student    0 May  5 12:56 filei.txt
+-rw-rw-r-- 1 student student    0 May  5 12:56 filej.txt
+-rw-rw-r-- 1 student student  100 May  5 12:59 ls_log.txt
+-rw-rw-r-- 1 student student    0 May  5 13:00 wordcount.txt
+$ cat wordcount.txt
+total 12
+drwxrwxr-x 2 student student 4096 May  5 13:00 .
+drwxr-xr-x 9 student student 4096 May  5 12:57 ..
+-rw-rw-r-- 1 student student    0 May  5 12:58 dummy.tar.gz
+-rw-rw-r-- 1 student student    0 May  5 12:56 filea.txt
+-rw-rw-r-- 1 student student    0 May  5 12:56 fileb.txt
+-rw-rw-r-- 1 student student    0 May  5 12:56 filec.txt
+-rw-rw-r-- 1 student student    0 May  5 12:56 filed.txt
+-rw-rw-r-- 1 student student    0 May  5 12:56 filee.txt
+-rw-rw-r-- 1 student student    0 May  5 12:56 filef.txt
+-rw-rw-r-- 1 student student    0 May  5 12:56 fileg.txt
+-rw-rw-r-- 1 student student    0 May  5 12:56 fileh.txt
+-rw-rw-r-- 1 student student    0 May  5 12:56 filei.txt
+-rw-rw-r-- 1 student student    0 May  5 12:56 filej.txt
+-rw-rw-r-- 1 student student  100 May  5 12:59 ls_log.txt
+-rw-rw-r-- 1 student student    0 May  5 13:00 wordcount.txt
+$ wc wordcount.txt
+ 16 137 857 wordcount.txt
+$ man wc
+[4mwc[24m(1)                                                               General Commands Manual                                                               [4mwc[24m(1)[m
+[m
+[1mNAME[0m[m
+       wc - Print newline, word, and byte counts for each FILE, and a total line if more than one FILE is specified.[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mwc [22m[[1m-c[22m|[1m--bytes[22m] [[1m-m[22m|[1m--chars[22m] [[1m--files0-from[22m] [[1m-l[22m|[1m--lines[22m] [[1m-L[22m|[1m--max-line-length[22m] [[1m--total[22m] [[1m-w[22m|[1m--words[22m] [[1m-h[22m|[1m--help[22m] [[1m-V[22m|[1m--version[22m] [[4mfiles[24m][m
+[m
+[1mDESCRIPTION[0m[m
+       Print newline, word, and byte counts for each FILE, and a total line if more than one FILE is specified.[m
+[m
+[1mOPTIONS[0m[m
+       [1m-c[22m, [1m--bytes[0m[m
+              print the byte counts[m
+[m
+       [1m-m[22m, [1m--chars[0m[m
+              print the character counts[m
+[m
+       [1m--files0-from [4m[22m<F>[0m[m
+              read input from the files specified by NUL-terminated names in file F; If F is - then read names from standard input[m
+[m
+       [1m-l[22m, [1m--lines[0m[m
+              print the newline counts[m
+[m
+       [1m-L[22m, [1m--max-line-length[0m[m
+              print the length of the longest line[m
+[m
+       [1m--total [4m[22m<WHEN>[0m[m
+              when to print a line with total counts; WHEN can be: auto, always, only, never[m
+[m
+       [1m-w[22m, [1m--words[0m[m
+              print the word counts[m
+[m
+       [1m-h[22m, [1m--help[0m[m
+              Print help[m
+[m
+       [1m-V[22m, [1m--version[0m[m
+              Print version[m
+[m
+       [[4mfiles[24m][m
+[m
+[1mVERSION[0m[m
+       v(uutils coreutils) 0.2.2[m
+[m
+                                                                  wc (uutils coreutils) 0.2.2                                                             [4mwc[24m(1)[m
+[7m Manual page wc(1) line 1/45 (END) (press h for help or q to quit)[27m[K[K$ shuf -i 1-100 -n 50 | awk '$1 > 50' | sorn -rn | head
+sh: 87: sorn: not found
+$ shuf -i         !-1
+sh: 88: !-1: not found
+$ ! -1
+sh: 89: -1: not found
+$ !! -a
+sh: 90: !!: not found
+$ ^[[A    shuf -i 1-100 -n 50 }   | awk '$1 > 50' |sort -       sort -rn }   | head
+98
+93
+89
+88
+87
+83
+81
+79
+78
+76
+$ find . -name '*t.xt    .txt" ' -exec cat {} \; | wc -l
+26
+$ find . -name " '*.txt' e -exec cat {}]  \; |             wc -l {} \' ; sort -nt r | head -l 1
+find: paths must precede expression: `sort'
+$ find . -  name '*.txt' -exec wc -l {} \; } | sort -nr | head -l1  1
+16 ./wordcount.txt
+$ cat > app.log << 'EOF'
+> {}  [ERROR] Failed connect
+> { [INFO] login success
+> [wa  WARNING] Low power
+> { [ EOF
+$ grep '\[er  ERROR\' app.log.  | sed 's/\[ERROR\] //' | te r '[:lower:]' '[:upper:]" ' > errors_uppercase.log
+grep: Trailing backslash
+$ grep '\[ERROR]\' app.log } | sed '/ s/\[Ro                         \]' app.log }   | sed 's/\[ERRPR  p or  OR\] //' | te r '[:lower:]' '[:upper:]' > errors+ _ipper     uppercase.log
+$ cat errors_uppercase.t log
+FAILED CONNECT
+$ 
+
+Script done on 2026-05-05 13:09:23+03:00 [COMMAND_EXIT_CODE="0"]
