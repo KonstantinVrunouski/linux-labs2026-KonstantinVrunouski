@@ -1,0 +1,51 @@
+Script started on 2026-05-05 14:02:09+03:00 [TERM="linux" TTY="/dev/tty3" COLUMNS="160" LINES="50"]
+$ (while true; doc  echo -n A >> ` log.txxt  t; sleep 1; done)
+^Z[1] + Stopped                    (while true; do echo -n A 1>>log.txt; sleep 1; done)
+$ bg
+[1] (while true; do echo -n A 1>>log.txt; sleep 1; done)
+$ jobs
+[1] + Running                    (while true; do echo -n A 1>>log.txt; sleep 1; done)
+$ (while true; doe  echo -n B >> log.txt; sleep 2; dc one)
+^C
+$ whoi    (while true; do echo -n B >> log.txt; sleep 2; doc ne) &
+$ jobs
+[2] + Running                    (while true; do echo -n B 1>>log.txt; sleep 2; done)
+[1] - Running                    (while true; do echo -n A 1>>log.txt; sleep 1; done)
+$ renice      jobs -l
+[2] + 4100 Running               (while true; do echo -n B 1>>log.txt; sleep 2; done)
+[1] - 4038 Running               (while true; do echo -n A 1>>log.txt; sleep 1; done)
+$ renice -n 1- 0 -p 4038
+4038 (process ID) old priority 0, new priority 10
+$ kill 4100
+$ jobs
+[2] + Terminated                 (while true; do echo -n B 1>>log.txt; sleep 2; done)
+[1] + Running                    (while true; do echo -n A 1>>log.txt; sleep 1; done)
+$ kill 4038
+$ ps aux --sort=-%mem | head -n 4
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+user        2191  3.0  4.0 4721476 427736 ?      Ssl  13:52   0:22 /usr/bin/gnome-shell
+user        3024  1.2  2.2 2040220 237632 ?      Sl   13:52   0:08 ptyxis --new-window
+user        3096  0.0  1.0 898448 114308 ?       Sl   13:52   0:00 /usr/libexec/mutter-x11-frames
+[1] + Terminated                 (while true; do echo -n A 1>>log.txt; sleep 1; done)
+$ nice -n         ls -l
+total 96
+-rw-rw-r-- 1 student student   147 May  5 11:53 archive.tar.gz
+drwxrwxr-x 2 student student  4096 May  5 12:49 docs
+drwxrwxr-x 2 student student  4096 May  5 12:57 dummy
+drwxrwxr-x 2 student student  4096 May  5 13:07 example9
+-rw-rw-r-- 1 student student    75 May  5 12:48 file_list.txt
+-rw-rw-r-- 1 student student   390 May  5 14:04 log.txt
+-rw-rw-r-- 1 student student     0 May  5 12:50 mkdir_log
+-rw-rw-r-- 1 student student     0 May  5 12:49 mkdir_log.txt
+drwx------ 5 student student  4096 May  5 11:44 snap
+-rw-rw-r-- 1 student student    25 May  5 12:47 text.txt
+-rw-rw-r-- 1 student student     0 May  5 14:02 timelog
+-rw-rw-r-- 1 student student 32190 May  5 13:09 timelogPart2
+-rw-rw-r-- 1 student student     0 May  5 14:02 typescript
+-rw-rw-r-- 1 student student 20542 May  5 13:09 typescriptPart2
+-rw-rw-r-- 1 student student     0 May  5 12:50 users.txt
+$ rm archive.tar.gz
+$ nice -n 18 tar -czf archive.tar.fz  gz ./docs
+$ sudo [ pkill          pkill -u student
+
+Script done on 2026-05-05 14:05:19+03:00 [COMMAND_EXIT_CODE="0"]
