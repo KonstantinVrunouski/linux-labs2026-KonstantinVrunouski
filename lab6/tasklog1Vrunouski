@@ -1,0 +1,1104 @@
+Script started on 2026-05-16 15:07:56+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="55"]
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab6\]0;user@user-VirtualBox:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab6[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab6[00m$ su - student
+[?2004l]133;C\]666;vte.shell.preexec!\$ echo -e ""^[[D     \e[43m\e[33mForeground in yellow, Background in blue\e[0,"  m"
+-e [43m[33mForeground in yellow, Background in blue[0m
+$ ус  echo -e "\e[43;33mForeground in t yellow, Background in blue\e[0m"
+-e [43;33mForeground in yellow, Background in blue[0m
+$ ^[[A^[[D^[[A^[[B                усрщ -у Э "\e[44;33mForegra ound in yeh llow, Baackgo round in blue\e[0< M'  m"
+-sh: 3: усрщ: not found
+$ ^[[A^[[B        echo -e "\e[44;33mForeground in askjfnk\e[0, m"
+-e [44;33mForeground in askjfnk[0m
+$ echo -e "Normal \e[1mBold] \e[0m ] \e[4mUnderlined\e[0m \e[5m  Blink\e[0m Normal
+> 
+> "
+-e Normal [1mBold[0m [4mUnderlined[0m [5mBlink[0m Normal
+
+
+$ echo = -e "\e{ [44 4m\e   ;33mBlue bg Yellow F fg\e=1  [1mBold\e^[[D^[[D^[[D^[[D                 \e      \e[4mUnderlined \e[5mBlink\e[0m normal
+> "
+-e [44;33mBlue bg Yellow fg[1mBold [4mUnderlined [5mBlink[0m normal
+
+$ echo = -e "Hello\nWorld"
+-e Hello
+World
+$ ^[[A^[[D        echo 'Path: /home/student/$file'
+Path: /home/student/$file
+$ ^[[A    echo 'p path: /howe/sytuden                         file = 1
+=: cannot open `=' (No such file or directory)
+1: cannot open `1' (No such file or directory)
+$ file=1
+$ echo 'path: /home/student/$file'
+path: /home/student/$file
+$ echo 'path: /home/stundet    detn  nt/\$file; '
+path: /home/student/\$file
+$ echo "path: /home/student/\$file"
+path: /home/student/$file
+$ echo $s SHELL
+/bin/sh
+$ bash
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo "path: /homee[K/studend[Kt/\$fie[Kle"
+[?2004lpath: /home/student/$file
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ усрщ [K[K[K[K[Kecho =e "a[KApple\tBanana\e[KtCherry"
+[?2004l=e Apple\tBanana\tCherry
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo =e "Apple\tBanana\tCherry"[1P[1@-
+[?2004lApple	Banana	Cherry
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo -ne "Loading..." [K; sleep 1; echo -e "\rDone"
+[?2004lLoading...Done
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo -ne "Loading..."; sleep 1; echo -e "\rDone"." " "
+[?2004lLoading...Done.  
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo -e "\a"
+[?2004l
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ printf "%-10s %-10s\n:[K" "Имя" "Вщ=[K[Kозраст"
+[?2004lИмя     Возраст
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ printf "%-10s %-10s\n" "Имя" "Возраст"
+[?2004lИмя     Возраст
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ A[KAAAAAAAA[K[K[K[K[K[K[K[Kprintf "%-10s %-10s\n" "Имя" "Возраст"; prion[K[Knt "%10[K[K-10s %-10s]n[K[K\n" "Анна [K" "25Э[K"; [ro[K[K[Kprintf "%-10 s %-10s]n[K[K\n" "Иван" "40[K[K30"
+[?2004lИмя     Возраст
+Command 'print' not found, but can be installed with:
+apt install mailcap
+Please ask your administrator.
+Иван   30        
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ printf "%-10s %-10s\n" "Имя" "Возраст"; print "%-10s %-10s\n" "Анна" "25"; printf "%-10s %-10s\n" "Иван" "30"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cf "%-10s %-10s\n" "Анна" "25"; printf "%-10[1@s[A[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004lИмя     Возраст
+Анна   25        
+Иван   30        
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ for i in 1 2 3; o[Kdo echo -ne "$i]r[K[K\r":[K; sleep 1; donw[Ke; echo
+[?2004l123
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo "ПерваяЭ[K" echo "2nd" echo -d[Ke[K[K[K[K[K[K[K[K;[C[1@;[C[C[C[C[C[C[C[C[C[C[C[C echo -e "\e[1A\e[K"
+[?2004lПервая
+2nd
+[1A[K
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ temp="od[Kld"
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo $temp
+[?2004lold
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ temp="new
+[?2004l[?2004h> "
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo $temp
+[?2004lnew
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ temp="$temo[Kp and old"
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo $temp
+[?2004lnew and old
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ unset temp
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ vect=(x y z)
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo ${vect[0]} ${vect[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kfor i in 0 1 2; doe ec[K[K[K[K echo vect[$i]; sleep 1; deo[K[Kone;
+[?2004lvect[0]
+vect[1]
+vect[2]
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ for i in 0 1 2; do echo vect[$i]; sleep 1; done;[1@"[C[1@$[C[C[C[C[C[C[C[C[1@"
+[?2004lx[0]
+x[1]
+x[2]
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ for i in 0 1 2; do echo "$vect[$i]"; sleep 1; done;[1P[1P[1P[1P
+[?2004lx
+x
+x
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ for i in 0 1 2; do echo "$vect"; sleep 1; done;[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kecho $[K[K[K[K[K[Kfor i in 0 1 2; do echo "$vect[$i]"; sleep 1; done;[1@{[C[C[C[C[C[C[C[C[1@}[C
+[?2004lx
+y
+z
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ vect[2]="w"
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ vect[2]="w"for i in 0 1 2; do echo "${vect[$i]}"; sleep 1; done;
+[?2004lx
+y
+w
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ unset vect
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ alias lr=""ls -la"[1P
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ lr
+[?2004ltotal 128
+drwxr-xr-x 9 student student  4096 May  5 14:07 .
+drwxr-xr-x 5 root    root     4096 Apr  8 13:02 ..
+drwxr-x--- 4 student student  4096 May  5 11:44 .cache
+drwx------ 4 student student  4096 May  5 12:08 .local
+-rw-rw-r-- 1 student student     0 May  5 12:08 .python_history
+drwx------ 4 student student  4096 Apr 21 19:30 .snap
+-rw-rw-r-- 1 student student   117 May  5 14:05 archive.tar.gz
+drwxrwxr-x 2 student student  4096 May  5 12:49 docs
+drwxrwxr-x 2 student student  4096 May  5 12:57 dummy
+drwxrwxr-x 2 student student  4096 May  5 15:05 example9
+-rw-rw-r-- 1 student student    75 May  5 12:48 file_list.txt
+-rw-rw-r-- 1 student student   390 May  5 14:04 log.txt
+-rw-rw-r-- 1 student student     0 May  5 12:50 mkdir_log
+-rw-rw-r-- 1 student student     0 May  5 12:49 mkdir_log.txt
+drwx------ 5 student student  4096 May  5 11:44 snap
+-rw-rw-r-- 1 student student  2861 May  5 14:05 tasklog1Vrunouski_part1
+-rw-rw-r-- 1 student student 20542 May  5 13:09 tasklog1Vrunouski_part2
+-rw-rw-r-- 1 student student    25 May  5 12:47 text.txt
+-rw-rw-r-- 1 student student  4879 May  5 14:05 timelog1Vrunouski_part1
+-rw-rw-r-- 1 student student 32190 May  5 13:09 timelog1Vrunouski_part2
+-rw-rw-r-- 1 student student     0 May  5 12:50 users.txt
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ unset lr
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ notify se[K[K[K-send "Time and calendar":" "[C[1P"[C "$(date)\e[Kn$(cal)"
+[?2004lGDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ CURREND[KT_DATE=$(date +%Y-%m-%d)
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo CUREE[K[KRen[K[KENT_DATE
+[?2004lCURRENT_DATE
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo CURRENT_DATE$CURRENT_DATE
+[?2004l2026-05-16
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ PS1_DEA[KFAULT="$PS1"
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ PS![K1='\[\e[4[K32m\]\u@\h:\w\[\e[31m\]\$\[\e[0m\] '
+[?2004l[?2004h[32mstudent@user-VirtualBox:~[31m$[0m p[KPS1='\[\e[32m\]\u\[\e[33m\]@\h[\e[4[K34m]\]:'[K[K:\w\[\e[-[K0m\]\%[K$ '
+[?2004l[?2004h[32mstudent[33m@user-VirtualBox[[34m]:~[0m$ PS1='[K[K[K[K[K[7mPS1='\[\e[44m\e[37m\]\u\[\e[0m\]@\h:\w\$ '[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CPS1='\[\e[44m\e[37m\]\u\[\e[0m\]@\h:\w\$ '
+[?2004l[?2004h[44m[37mstudent[0m@user-VirtualBox:~$ [7mPS1='$(if [ $? -eq 0 ]; then echo "\[\e[32m\]✓\[\e[0m\] "; else echo "\[\e[31m\]✗\[\e[0[27m[7mm[27m[7m\] "; fi)\u@\h:\w → '[27m[A[44m[37mstudent[0m@user-VirtualBox:~$ PS1='$(if [ $? -eq 0 ]; then echo "\[\e[32m\]✓\[\e[0m\] "; else echo "\[\e[31m\]✗\[\e[0m\] "; fi)\u@\h:\w → '
+[?2004l[?2004h[32m✓[0m student@user-VirtualBox:~ → ^[[200~PS1='[\t] \u@\h:\w\$ '~[K[1P[1P[1P[1P[1P[2P
+[?2004l[?2004h[15:35:36] student@user-VirtualBox:~$ [7mPS1='$(basename "$PWD")> '[27mPS1='$(basename "$PWD")> '
+[?2004l[?2004hstudent> [7mPS1='\w \t\n\$ '[27m[C[C[C[C[C[C[C[C[CPS1='\w \t\n\$ '
+[?2004l[?2004h~ 15:35:48
+$ [7mPS1='\u@\h:\w$(git branch 2>/dev/null | grep -Po "(?<=\* ).*" | sed "s/.*/[&]/")\$ '[27m[C[CPS1='\u@\h:\w$(git branch 2>/dev/null | grep -Po "(?<=\* ).*" | sed "s/.*/[&]/")\$ '
+[?2004l[?2004hstudent@user-VirtualBox:~$ [7mPS1='[$?] \u@\h:\w\$ '[27mPS1='[$?] \u@\h:\w\$ '
+[?2004l[?2004h[0] student@user-VirtualBox:~$ [7mPS1='$(if [ $? -eq 0 ]; then echo "\[\e[32m\][$?]\[\e[0m\] "; else echo "\[\e[31m\][27m[7m[[27m[7m$?]\[\e[0m\] "; fi)\u@\h:\w\$ '[27m[APS1='$(if [ $? -eq 0 ]; then echo "\[\e[32m\][$?]\[\e[0m\] "; else echo "\[\e[31m\][$?]\[\e[0m\] "; fi)\u@\h:\w\$ '
+[?2004l[?2004h[32m[0][0m student@user-VirtualBox:~$ [7mPS1='┌[\[\e[34m\]\u@\h\[\e[0m\]]-[\w]\n└\[\e[32m\]\$\[\e[0m\] '[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CPS1='┌[\[\e[34m\]\u@\h\[\e[0m\]]-[\w]\n└\[\e[32m\]\$\[\e[0m\] '
+[?2004l[?2004h┌[[34mstudent@user-VirtualBox[0m]-[~]
+└[32m$[0m [7mPS1='\u@\h:$(depth=$(echo "$PWD" | tr -cd "/" | wc -c); if [ $depth -eq 1 ]; then echo "\[\e[31m\]\w\[\e[0m\]";[27m[7m [27m[7melif [ $depth -eq 2 ]; then echo "\[\e[33m\]\w\[\e[0m\]"; else echo "\[\e[32m\]\w\[\e[0m\]"; fi)\$ '[27m[A[C[C[CPS1='\u@\h:$(depth=$(echo "$PWD" | tr -cd "/" | wc -c); if [ $depth -eq 1 ]; then echo "\[\e[31m\]\w\[\e[0m\]"; elif [ $depth -eq 2 ]; then echo "\[\e[33m\]\w\[\e[0m\]"; else echo "\[\e[32m\]\w\[\e[0m\]"; fi)\$ '
+[?2004l[?2004hstudent@user-VirtualBox:[33m~[0m$ asfasfasfkabshjkfgashjfgasjhfgashjfgjhasgfjhashgfas[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpwd
+[?2004l/home/student
+[?2004hstudent@user-VirtualBox:[33m~[0m$ [7mPS1='\[\e[1;42;37m\]\u\[\e[0m\] \[\e[3;34m\]@\h\[\e[0m\] \[\e[4;33m\]${PWD//\// ➤ }\[\e[27m[7m[[27m[7m0m\]$(git branch 2>/dev/null | grep -Po "(?<=\* ).*" | sed "s/.*/ \[\e[35m\]→ &\[\e[0m\]/") $(if [ $? -eq 0 ]; th[27m[7me[27m[7mn echo "\[\e[32m\]✓\[\e[0m\] "; else echo "\[\e[31m\]✗\[\e[0m\] "; end)\[\e[90m\][$(date +%H:%M)]\[\e[0m\] › '[27m[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CPS1='\[\e[1;42;37m\]\u\[\e[0m\] \[\e[3;34m\]@\h\[\e[0m\] \[\e[4;33m\]${PWD//\// ➤ }\[\e[0m\]$(git branch 2>/dev/null | grep -Po "(?<=\* ).*" | sed "s/.*/ \[\e[35m\]→ &\[\e[0m\]/") $(if [ $? -eq 0 ]; then echo "\[\e[32m\]✓\[\e[0m\] "; else echo "\[\e[31m\]✗\[\e[0m\] "; end)\[\e[90m\][$(date +%H:%M)]\[\e[0m\] › '
+[?2004lbash: command substitution: line 51: syntax error near unexpected token `)'
+bash: command substitution: line 51: `if [ $? -eq 0 ]; then echo "[32m✓[0m "; else echo "[31m✗[0m "; end)[90m[$(date +%H:%M)][0m › '
+bash: command substitution: line 1: syntax error near unexpected token `)'
+bash: command substitution: line 1: `if [ $? -eq 0 ]; then echo "[32m✓[0m "; else echo "[31m✗[0m "; end)[90m[$(date +%H:%M)][0m ›'
+[?2004h[1;42;37mstudent[0m [3;34m@user-VirtualBox[0m [4;33m ➤ home ➤ student[0m [7mPS1="$PS1_DEFAULT"[27mPS1="$PS1_DEFAULT"
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ [7mIFS=':' read var1 var2 var3 <<< "apple:orange:banana"[27m
+[7mecho "$var1, $var2, $var3"[27m[A[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ IFS=':' read var1 var2 var3 <<< "apple:orange:banana"
+echo "$var1, $var2, $var3"
+[?2004lapple, orange, banana
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ [7mecho $LANG[27m
+[7mexport LANG=en_US.UTF-8[27m
+[7mlocale | grep LANG[27m
+[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $LANG
+export LANG=en_US.UTF-8
+locale | grep LANG
+[A
+[?2004len_US.UTF-8
+LANG=en_US.UTF-8
+LANGUAGE=
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ [7mPS2='→ '[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CPS2='→ '
+[A
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ 
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo "
+[?2004l[?2004h→ 
+[?2004l[?2004h→ 
+[?2004l[?2004h→ 
+[?2004l[?2004h→ ^C[?2004l[?2004h[?2004l
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ [7mPS2='(${LINENO})> '[27mPS2='(${LINENO})> '
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo :
+[?2004l:
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo "
+[?2004l[?2004h(68)> 
+[?2004l[?2004h(69)> 
+[?2004l[?2004h(70)> ^C[?2004l[?2004h[?2004l
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ [7mPS2='... '[27mPS2='... '
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo "
+[?2004l[?2004h... 
+[?2004l[?2004h... ^C[?2004l[?2004h[?2004l
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ [7mtouch report_{1,2,3} request_{1,2,3}[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch report_{1,2,3} request_{1,2,3}
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ ls
+[?2004larchive.tar.gz	file_list.txt  report_1	  request_2		   tasklog1Vrunouski_part2  users.txt
+docs		log.txt	       report_2	  request_3		   text.txt
+dummy		mkdir_log      report_3	  snap			   timelog1Vrunouski_part1
+example9	mkdir_log.txt  request_1  tasklog1Vrunouski_part1  timelog1Vrunouski_part2
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ mkdir report
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ mv report_{1,2,3} report/
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ rm request_*
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo $(ls report\)[K[K\)
+[?2004l[?2004h... 
+[?2004l[?2004h... x[K^C[?2004l[?2004h[?2004l
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo $(ls report\)
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P)/)
+[?2004lreport_1 report_2 report_3
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo $(ls report/)[C[C report/)- report/)l report/)a report/)
+[?2004ltotal 8 drwxrwxr-x 2 student student 4096 May 16 15:38 . drwxr-xr-x 10 student student 4096 May 16 15:38 .. -rw-rw-r-- 1 student student 0 May 16 15:38 report_1 -rw-rw-r-- 1 student student 0 May 16 15:38 report_2 -rw-rw-r-- 1 student student 0 May 16 15:38 report_3
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ ls /usr/share/{doc,amn}*[K[K[K[K[Kman}* 2.[K?[K/[K.[K> [K/dev/null
+[?2004l/usr/share/doc:
+3cpio					       liblouisutdml-data
+7zip					       liblouisutdml9t64
+accountsservice				       liblsan0
+acl					       liblsof0
+adduser					       libltdl7
+adwaita-icon-theme			       liblua5.4-0
+alsa-base				       liblwp-mediatypes-perl
+alsa-topology-conf			       liblwp-protocol-https-perl
+alsa-ucm-conf				       liblz4-1
+alsa-utils				       liblzma5
+amd64-microcode				       liblzo2-2
+anacron					       libm17n-0
+apache2					       libmagic-mgc
+apache2-bin				       libmagic1t64
+apache2-data				       libmailtools-perl
+apache2-utils				       libmailutils9t64
+apparmor				       libmarisa0
+apport					       libmaxminddb0
+apport-core-dump-handler		       libmbim-glib4
+apport-gtk				       libmbim-proxy
+apport-symptoms				       libmbim-utils
+appstream				       libmd0
+apt					       libmediaart-2.0-0
+apt-config-icons			       libmediawiki-api-perl
+apt-config-icons-hidpi			       libmm-glib0
+aptdaemon				       libmnl0
+aptdaemon-data				       libmodule-implementation-perl
+aspell					       libmodule-runtime-perl
+aspell-en				       libmount1
+at-spi2-common				       libmozjs-140-0
+at-spi2-core				       libmp3lame0
+avahi-daemon				       libmpc3
+baobab					       libmpfr6
+base-files				       libmpg123-0t64
+base-passwd				       libmro-compat-perl
+bash					       libmsgraph-1-1
+bash-completion				       libmtdev1t64
+bc					       libmtp-common
+bind9-dnsutils				       libmtp-runtime
+bind9-host				       libmtp9t64
+bind9-libs				       libmu-dbm9t64
+binutils				       libmutter-17-0
+binutils-common				       libmysqlclient24
+binutils-x86-64-linux-gnu		       libnamespace-autoclean-perl
+bluez					       libnamespace-clean-perl
+bluez-cups				       libnautilus-extension4
+bluez-obexd				       libncurses6
+bolt					       libncursesw6
+bpfcc-tools				       libndp0
+bpftool					       libnet-dbus-perl
+bpftrace				       libnet-dns-perl
+brltty					       libnet-dns-sec-perl
+bsdextrautils				       libnet-domain-tld-perl
+bsdutils				       libnet-http-perl
+bubblewrap				       libnet-libidn-perl
+build-essential				       libnet-smtp-ssl-perl
+busybox-initramfs			       libnet-ssleay-perl
+busybox-static				       libnetfilter-conntrack3
+bzip2					       libnetplan1
+ca-certificates				       libnettle8t64
+chrony					       libnewt0.52
+cloud-guest-utils			       libnfnetlink0
+cloud-init				       libnfs14
+cloud-init-base				       libnfsidmap1
+colord					       libnftables1
+colord-data				       libnftnl11
+command-not-found			       libnghttp2-14
+console-setup				       libnl-3-200
+console-setup-linux			       libnl-genl-3-200
+coreutils				       libnl-route-3-200
+coreutils-from-uutils			       libnm0
+cpdb-backend-cups			       libnma-common
+cpio					       libnma-gtk4-0
+cpp					       libnma0
+cpp-14-x86-64-linux-gnu			       libnotify-bin
+cpp-15					       libnotify4
+cpp-15-x86-64-linux-gnu			       libnpth0t64
+cpp-x86-64-linux-gnu			       libnsl2
+cracklib-runtime			       libnspr4
+crash					       libnss-mdns
+cron					       libnss-sss
+cron-daemon-common			       libnss-systemd
+cups					       libnss3
+cups-browsed				       libntfs-3g89t64
+cups-bsd				       libntlm0
+cups-client				       libnuma1
+cups-common				       libnvme1t64
+cups-core-drivers			       libogg0
+cups-daemon				       libonig5
+cups-filters				       libopencc-data
+cups-filters-core-drivers		       libopencc1.1
+cups-ipp-utils				       libopenjp2-7
+cups-pk-helper				       libopus0
+cups-ppdc				       liborc-0.4-0t64
+cups-server-common			       libotf1
+cvs					       libp11-kit0
+cvsps					       libpackage-stash-perl
+dash					       libpackage-stash-xs-perl
+dbus					       libpackagekit-glib2-18
+dbus-bin				       libpadwalker-perl
+dbus-daemon				       libpam-cap
+dbus-session-bus-common			       libpam-fprintd
+dbus-system-bus-common			       libpam-gnome-keyring
+dbus-user-session			       libpam-modules
+dc					       libpam-modules-bin
+dconf-cli				       libpam-pwquality
+dconf-gsettings-backend			       libpam-runtime
+dconf-service				       libpam-sss
+debconf					       libpam-systemd
+debconf-i18n				       libpam-wtmpdb
+debianutils				       libpam0g
+delta					       libpanel-1-1
+desktop-file-utils			       libpanel-common
+dhcpcd-base				       libpango-1.0-0
+dictionaries-common			       libpangocairo-1.0-0
+diffutils				       libpangoft2-1.0-0
+dirmngr					       libpangomm-2.48-1t64
+distro-info				       libpangoxft-1.0-0
+distro-info-data			       libpaper
+dmidecode				       libpaper-utils
+dmsetup					       libpaper2
+dmz-cursor-theme			       libparams-classify-perl
+dns-root-data				       libparams-util-perl
+dnsmasq-base				       libparams-validate-perl
+docbook-xml				       libparams-validationcompiler-perl
+dosfstools				       libparted2t64
+dpkg					       libpath-utils1t64
+dpkg-dev				       libpcap0.8t64
+dracut					       libpcaudio0
+dracut-core				       libpci3
+dracut-install				       libpciaccess0
+e2fsprogs				       libpcre2-32-0
+eatmydata				       libpcre2-8-0
+ed					       libpcsclite1
+eject					       libperl4-corelibs-perl
+emacsen-common				       libperl5.40
+enchant-2				       libphonenumber8
+espeak-ng-data				       libpinyin-data
+ethtool					       libpinyin15
+evolution-data-server			       libpipeline1
+evolution-data-server-common		       libpipewire-0.3-0t64
+exfatprogs				       libpipewire-0.3-common
+fakeroot				       libpipewire-0.3-modules
+fdisk					       libpixman-1-0
+file					       libpkcs11-helper1t64
+findutils				       libplist-2.0-4
+firefox					       libplymouth5
+firmware-sof-signed			       libpng16-16t64
+fontconfig				       libpolkit-agent-1-0
+fontconfig-config			       libpolkit-gobject-1-0
+fonts-dejavu-core			       libpoppler-cpp2
+fonts-dejavu-mono			       libpoppler-glib8t64
+fonts-droid-fallback			       libpoppler147
+fonts-liberation			       libpopt0
+fonts-liberation-sans-narrow		       libportal-gtk4-1
+fonts-noto-cjk				       libportal1
+fonts-noto-color-emoji			       libppd2
+fonts-noto-core				       libppd2-common
+fonts-noto-mono				       libppsdocument-4.0-5
+fonts-ubuntu				       libppsview-4.0-4
+fonts-urw-base35			       libpq5
+foomatic-db-compressed-ppds		       libproc2-0
+fprintd					       libprotobuf-c1
+friendly-recovery			       libprotobuf32t64
+ftp					       libproxy1-plugin-gsettings
+fuse3					       libproxy1-plugin-networkmanager
+fwupd					       libproxy1v5
+fwupd-signed				       libpsl5t64
+g++					       libpulse-mainloop-glib0
+g++-15					       libpulse0
+g++-15-x86-64-linux-gnu			       libpwquality-common
+g++-x86-64-linux-gnu			       libpwquality1
+gamemode				       libpython3-stdlib
+gamemode-daemon				       libpython3.13
+gcc					       libpython3.13-minimal
+gcc-14-base				       libpython3.13-stdlib
+gcc-15					       libqmi-glib5
+gcc-15-base				       libqmi-proxy
+gcc-15-x86-64-linux-gnu			       libqmi-utils
+gcc-x86-64-linux-gnu			       libqpdf30
+gcr					       libqrtr-glib0
+gcr4					       libquadmath0
+gdb					       libraqm0
+gdisk					       libraw1394-11
+gdm3					       libreadline8t64
+geoclue-2.0				       libreadonly-perl
+geocode-glib-common			       libref-array1t64
+gettext-base				       libref-util-perl
+ghostscript				       libref-util-xs-perl
+gir1.2-accountsservice-1.0		       librest-1.0-0
+gir1.2-adw-1				       libroc0.4
+gir1.2-atk-1.0				       librole-tiny-perl
+gir1.2-atspi-2.0			       librsvg2-2
+gir1.2-dbusmenu-glib-0.4		       librsvg2-common
+gir1.2-freedesktop			       librtmp1
+gir1.2-gck-2				       librygel-core-2.8-0
+gir1.2-gcr-4				       librygel-db-2.8-0
+gir1.2-gdesktopenums-3.0		       librygel-renderer-2.8-0
+gir1.2-gdkpixbuf-2.0			       librygel-server-2.8-0
+gir1.2-gdm-1.0				       libsamplerate0
+gir1.2-geoclue-2.0			       libsane-common
+gir1.2-girepository-2.0			       libsane-hpaio
+gir1.2-girepository-3.0			       libsane1
+gir1.2-glib-2.0				       libsasl2-2
+gir1.2-gmenu-3.0			       libsasl2-modules
+gir1.2-gnomeautoar-0.1			       libsasl2-modules-db
+gir1.2-gnomebg-4.0			       libsasl2-modules-gssapi-mit
+gir1.2-gnomebluetooth-3.0		       libsbc1
+gir1.2-gnomedesktop-3.0			       libsctp1
+gir1.2-gnomedesktop-4.0			       libseccomp2
+gir1.2-graphene-1.0			       libsecret-1-0
+gir1.2-gstreamer-1.0			       libsecret-common
+gir1.2-gtk-3.0				       libselinux1
+gir1.2-gtk-4.0				       libsemanage-common
+gir1.2-gweather-4.0			       libsemanage2
+gir1.2-handy-1				       libsensors-config
+gir1.2-harfbuzz-0.0			       libsensors5
+gir1.2-ibus-1.0				       libsepol2
+gir1.2-javascriptcoregtk-4.1		       libserf-1-1
+gir1.2-mutter-17			       libsframe2
+gir1.2-nm-1.0				       libsharpyuv0
+gir1.2-nma4-1.0				       libshout3
+gir1.2-notify-0.7			       libsigc++-3.0-0
+gir1.2-packagekitglib-1.0		       libslang2
+gir1.2-pango-1.0			       libsm6
+gir1.2-polkit-1.0			       libsmartcols1
+gir1.2-rsvg-2.0				       libsmbclient0
+gir1.2-secret-1				       libsnapd-glib-2-1
+gir1.2-snapd-2				       libsnappy1v5
+gir1.2-soup-3.0				       libsndfile1
+gir1.2-upowerglib-1.0			       libsnmp-base
+gir1.2-vte-2.91				       libsnmp40t64
+gir1.2-webkit2-4.1			       libsonic0
+gir1.2-wnck-3.0				       libsoup-2.4-1
+git					       libsoup-3.0-0
+git-all					       libsoup-3.0-common
+git-cvs					       libsoup2.4-common
+git-doc					       libsource-highlight-common
+git-email				       libsource-highlight4t64
+git-gui					       libspa-0.2-bluetooth
+git-man					       libspa-0.2-modules
+git-mediawiki				       libspecio-perl
+git-svn					       libspeechd-module0
+gitk					       libspeechd2
+gitweb					       libspeex1
+gjs					       libspeexdsp1
+glib-networking				       libspelling-1-2
+glib-networking-common			       libspelling-common
+glib-networking-services		       libsqlite3-0
+glycin-loaders				       libss2
+gnome-accessibility-themes		       libssh2-1t64
+gnome-bluetooth-3-common		       libssl3t64
+gnome-bluetooth-sendto			       libsss-certmap0
+gnome-calculator			       libsss-idmap0
+gnome-characters			       libsss-nss-idmap0
+gnome-clocks				       libstartup-notification0
+gnome-control-center			       libstdc++-15-dev
+gnome-control-center-data		       libstdc++6
+gnome-control-center-faces		       libstemmer0d
+gnome-desktop3-data			       libsub-exporter-perl
+gnome-disk-utility			       libsub-exporter-progressive-perl
+gnome-font-viewer			       libsub-identify-perl
+gnome-initial-setup			       libsub-install-perl
+gnome-keyring				       libsub-name-perl
+gnome-keyring-pkcs11			       libsub-quote-perl
+gnome-logs				       libsvn-perl
+gnome-menus				       libsvn1
+gnome-online-accounts			       libsysprof-6-6
+gnome-power-manager			       libsysprof-6-modules
+gnome-remote-desktop			       libsystemd-shared
+gnome-session-bin			       libsystemd0
+gnome-session-canberra			       libtag2
+gnome-session-common			       libtalloc2
+gnome-settings-daemon			       libtasn1-6
+gnome-settings-daemon-common		       libtcl8.6
+gnome-shell				       libtdb1
+gnome-shell-common			       libteamdctl0
+gnome-shell-extension-appindicator	       libterm-readkey-perl
+gnome-shell-extension-desktop-icons-ng	       libtevent0t64
+gnome-shell-extension-ubuntu-dock	       libtext-charwidth-perl
+gnome-shell-extension-ubuntu-tiling-assistant  libtext-iconv-perl
+gnome-system-monitor			       libtext-wrapi18n-perl
+gnome-text-editor			       libthai-data
+gnome-themes-extra			       libthai0
+gnome-themes-extra-data			       libtheora0
+gnome-user-docs				       libtheoradec1
+gnu-coreutils				       libtheoraenc1
+gnupg					       libtie-ixhash-perl
+gnupg-l10n				       libtiff6
+gnupg-utils				       libtimedate-perl
+gpg					       libtinfo6
+gpg-agent				       libtinysparql-3.0-0
+gpg-wks-client				       libtirpc-common
+gpgconf					       libtirpc3t64
+gpgsm					       libtk8.6
+gpgv					       libtotem-plparser-common
+grep					       libtotem-plparser18
+groff-base				       libtraceevent1
+grub-common				       libtraceevent1-plugin
+grub-gfxpayload-lists			       libtracefs1
+grub-pc					       libtry-tiny-perl
+grub-pc-bin				       libtsan2
+grub2-common				       libtss2-esys-3.0.2-0t64
+gsasl-common				       libtss2-mu-4.0.1-0t64
+gsettings-desktop-schemas		       libtss2-rc0t64
+gsettings-ubuntu-schemas		       libtss2-sys1t64
+gstreamer1.0-alsa			       libtss2-tcti-cmd0t64
+gstreamer1.0-gl				       libtss2-tcti-device0t64
+gstreamer1.0-packagekit			       libtss2-tcti-libtpms0t64
+gstreamer1.0-pipewire			       libtss2-tcti-mssim0t64
+gstreamer1.0-plugins-base		       libtss2-tcti-spi-helper0t64
+gstreamer1.0-plugins-base-apps		       libtss2-tcti-swtpm0t64
+gstreamer1.0-plugins-good		       libtss2-tctildr0t64
+gstreamer1.0-tools			       libtwolame0
+gstreamer1.0-x				       libtypes-serialiser-perl
+gtk-update-icon-cache			       libubsan1
+gtk2-engines-murrine			       libuchardet0
+gtk2-engines-pixbuf			       libudev1
+guile-3.0-libs				       libudisks2-0
+gvfs					       libunistring5
+gvfs-backends				       libunity-protocol-private0
+gvfs-common				       libunity-scopes-json-def-desktop
+gvfs-daemons				       libunity9
+gvfs-fuse				       libunwind8
+gvfs-libs				       libupower-glib3
+gzip					       liburcu8t64
+hdparm					       liburi-perl
+heif-gdk-pixbuf				       liburing2
+heif-thumbnailer			       libusb-1.0-0
+hicolor-icon-theme			       libusbmuxd-2.0-7
+hostname				       libutf8proc3
+hplip					       libuuid1
+hplip-data				       libuv1t64
+hunspell-en-us				       libv4l-0t64
+hwctl					       libv4lconvert0t64
+hwdata					       libva-drm2
+ibus					       libva2
+ibus-data				       libvariable-magic-perl
+ibus-gtk				       libvisual-0.4-0
+ibus-gtk3				       libvolume-key1
+ibus-gtk4				       libvorbis0a
+ibus-table				       libvorbisenc2
+ibus-table-cangjie-big			       libvorbisfile3
+ibus-table-cangjie3			       libvpx9
+ibus-table-cangjie5			       libvte-2.91-0
+ibverbs-providers			       libvte-2.91-common
+ieee-data				       libvte-2.91-gtk4-0
+iio-sensor-proxy			       libvulkan1
+im-config				       libwacom-common
+inetutils-telnet			       libwacom9
+info					       libwavpack1
+init					       libwayland-client0
+init-system-helpers			       libwayland-cursor0
+initramfs-tools-bin			       libwayland-egl1
+initramfs-tools-core			       libwayland-server0
+inputattach				       libwbclient0
+install-info				       libwebkit2gtk-4.1-0
+intel-microcode				       libwebkitgtk-6.0-4
+ipp-usb					       libwebp7
+iproute2				       libwebpdemux2
+iptables				       libwebpmux3
+iputils-ping				       libwebrtc-audio-processing-1-3
+iputils-tracepath			       libwhoopsie-preferences0
+iso-codes				       libwhoopsie0
+iucode-tool				       libwinpr3-3
+iw					       libwireplumber-0.5-0
+jq					       libwmf-0.2-7
+kbd					       libwmf-0.2-7-gtk
+kdump-tools				       libwmf0.2-7-gtk
+kexec-tools				       libwmflite-0.2-7
+keyboard-configuration			       libwnck-3-0
+klibc-utils				       libwnck-3-common
+kmod					       libwoff1
+krb5-locales				       libwrap0
+language-pack-en			       libwtmpdb0
+language-pack-en-base			       libwww-perl
+language-pack-gnome-en			       libwww-robotrules-perl
+language-pack-gnome-en-base		       libx11-6
+language-selector-common		       libx11-data
+language-selector-gnome			       libx11-protocol-perl
+laptop-detect				       libx11-xcb1
+ldap-utils				       libxau6
+less					       libxaw7
+libaa1					       libxcb-dri3-0
+libabsl20240722				       libxcb-glx0
+libaccountsservice0			       libxcb-present0
+libacl1					       libxcb-randr0
+libadwaita-1-0				       libxcb-render0
+libalgorithm-c3-perl			       libxcb-res0
+libalgorithm-diff-perl			       libxcb-shape0
+libalgorithm-diff-xs-perl		       libxcb-shm0
+libalgorithm-merge-perl			       libxcb-sync1
+libao-common				       libxcb-util1
+libao4					       libxcb-xfixes0
+libaom3					       libxcb1
+libapparmor1				       libxcomposite1
+libappstream5				       libxcursor1
+libapr1t64				       libxcvt0
+libaprutil1-dbd-sqlite3			       libxdamage1
+libaprutil1-ldap			       libxdmcp6
+libaprutil1t64				       libxext6
+libapt-pkg7.0				       libxfixes3
+libarchive13t64				       libxfont2
+libasan8				       libxft2
+libasound2-data				       libxi6
+libasound2t64				       libxinerama1
+libaspell15				       libxkbcommon0
+libassuan9				       libxkbfile1
+libasyncns0				       libxkbregistry0
+libatasmart4				       libxml-parser-perl
+libatk-adaptor				       libxml-twig-perl
+libatk-bridge2.0-0t64			       libxml-xpathengine-perl
+libatk1.0-0t64				       libxml2-16
+libatomic1				       libxmlb2
+libatopology2t64			       libxmu6
+libatspi2.0-0t64			       libxmuu1
+libattr1				       libxpm4
+libaudit-common				       libxrandr2
+libaudit1				       libxrender1
+libauthen-sasl-perl			       libxres1
+libavahi-client3			       libxshmfence1
+libavahi-common-data			       libxslt1.1
+libavahi-common3			       libxss1
+libavahi-core7				       libxstring-perl
+libavahi-glib1				       libxt6t64
+libavc1394-0				       libxtables12
+libayatana-appindicator3-1		       libxtst6
+libayatana-ido3-0.4-0			       libxv1
+libayatana-indicator3-7			       libxxf86dga1
+libb-hooks-endofscope-perl		       libxxf86vm1
+libb-hooks-op-check-perl		       libxxhash0
+libbabeltrace1				       libyaml-0-2
+libbasicobjects0t64			       libyaml-libyaml-perl
+libbinutils				       libyaml-perl
+libblkid1				       libyelp0
+libblockdev-crypto3			       libzstd1
+libblockdev-fs3				       linux-base
+libblockdev-loop3			       linux-firmware
+libblockdev-mdraid3			       linux-generic-hwe-24.04
+libblockdev-nvme3			       linux-headers-6.17.0-22
+libblockdev-part3			       linux-headers-6.17.0-22-generic
+libblockdev-swap3			       linux-headers-6.17.0-23
+libblockdev-utils3			       linux-headers-6.17.0-23-generic
+libblockdev3				       linux-headers-generic-hwe-24.04
+libbluetooth3				       linux-image-6.17.0-22-generic
+libbpf1					       linux-image-6.17.0-23-generic
+libbpfcc				       linux-image-generic-hwe-24.04
+libbrlapi0.8				       linux-libc-dev
+libbrotli1				       linux-modules-6.17.0-22-generic
+libbsd0					       linux-modules-6.17.0-23-generic
+libbytesize-common			       linux-perf
+libbytesize1				       linux-sound-base
+libbz2-1.0				       linux-sysctl-defaults
+libc-bin				       linux-tools-6.17.0-22
+libc-dev-bin				       linux-tools-6.17.0-22-generic
+libc6					       linux-tools-6.17.0-23
+libc6-dbg				       linux-tools-6.17.0-23-generic
+libc6-dev				       linux-tools-common
+libcaca0				       locales
+libcairo-gobject-perl			       login
+libcairo-gobject2			       login.defs
+libcairo-perl				       logrotate
+libcairo-script-interpreter2		       logsave
+libcairo2				       loupe
+libcairomm-1.16-1			       lsb-release
+libcamel-1.2-64t64			       lshw
+libcanberra-gtk3-0			       lsof
+libcanberra-gtk3-module			       lto-disabled-list
+libcanberra-pulse			       luit
+libcanberra0				       m17n-db
+libcap-ng0				       mailutils
+libcap2					       mailutils-common
+libcap2-bin				       make
+libcares2				       makedumpfile
+libcbor0.10				       man-db
+libcc1-0				       manpages
+libcdio-cdda2t64			       manpages-dev
+libcdio-paranoia2t64			       mawk
+libcdio19t64				       media-types
+libcdparanoia0				       memtest86+
+libcgi-fast-perl			       mesa-libgallium
+libcgi-pm-perl				       mesa-vulkan-drivers
+libchewing3				       mobile-broadband-provider-info
+libchewing3-data			       modemmanager
+libclang-cpp20				       mount
+libclang1-20				       mousetweaks
+libclass-c3-perl			       mscompress
+libclass-c3-xs-perl			       mtr-tiny
+libclass-data-inheritable-perl		       mutter-common
+libclass-inspector-perl			       mutter-common-bin
+libclass-method-modifiers-perl		       mysql-common
+libclass-singleton-perl			       nano
+libclass-xsaccessor-perl		       nautilus
+libclone-perl				       nautilus-data
+libcollection4t64			       nautilus-sendto
+libcolord-gtk4-1t64			       ncal
+libcolord2				       ncurses-base
+libcolorhug2				       ncurses-bin
+libcom-err2				       netbase
+libcommon-sense-perl			       netcat-openbsd
+libcpdb-frontend2t64			       netplan
+libcpdb2t64				       netplan-generator
+libcrack2				       netplan.io
+libcrypt-dev				       network-manager
+libcrypt1				       network-manager-config-connectivity-ubuntu
+libcryptsetup12				       network-manager-openvpn
+libctf-nobfd0				       network-manager-openvpn-gnome
+libctf0					       network-manager-pptp
+libcue2					       network-manager-pptp-gnome
+libcups2t64				       networkd-dispatcher
+libcupsfilters2-common			       nftables
+libcupsfilters2t64			       nm-connection-editor
+libcupsimage2t64			       ntfs-3g
+libcurl3t64-gnutls			       numactl
+libcurl4t64				       openprinting-ppds
+libdaemon0				       openssh-client
+libdata-dump-perl			       openssl
+libdata-optlist-perl			       openssl-provider-legacy
+libdatetime-format-builder-perl		       openvpn
+libdatetime-format-iso8601-perl		       orca
+libdatetime-format-strptime-perl	       os-prober
+libdatetime-locale-perl			       p11-kit
+libdatetime-perl			       p11-kit-modules
+libdatetime-timezone-perl		       packagekit
+libdatrie1				       packagekit-tools
+libdb5.3t64				       papers
+libdbd-sqlite3-perl			       papers-common
+libdbi-perl				       parted
+libdbus-1-3				       passwd
+libdbusmenu-glib4			       patch
+libdbusmenu-gtk3-4			       pci.ids
+libdconf1				       pciutils
+libde265-0				       pcmciautils
+libdebconfclient0			       perl
+libdebuginfod-common			       perl-base
+libdebuginfod1t64			       perl-modules-5.40
+libdecor-0-0				       perl-openssl-defaults
+libdecor-0-plugin-1-gtk			       pinentry-curses
+libdee-1.0-4				       pinentry-gnome3
+libdeflate0				       pipewire
+libdevel-callchecker-perl		       pipewire-alsa
+libdevel-caller-perl			       pipewire-audio
+libdevel-lexalias-perl			       pipewire-bin
+libdevel-stacktrace-perl		       pipewire-pulse
+libdevmapper1.02.1			       pkexec
+libdex-1-1				       plymouth
+libdhash1t64				       plymouth-label
+libdigest-bubblebabble-perl		       plymouth-theme-spinner
+libdigest-hmac-perl			       plymouth-theme-ubuntu-text
+libdisplay-info2			       pnp.ids
+libdjvulibre-text			       policykit-desktop-privileges
+libdjvulibre21				       polkitd
+libdotconf0				       poppler-data
+libdpkg-perl				       poppler-utils
+libdrm-amdgpu1				       postfix
+libdrm-common				       power-profiles-daemon
+libdrm-intel1				       powermgmt-base
+libdrm2					       ppp
+libduktape207				       pptp-linux
+libdv4t64				       printer-driver-brlaser
+libdw1t64				       printer-driver-c2esp
+libdynaloader-functions-perl		       printer-driver-foo2zjs
+libeatmydata1				       printer-driver-foo2zjs-common
+libebackend-1.2-11t64			       printer-driver-hpcups
+libebook-1.2-21t64			       printer-driver-m2300w
+libebook-contacts-1.2-4t64		       printer-driver-min12xxw
+libecal-2.0-3				       printer-driver-pnm2ppa
+libedata-book-1.2-27t64			       printer-driver-postscript-hp
+libedata-cal-2.0-2t64			       printer-driver-ptouch
+libedataserver-1.2-27t64		       printer-driver-pxljr
+libedataserverui-1.2-4t64		       printer-driver-sag-gdi
+libedit2				       printer-driver-splix
+libeditorconfig0			       procps
+libefiboot1t64				       psmisc
+libefivar1t64				       ptyxis
+libegl-mesa0				       publicsuffix
+libegl1					       python-apt-common
+libei1					       python-babel-localedata
+libeis1					       python3
+libelf1t64				       python3-apport
+libemail-valid-perl			       python3-apt
+libenchant-2-2				       python3-aptdaemon
+libencode-locale-perl			       python3-aptdaemon.gtk3widgets
+libepoxy0				       python3-attr
+liberror-perl				       python3-autocommand
+libespeak-ng1				       python3-babel
+libestr0				       python3-bcrypt
+libeval-closure-perl			       python3-blinker
+libevdev2				       python3-bpfcc
+libexception-class-perl			       python3-brlapi
+libexempi8				       python3-cairo
+libexif12				       python3-certifi
+libexiv2-28				       python3-cffi-backend
+libexiv2-data				       python3-chardet
+libexpat1				       python3-click
+libext2fs2t64				       python3-commandnotfound
+libextutils-depends-perl		       python3-configobj
+libfakeroot				       python3-cryptography
+libfastjson4				       python3-cups
+libfcgi-bin				       python3-cupshelpers
+libfcgi-perl				       python3-dasbus
+libfcgi0t64				       python3-dateutil
+libfdisk1				       python3-dbus
+libffi8					       python3-debconf
+libfftw3-single3			       python3-debian
+libfido2-1				       python3-defer
+libfile-basedir-perl			       python3-distro
+libfile-desktopentry-perl		       python3-distro-info
+libfile-fcntllock-perl			       python3-distupgrade
+libfile-listing-perl			       python3-gdbm
+libfile-mimeinfo-perl			       python3-gi
+libfile-sharedir-perl			       python3-httplib2
+libflac14				       python3-ibus-1.0
+libflashrom1				       python3-idna
+libfont-afm-perl			       python3-inflect
+libfontconfig1				       python3-jaraco.context
+libfontenc1				       python3-jaraco.functools
+libfprint-2-2				       python3-jinja2
+libfprint-2-tod1			       python3-json-pointer
+libfreeaptx0				       python3-jsonpatch
+libfreerdp-server3-3			       python3-jsonschema
+libfreerdp3-3				       python3-jsonschema-specifications
+libfreetype6				       python3-jwt
+libfribidi0				       python3-launchpadlib
+libftdi1-2				       python3-lazr.restfulclient
+libfuse3-4				       python3-lazr.uri
+libfwupd3				       python3-linkify-it
+libgail-common				       python3-louis
+libgail18t64				       python3-markdown-it
+libgamemode0				       python3-markupsafe
+libgamemodeauto0			       python3-mdurl
+libgbm1					       python3-minimal
+libgc1					       python3-more-itertools
+libgcc-15-dev				       python3-netaddr
+libgcc-s1				       python3-netplan
+libgck-1-0				       python3-oauthlib
+libgck-2-2				       python3-olefile
+libgcr-4-4				       python3-passlib
+libgcr-base-3-1				       python3-pexpect
+libgcr-ui-3-1				       python3-pil
+libgcrypt20				       python3-pkg-resources
+libgd3					       python3-problem-report
+libgdata-common				       python3-psutil
+libgdata22				       python3-ptyprocess
+libgdbm-compat4t64			       python3-pygments
+libgdbm6t64				       python3-pyparsing
+libgdk-pixbuf-2.0-0			       python3-referencing
+libgdk-pixbuf2.0-bin			       python3-requests
+libgdk-pixbuf2.0-common			       python3-rich
+libgdm1					       python3-rpds-py
+libgee-0.8-2				       python3-serial
+libgeoclue-2-0				       python3-setproctitle
+libgeocode-glib-2-0			       python3-software-properties
+libgexiv2-2				       python3-speechd
+libgif7					       python3-sss
+libgirepository-1.0-1			       python3-systemd
+libgirepository-2.0-0			       python3-typeguard
+libgjs0					       python3-typing-extensions
+libgl1					       python3-uc-micro
+libgl1-mesa-dri				       python3-update-manager
+libgles2				       python3-urllib3
+libglib-object-introspection-perl	       python3-wadllib
+libglib-perl				       python3-xdg
+libglib2.0-0t64				       python3-xkit
+libglib2.0-bin				       python3-yaml
+libglib2.0-data				       python3.13
+libglibmm-2.68-1t64			       python3.13-gdbm
+libglvnd0				       python3.13-minimal
+libglx-mesa0				       readline-common
+libglx0					       rfkill
+libglycin-2-0				       rpcsvc-proto
+libgmp10				       rsync
+libgnome-autoar-0-0			       rsyslog
+libgnome-bg-4-2t64			       rtkit
+libgnome-bluetooth-3.0-13		       rust-coreutils
+libgnome-bluetooth-ui-3.0-13		       rygel
+libgnome-desktop-3-20t64		       samba-libs
+libgnome-desktop-4-2t64			       sane-airscan
+libgnome-menu-3-0			       sane-utils
+libgnutls30t64				       sbsigntool
+libgoa-1.0-0b				       screen
+libgoa-1.0-common			       seahorse
+libgoa-backend-1.0-2			       secureboot-db
+libgomp1				       sed
+libgpg-error-l10n			       sensible-utils
+libgpg-error0				       session-migration
+libgpgme11t64				       sgml-base
+libgpgmepp6t64				       sgml-data
+libgphoto2-6				       shared-mime-info
+libgphoto2-6t64				       sharutils
+libgphoto2-l10n				       snapd
+libgphoto2-port12			       software-properties-common
+libgphoto2-port12t64			       software-properties-gtk
+libgpm2					       sound-icons
+libgprofng0				       sound-theme-freedesktop
+libgraphene-1.0-0			       speech-dispatcher
+libgraphite2-3				       speech-dispatcher-audio-plugins
+libgs-common				       speech-dispatcher-espeak-ng
+libgs10					       spice-vdagent
+libgs10-common				       squashfs-tools
+libgsasl18				       ssl-cert
+libgsf-1-114				       sssd
+libgsf-1-common				       sssd-ad
+libgsound0t64				       sssd-ad-common
+libgssapi-krb5-2			       sssd-common
+libgssdp-1.6-0				       sssd-ipa
+libgssglue1				       sssd-krb5
+libgstreamer-gl1.0-0			       sssd-krb5-common
+libgstreamer-plugins-base1.0-0		       sssd-ldap
+libgstreamer-plugins-good1.0-0		       sssd-proxy
+libgstreamer1.0-0			       strace
+libgtk-3-0t64				       stress-ng
+libgtk-3-bin				       sudo
+libgtk-3-common				       sudo-rs
+libgtk-4-1				       switcheroo-control
+libgtk-4-bin				       sysprof
+libgtk-4-common				       sysstat
+libgtk2.0-0t64				       system-config-printer-common
+libgtk2.0-bin				       system-config-printer-udev
+libgtk2.0-common			       systemd
+libgtk3-perl				       systemd-cryptsetup
+libgtkmm-4.0-0				       systemd-hwe-hwdb
+libgtksourceview-5-0			       systemd-oomd
+libgtksourceview-5-common		       systemd-resolved
+libgtop-2.0-11				       systemd-sysv
+libgtop2-common				       sysvbanner
+libgudev-1.0-0				       sysvinit-utils
+libgupnp-1.6-0				       tar
+libgupnp-av-1.0-3			       tcl
+libgupnp-dlna-2.0-4			       tcl8.6
+libgusb2				       tcpdump
+libgweather-4-0t64			       tecla
+libgweather-4-common			       telnet
+libgxps2t64				       thermald
+libhandy-1-0				       time
+libharfbuzz-gobject0			       tinysparql
+libharfbuzz-icu0			       tk
+libharfbuzz-subset0			       tk8.6
+libharfbuzz0b				       tnftp
+libheif-plugin-aomdec			       tpm-udev
+libheif-plugin-aomenc			       trace-cmd
+libheif-plugin-libde265			       tracker-extract
+libheif1				       tzdata
+libhogweed6t64				       ubuntu-advantage-desktop-daemon
+libhpmud0				       ubuntu-desktop-minimal
+libhtml-form-perl			       ubuntu-docs
+libhtml-format-perl			       ubuntu-drivers-common
+libhtml-parser-perl			       ubuntu-insights
+libhtml-tagset-perl			       ubuntu-kernel-accessories
+libhtml-tree-perl			       ubuntu-keyring
+libhttp-cookies-perl			       ubuntu-minimal
+libhttp-daemon-perl			       ubuntu-pro-client
+libhttp-date-perl			       ubuntu-pro-client-l10n
+libhttp-message-perl			       ubuntu-release-upgrader-core
+libhttp-negotiate-perl			       ubuntu-release-upgrader-gtk
+libhunspell-1.7-0			       ubuntu-report
+libhwasan0				       ubuntu-session
+libhwy1t64				       ubuntu-settings
+libhyphen0				       ubuntu-standard
+libibus-1.0-5				       ubuntu-wallpapers
+libibverbs1				       ubuntu-wallpapers-questing
+libical3t64				       ucf
+libice6					       udev
+libicu76				       udisks2
+libidn12				       ufw
+libidn2-0				       unattended-upgrades
+libiec61883-0				       unzip
+libieee1284-3t64			       update-inetd
+libijs-0.35				       update-manager
+libimagequant0				       update-manager-core
+libimobiledevice-1.0-6			       update-notifier
+libimobiledevice-glue-1.0-0		       update-notifier-common
+libini-config5t64			       upower
+libinih1				       usb-modeswitch
+libinireader0				       usb-modeswitch-data
+libinput-bin				       usb.ids
+libinput10				       usbmuxd
+libinsights0				       usbutils
+libio-html-perl				       util-linux
+libio-socket-ssl-perl			       uuid-runtime
+libio-stringy-perl			       vim-common
+libip4tc2				       vim-tiny
+libip6tc2				       wamerican
+libipa-hbac0t64				       wbritish
+libipc-system-simple-perl		       webp-pixbuf-loader
+libipsec-mb2				       wget
+libipt2					       whiptail
+libisl23				       whoopsie
+libitm1					       whoopsie-preferences
+libjansson4				       wireless-regdb
+libjavascriptcoregtk-4.1-0		       wireplumber
+libjavascriptcoregtk-6.0-1		       wpa_supplicant
+libjbig0				       wpasupplicant
+libjbig2dec0				       wsdd
+libjcat1				       wtmpdb
+libjemalloc2				       x11-common
+libjpeg-turbo8				       x11-utils
+libjpeg8				       x11-xkb-utils
+libjq1					       x11-xserver-utils
+libjson-c5				       xauth
+libjson-glib-1.0-0			       xbrlapi
+libjson-glib-1.0-common			       xcursor-themes
+libjson-perl				       xdg-dbus-proxy
+libjson-xs-perl				       xdg-desktop-portal
+libjudydebian1				       xdg-desktop-portal-gnome
+libjxl-gdk-pixbuf			       xdg-desktop-portal-gtk
+libjxl0.11				       xdg-terminal-exec
+libk5crypto3				       xdg-user-dirs
+libkeyutils1				       xdg-user-dirs-gtk
+libklibc				       xdg-utils
+libkmod2				       xfonts-base
+libkrb5-3				       xfonts-encodings
+libkrb5support0				       xfonts-utils
+libksba8				       xkb-data
+libkyotocabinet16v5			       xml-core
+liblastlog2-2				       xserver-common
+liblc3-1				       xwayland
+liblcms2-2				       xxd
+liblcms2-utils				       xz-utils
+libldacbt-abr2				       yaru-theme-gnome-shell
+libldacbt-enc2				       yaru-theme-gtk
+libldap-common				       yaru-theme-icon
+libldap2				       yaru-theme-sound
+libldb2					       yelp
+liblerc4				       yelp-xsl
+libllvm20				       zenity
+liblmdb0				       zenity-common
+liblocale-gettext-perl			       zip
+liblouis-data				       zlib1g
+liblouis20				       zstd
+liblouisutdml-bin
+
+/usr/share/doc-base:
+base-passwd.users-and-groups	   libcrack2.libcrack2
+bc.bc				   libpng16-16t64.libpng16
+cracklib-runtime.cracklib-runtime  libxml-parser-perl.libxml-parser-perl
+cups-server-common.cups		   man-db.man-db
+cvs.cvs-doc			   nano.nano
+cvs.cvs-doc-client		   nano.nano-faq
+cvs.cvs-doc-faq			   netplan-generator.netplan-reference
+cvs.cvs-doc-intro		   printer-driver-foo2zjs-common.foo2zjs
+cvs.cvs-doc-paper		   printer-driver-pnm2ppa.pnm2ppa-calibrate
+cvs.cvs-doc-rcsfiles		   printer-driver-pnm2ppa.pnm2ppa-color
+dc.dc				   printer-driver-pnm2ppa.pnm2ppa-ppa-networking
+delta.delta			   python3.python-policy
+findutils.findutils		   shared-mime-info.shared-mime-info
+fontconfig.fontconfig-user	   sysstat.sysstat-faq
+gdisk.gdisk			   time.time
+kbd.kbd-font-formats
+
+/usr/share/man:
+cs  de	fi  hr	id  ja	man1  man3  man5  man7	nl  pt	   ro  sl  sv  uk     zh_TW
+da  es	fr  hu	it  ko	man2  man4  man6  man8	pl  pt_BR  ru  sr  tr  zh_CN
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ [7mmkdir chapter_{1..10}[27mmkdir chapter_{1..10}
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ [7mtouch config_{dev,prod,test}.json[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch config_{dev,prod,test}.json
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ [7mtouch {backup,source}.{zip,tar.gz}[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch {backup,source}.{zip,tar.gz}
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ [7mCURRENT_DATE=$(date +%Y-%m-%d)[27m
+[7mtouch "log_${CURRENT_DATE}.Log"[27m[ACURRENT_DATE=$(date +%Y-%m-%d)
+touch "log_${CURRENT_DATE}.Log"
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ [7mtouch "log_`date +%Y-%m-%d`.Log"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch "log_`date +%Y-%m-%d`.Log"
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ [7mecho $((100 * 101 / 2))[27mecho $((100 * 101 / 2))
+[?2004l5050
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ [7mrm temp*.{tmp,bak} 2>/dev/null[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm temp*.{tmp,bak} 2>/dev/null
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ [7mmkdir -p project/{src,dst}/{js,css}[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir -p project/{src,dst}/{js,css}
+[A
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ [7mecho '* {a,b,c} $HOME'[27mecho '* {a,b,c} $HOME'
+[?2004l* {a,b,c} $HOME
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ [7mmkdir -p "backup_$(date +%Y%m%d)" && cp *.txt "backup_$(date +%Y%m%d)/"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir -p "backup_$(date +%Y%m%d)" && cp *.txt "backup_$(date +%Y%m%d)/"
+[?2004l[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ [7mecho ~student[27m
+[7mecho ~guest[27m[A[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ echo ~student
+echo ~guest
+[?2004l/home/student
+~guest
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ [7mecho $((1**2 + 2**2 + 3**2 + 4**2 + 5**2))[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $((1**2 + 2**2 + 3**2 + 4**2 + 5**2))
+[?2004l55
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ [7mfilename="prefix_document.txt"[27m
+[7mecho ${filename#prefix_}[27m[A[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ filename="prefix_document.txt"
+echo ${filename#prefix_}
+[?2004ldocument.txt
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ [7mecho /tmp/*.{log,tmp}[27mecho /tmp/*.{log,tmp}
+[?2004l/tmp/*.log /tmp/*.tmp
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ [7mecho "В каталоге /etc находится $(ls -1 /etc | wc -l) файлов"[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "В каталоге /etc находится $(ls -1 /etc | wc -l) файлов"
+[?2004lВ каталоге /etc находится 239 файлов
+[?2004h[01;32mstudent@user-VirtualBox[00m:[01;34m~[00m$ [?2004l
+exit
+$ 
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab6\]0;user@user-VirtualBox:~/linux-labs/lab6\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab6[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab6[00m$ [?2004l
+exit
+
+Script done on 2026-05-16 15:41:23+03:00 [COMMAND_EXIT_CODE="0"]
