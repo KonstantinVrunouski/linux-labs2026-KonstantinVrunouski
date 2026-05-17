@@ -1,0 +1,20 @@
+Script started on 2026-05-17 16:08:51+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="114" LINES="55"]
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab7/7.2.1\]0;user@user-VirtualBox:~/linux-labs/lab7/7.2.1\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7/7.2.1[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7/7.2.1[00m$ ./src.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Script started. Press any key then ENTER to exit.
+Counter resets every 10 seconds.
+---
+Counter: 0
+Counter: 1
+Counter: 2
+Counter: 3
+Counter: 4
+>>> 10 seconds passed, resetting counter to 0 <<<
+Counter: 0
+Counter: 1
+
+
+Key pressed. Exiting...
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab7/7.2.1\]0;user@user-VirtualBox:~/linux-labs/lab7/7.2.1\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7/7.2.1[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7/7.2.1[00m$ [?2004l
+exit
+
+Script done on 2026-05-17 16:09:11+03:00 [COMMAND_EXIT_CODE="0"]

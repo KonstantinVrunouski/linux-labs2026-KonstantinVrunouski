@@ -1,0 +1,51 @@
+=========================================
+Error Analysis Report
+Date: Sun May 17 16:00:43 +03 2026
+Log file: /var/log/syslog
+=========================================
+
+TOP 5 MOST FREQUENT ERRORS:
+-----------------------------------------
+ZINK: failed to choose pdev: 7 times
+in size change accounting.: 2 times
+reports when automatic reporting is enabled (timer based) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).: 1 times
+reports when automatic reporting is enabled (file watch) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).: 1 times
+looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation: 1 times
+
+-----------------------------------------
+All unique errors with counts:
+-----------------------------------------
+ZINK: failed to choose pdev: 7 times
+failed to import hw:0 use case configuration -2: 1 times
+event6  - VirtualBox mouse integration: client bug: event processing lagging behind by 21ms, your system is too slow: 1 times
+GDBus.Error:org.freedesktop.DBus.Error.Failed: Set global engine failed: Operation was cancelled#012#012Stack trace:#012  _promisify/proto[asyncFunc]/</<@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:454:45#012  @resource:///org/gnome/shell/ui/init.js:21:20#012  ### Promise created here: ####012  _setEngine@resource:///org/gnome/shell/misc/ibusManager.js:286:30#012  setEngine@resource:///org/gnome/shell/misc/ibusManager.js:299:24#012  activateInputSource@resource:///org/gnome/shell/ui/status/keyboard.js:525:27#012  _callHandlers@resource:///org/gnome/gjs/modules/core/_signals.js:130:42#012  _emit@resource:///org/gnome/gjs/modules/core/_signals.js:119:10#012  activate@resource:///org/gnome/shell/ui/status/keyboard.js:66:14#012  _inputSourcesChanged@resource:///org/gnome/shell/ui/status/keyboard.js:663:33#012  reload@resource:///org/gnome/shell/ui/status/keyboard.js:396:14#012  _ibusSetContentType@resource:///org/gnome/shell/ui/status/keyboard.js:738:14#012  _callHandlers@resource:///org/gnome/gjs/modules/core/_signals.js:130:42#012  _emit@resource:///org/gnome/gjs/modules/core/_signals.js:119:10#012  _setContentType@resource:///org/gnome/shell/misc/ibusManager.js:264:14#012  @resource:///org/gnome/shell/ui/init.js:21:20#012  : 1 times
+Could not get DRI3 device: 1 times
+2026-05-17T15:58:23.845365+03:00 user-VirtualBox kernel: audit: type=1400 audit(1779022703.843:265): apparmor="DENIED" operation="mount" class="mount" info="failed mntpnt match" error=-13 profile="fusermount3" name="/" pid=11116 comm="fusermount3" flags="rw, rprivate": 1 times
+2026-05-17T15:54:42.009986+03:00 user-VirtualBox gnome-shell[6485]: Error in size change accounting.: 1 times
+2026-05-17T15:35:31.771493+03:00 user-VirtualBox gnome-shell[9488]: Errors from xkbcomp are not fatal to the X server: 1 times
+2026-05-17T15:21:24.106022+03:00 user-VirtualBox ubuntu-insights[8635]: 2026/05/17 15:21:24 ERROR failed to upload reports for source ubuntu_desktop_provision: ubuntu_desktop_provision upload failed for report 1771434433.json: failed to read report: invalid JSON data in report file: 1 times
+2026-05-17T15:21:24.104817+03:00 user-VirtualBox ubuntu-insights[8635]: 2026/05/17 15:21:24 WARN Failed to upload report file=1771434433.json source=ubuntu_desktop_provision error="failed to read report: invalid JSON data in report file": 1 times
+2026-05-17T15:18:24.663984+03:00 user-VirtualBox ubuntu-insights[8558]: 2026/05/17 15:18:24 ERROR failed to collect insights: insights write failed: report already exists for this period: 1 times
+2026-05-17T15:18:24.103397+03:00 user-VirtualBox kernel: audit: type=1400 audit(1779020304.101:251): apparmor="DENIED" operation="getattr" class="file" info="Failed name lookup - disconnected path" error=-13 profile="unprivileged_userns" name="" pid=8566 comm="systemd-detect-" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0: 1 times
+2026-05-17T15:18:24.103380+03:00 user-VirtualBox kernel: audit: type=1400 audit(1779020304.101:250): apparmor="DENIED" operation="getattr" class="file" info="Failed name lookup - disconnected path" error=-13 profile="unprivileged_userns" name="" pid=8566 comm="systemd-detect-" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0: 1 times
+2026-05-17T15:16:03.787157+03:00 user-VirtualBox chronyd[5691]: TLS handshake with 185.125.190.122:4460 (1.ntp.ubuntu.com) failed : Error in the pull function.: 1 times
+2026-05-17T15:09:39.244243+03:00 user-VirtualBox gnome-shell[6485]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation: 1 times
+2026-05-17T15:09:39.178804+03:00 user-VirtualBox gsd-usb-protection[6782]: Failed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.usbguard1 was not provided by any .service files: 1 times
+2026-05-17T15:09:38.298126+03:00 user-VirtualBox gsd-sharing[6750]: Failed to stop gnome-user-share-webdav.service: GDBus.Error:org.freedesktop.systemd1.NoSuchUnit: Unit gnome-user-share-webdav.service not loaded.: 1 times
+2026-05-17T15:09:35.027659+03:00 user-VirtualBox wireplumber[6309]: default: Failed to get percentage from UPower: org.freedesktop.DBus.Error.NameHasNoOwner: 1 times
+2026-05-17T15:09:34.043096+03:00 user-VirtualBox systemd[1]: Started whoopsie.service - Service uploading crash reports to the Ubuntu Error Tracker.: 1 times
+2026-05-17T15:09:33.180164+03:00 user-VirtualBox networkd-dispatcher[5612]: ERROR:Unknown state for interface NetworkctlListState(idx=2, name='enp0s3', type='ether', operational='-', administrative='unmanaged'): -: 1 times
+2026-05-17T15:09:33.178804+03:00 user-VirtualBox networkd-dispatcher[5612]: ERROR:Unknown state for interface NetworkctlListState(idx=1, name='lo', type='loopback', operational='-', administrative='unmanaged'): -: 1 times
+2026-05-17T15:09:32.910040+03:00 user-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.: 1 times
+2026-05-17T15:09:32.910038+03:00 user-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.: 1 times
+2026-05-17T15:09:32.910038+03:00 user-VirtualBox kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.: 1 times
+2026-05-17T15:09:32.909443+03:00 user-VirtualBox systemd[1]: apport-autoreport.timer - Process error reports when automatic reporting is enabled (timer based) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).: 1 times
+2026-05-17T15:09:32.909443+03:00 user-VirtualBox kernel: RAS: Correctable Errors collector initialized.: 1 times
+2026-05-17T15:09:32.909429+03:00 user-VirtualBox systemd[1]: apport-autoreport.path - Process error reports when automatic reporting is enabled (file watch) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).: 1 times
+2026-05-16T16:13:47.355796+03:00 user-VirtualBox kernel: audit: type=1400 audit(1778937227.354:277): apparmor="DENIED" operation="mount" class="mount" info="failed mntpnt match" error=-13 profile="fusermount3" name="/" pid=24481 comm="fusermount3" flags="rw, rprivate": 1 times
+2026-05-16T15:41:56.751198+03:00 user-VirtualBox gnome-shell[2177]: Error in size change accounting.: 1 times
+2026-05-16T15:41:33.298778+03:00 user-VirtualBox kernel: audit: type=1400 audit(1778935293.297:270): apparmor="DENIED" operation="mount" class="mount" info="failed mntpnt match" error=-13 profile="fusermount3" name="/" pid=22810 comm="fusermount3" flags="rw, rprivate": 1 times
+
+-----------------------------------------
+Total error lines: 36
+=========================================
