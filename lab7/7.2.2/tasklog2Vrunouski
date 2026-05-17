@@ -1,0 +1,70 @@
+Script started on 2026-05-17 16:21:25+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="90" LINES="39"]
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab7/7.2.2\]0;user@user-VirtualBox:~/linux-labs/lab7/7.2.2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7/7.2.2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7/7.2.2[00m$ ls -l
+[?2004l]133;C\]666;vte.shell.preexec!\total 40
+-rw-rw-r-- 1 user user   0 May 17 16:17 [0m[01;35mphoto.jpeg[0m
+-rwxrwxr-x 1 user user 159 May 17 16:12 [01;32mtask1.sh[0m
+-rwxrwxr-x 1 user user 190 May 17 16:14 [01;32mtask10.sh[0m
+-rwxrwxr-x 1 user user 126 May 17 16:12 [01;32mtask2.sh[0m
+-rwxrwxr-x 1 user user  92 May 17 16:12 [01;32mtask3.sh[0m
+-rwxrwxr-x 1 user user 145 May 17 16:13 [01;32mtask4.sh[0m
+-rwxrwxr-x 1 user user 161 May 17 16:13 [01;32mtask5.sh[0m
+-rwxrwxr-x 1 user user  58 May 17 16:13 [01;32mtask6.sh[0m
+-rwxrwxr-x 1 user user 144 May 17 16:13 [01;32mtask7.sh[0m
+-rwxrwxr-x 1 user user  99 May 17 16:13 [01;32mtask8.sh[0m
+-rwxrwxr-x 1 user user 255 May 17 16:13 [01;32mtask9.sh[0m
+-rw-rw-r-- 1 user user   0 May 17 16:21 timelog
+-rw-rw-r-- 1 user user   0 May 17 16:21 typescript
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab7/7.2.2\]0;user@user-VirtualBox:~/linux-labs/lab7/7.2.2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7/7.2.2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7/7.2.2[00m$ ./task1.sh
+[?2004l]133;C\]666;vte.shell.preexec!\Enter an integer: 5
+Positive
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab7/7.2.2\]0;user@user-VirtualBox:~/linux-labs/lab7/7.2.2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7/7.2.2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7/7.2.2[00m$ ./task2.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Enter integer: 4
+Factorial: 24
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab7/7.2.2\]0;user@user-VirtualBox:~/linux-labs/lab7/7.2.2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7/7.2.2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7/7.2.2[00m$ ./task3.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Interface: enp0s3
+Interface: lo
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab7/7.2.2\]0;user@user-VirtualBox:~/linux-labs/lab7/7.2.2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7/7.2.2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7/7.2.2[00m$ ./task3.sh [1P[1@4
+[?2004l]133;C\]666;vte.shell.preexec!\enp0s3: up
+lo: unknown
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab7/7.2.2\]0;user@user-VirtualBox:~/linux-labs/lab7/7.2.2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7/7.2.2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7/7.2.2[00m$ ./task5.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Filename: photo.jpeg
+Name: photo
+Extension: jpeg
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab7/7.2.2\]0;user@user-VirtualBox:~/linux-labs/lab7/7.2.2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7/7.2.2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7/7.2.2[00m$ ./task6.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab7/7.2.2\]0;user@user-VirtualBox:~/linux-labs/lab7/7.2.2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7/7.2.2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7/7.2.2[00m$ ls -l
+[?2004l]133;C\]666;vte.shell.preexec!\total 40
+-rw-rw-r-- 1 user user   0 May 17 16:17 [0m[01;35mnew_photo.jpeg[0m
+-rwxrwxr-x 1 user user 159 May 17 16:12 [01;32mtask1.sh[0m
+-rwxrwxr-x 1 user user 190 May 17 16:14 [01;32mtask10.sh[0m
+-rwxrwxr-x 1 user user 126 May 17 16:12 [01;32mtask2.sh[0m
+-rwxrwxr-x 1 user user  92 May 17 16:12 [01;32mtask3.sh[0m
+-rwxrwxr-x 1 user user 145 May 17 16:13 [01;32mtask4.sh[0m
+-rwxrwxr-x 1 user user 161 May 17 16:13 [01;32mtask5.sh[0m
+-rwxrwxr-x 1 user user  58 May 17 16:13 [01;32mtask6.sh[0m
+-rwxrwxr-x 1 user user 144 May 17 16:13 [01;32mtask7.sh[0m
+-rwxrwxr-x 1 user user  99 May 17 16:13 [01;32mtask8.sh[0m
+-rwxrwxr-x 1 user user 255 May 17 16:13 [01;32mtask9.sh[0m
+-rw-rw-r-- 1 user user   0 May 17 16:21 timelog
+-rw-rw-r-- 1 user user   0 May 17 16:21 typescript
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab7/7.2.2\]0;user@user-VirtualBox:~/linux-labs/lab7/7.2.2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7/7.2.2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7/7.2.2[00m$ ./tak[Ksk7.sh
+[?2004l]133;C\]666;vte.shell.preexec!\
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab7/7.2.2\]0;user@user-VirtualBox:~/linux-labs/lab7/7.2.2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7/7.2.2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7/7.2.2[00m$ ./task8.sh
+[?2004l]133;C\]666;vte.shell.preexec!\file1.c1379947daa07769
+file2.a51f3b041f070d80
+file3.d6fd3652838c4841
+file4.a8e5d3719a490c75
+file5.d2395f492f36aa8b
+file6.abc7b0a457541c3a
+file7.15727fcc8ad18643
+file8.2ee9da3dd04d7c31
+file9.dda3a083d855f907
+file10.9be8d98b9070d11d
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab7/7.2.2\]0;user@user-VirtualBox:~/linux-labs/lab7/7.2.2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7/7.2.2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7/7.2.2[00m$ ./task9.sh
+[?2004l]133;C\]666;vte.shell.preexec!\[1m--- Opening /dev/video0...
+[0m[31mstat: No such file or directory
+[0m]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab7/7.2.2\]0;user@user-VirtualBox:~/linux-labs/lab7/7.2.2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7/7.2.2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7/7.2.2[00m$ t[K./task10.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\^C
+]666;vte.shell.postexec=130\]7;file://user-VirtualBox/home/user/linux-labs/lab7/7.2.2\]0;user@user-VirtualBox:~/linux-labs/lab7/7.2.2\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7/7.2.2[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7/7.2.2[00m$ [?2004l
+exit
+
+Script done on 2026-05-17 16:22:39+03:00 [COMMAND_EXIT_CODE="130"]

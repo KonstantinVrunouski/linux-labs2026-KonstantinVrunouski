@@ -1,0 +1,58 @@
+Script started on 2026-05-17 15:59:33+03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="205" LINES="48"]
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab7\]0;user@user-VirtualBox:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7[00m$ ./task1.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Enter username: user
+UID: 1000
+Primary group: user
+All groups: user adm cdrom sudo dip plugdev users lpadmin yusers 
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab7\]0;user@user-VirtualBox:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7[00m$ ./task1.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Enter username: student
+UID: 2002
+Primary group: student
+All groups: student visitors 
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab7\]0;user@user-VirtualBox:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7[00m$ ./task1.sh 
+[?2004l]133;C\]666;vte.shell.preexec!\Enter username: nobidy
+task1.sh : user not found: nobidy
+User 'nobidy' is not registered. Please try again.
+Enter username: nobody
+UID: 65534
+Primary group: nogroup
+All groups: nogroup 
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab7\]0;user@user-VirtualBox:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7[00m$ ./task2.sh
+[?2004l]133;C\]666;vte.shell.preexec!\Enter filename to create: file
+Enter umask (e.g., 027, 022, 077): 022
+File 'file' created with umask 022
+Permissions: -rw-r--r--
+Default umask restored: 0002
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab7\]0;user@user-VirtualBox:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7[00m$ ./task2.sh
+[?2004l]133;C\]666;vte.shell.preexec!\Enter filename to create: another file
+Enter umask (e.g., 027, 022, 077): 077
+File 'another file' created with umask 077
+Permissions: -rw-r-----
+Default umask restored: 0002
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab7\]0;user@user-VirtualBox:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7[00m$ ./task3.[K.sh 1000 20000[K ./
+[?2004l]133;C\]666;vte.shell.preexec!\Searching in ./ for files with size between 1000 and 2000 bytes...
+
+./task2.sh : 1205 bytes
+./task3.sh : 1587 bytes
+./task1.sh : 1131 bytes
+
+Total files found: 3
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab7\]0;user@user-VirtualBox:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7[00m$ ./task3.sh 1000 2000 ./[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004l]133;C\]666;vte.shell.preexec!\task3.sh : usage: ./task3.sh min_size max_size directory
+Example: ./task3.sh 1000 1510 /usr
+]666;vte.shell.postexec=1\]7;file://user-VirtualBox/home/user/linux-labs/lab7\]0;user@user-VirtualBox:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7[00m$ ./task4.sh
+[?2004l]133;C\]666;vte.shell.preexec!\Analyzing /var/log/syslog...
+Report will be saved to: error_report_20260517_160043.txt
+
+=== TOP 5 ERRORS ===
+ZINK: failed to choose pdev: 7 times
+failed to import hw:0 use case configuration -2: 1 times
+event6  - VirtualBox mouse integration: client bug: event processing lagging behind by 21ms, your system is too slow: 1 times
+GDBus.Error:org.freedesktop.DBus.Error.Failed: Set global engine failed: Operation was cancelled#012#012Stack trace:#012  _promisify/proto[asyncFunc]/</<@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:454:45#012  @resource:///org/gnome/shell/ui/init.js:21:20#012  ### Promise created here: ####012  _setEngine@resource:///org/gnome/shell/misc/ibusManager.js:286:30#012  setEngine@resource:///org/gnome/shell/misc/ibusManager.js:299:24#012  activateInputSource@resource:///org/gnome/shell/ui/status/keyboard.js:525:27#012  _callHandlers@resource:///org/gnome/gjs/modules/core/_signals.js:130:42#012  _emit@resource:///org/gnome/gjs/modules/core/_signals.js:119:10#012  activate@resource:///org/gnome/shell/ui/status/keyboard.js:66:14#012  _inputSourcesChanged@resource:///org/gnome/shell/ui/status/keyboard.js:663:33#012  reload@resource:///org/gnome/shell/ui/status/keyboard.js:396:14#012  _ibusSetContentType@resource:///org/gnome/shell/ui/status/keyboard.js:738:14#012  _callHandlers@resource:///org/gnome/gjs/modules/core/_signals.js:130:42#012  _emit@resource:///org/gnome/gjs/modules/core/_signals.js:119:10#012  _setContentType@resource:///org/gnome/shell/misc/ibusManager.js:264:14#012  @resource:///org/gnome/shell/ui/init.js:21:20#012  : 1 times
+Could not get DRI3 device: 1 times
+
+Full report saved to: error_report_20260517_160043.txt
+]666;vte.shell.postexec=0\]7;file://user-VirtualBox/home/user/linux-labs/lab7\]0;user@user-VirtualBox:~/linux-labs/lab7\]666;vte.shell.precmd!\[?2004h]0;user@user-VirtualBox: ~/linux-labs/lab7[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs/lab7[00m$ [?2004l
+exit
+
+Script done on 2026-05-17 16:00:46+03:00 [COMMAND_EXIT_CODE="0"]
