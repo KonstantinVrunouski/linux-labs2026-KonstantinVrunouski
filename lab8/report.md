@@ -6,8 +6,7 @@
 
 **Выполнил:** Вруновский Константин Андреевич
 
-**Каталог работы:** `linux-labs2026-KonstantinVrunouski/lab8/`  
-(симлинк: `/home/user/linux-labs2026/lab8`)
+**Каталог работы:** `linux-labs2026-KonstantinVrunouski/lab8/`
 
 ---
 
@@ -32,25 +31,12 @@
 
 ## Протоколирование
 
-Перед выполнением заданий запущен главный сценарий с записью протокола:
+Перед выполнением заданий включена запись протокола командой `script` с журналом меток времени:
 
-```bash
-cd lab8
-./lab8Vrunouski.sh
-```
+- `tasklog1Vrunouski` — протокол команд;
+- `timelog1Vrunouski` — журнал меток времени.
 
-Созданы файлы:
-
-| Файл | Назначение |
-|------|------------|
-| `tasklog1Vrunouski` | протокол команд (`script -O`) |
-| `timelog1Vrunouski` | журнал меток времени (`script -T`) |
-
-Команда внутри сценария:
-
-```bash
-script -T timelog1Vrunouski -O tasklog1Vrunouski -f -c "LAB8_INNER=1 bash lab8Vrunouski.sh"
-```
+![Протоколирование](screens/00-protokol.png)
 
 ---
 
@@ -58,38 +44,67 @@ script -T timelog1Vrunouski -O tasklog1Vrunouski -f -c "LAB8_INNER=1 bash lab8Vr
 
 Подготовлен каталог `2.1/examples/` с файлами `log.txt`, `myfile`, `list_students`, `colours.csv`.
 
-Выполнены примеры из методички:
+### Пример 1 — поиск bash в log.txt
 
-- поиск по шаблону (`/bash/`, `/QUIT|SETDATE/`);
-- вывод полей `$1`, `$3`, `$5`;
-- условия по полям (`$5 == 4`, факультет и курс);
-- `toupper`, `NR`, суммирование в блоке `END`;
-- работа с CSV (`awk -F','`).
+![Пример 1](screens/2.1-01-bash.png)
 
-Пример вывода оценок:
+### Пример 3 — вывод первого поля
 
-```
-Асташко Иван 6
-Бузун Евгений 9
-...
-SUM= 43
-```
+![Пример 3](screens/2.1-03-pole1.png)
+
+### Пример 5 — фамилия, имя, оценка
+
+![Пример 5](screens/2.1-05-students.png)
+
+### Пример 7 — студенты с оценкой 4
+
+![Пример 7](screens/2.1-07-ocenka4.png)
+
+### Пример 10 — нумерация строк
+
+![Пример 10](screens/2.1-10-nr.png)
+
+### Пример 12 — сумма оценок
+
+![Пример 12](screens/2.1-12-sum.png)
+
+### Пример 15 — colours.csv, amount > 6
+
+![Пример 15](screens/2.1-15-csv.png)
 
 ---
 
 ## Задание 2.2 — примеры sed
 
-Создан файл `2.2/books`. Выполнены команды:
+Создан файл `2.2/books`, файлы `records`, `appends`, `insert`.
 
-| № | Команда | Результат |
-|---|---------|-----------|
-| 2 | `sed '/book/ p' books` | дублирование строк с «book» |
-| 3 | `sed -n '/book/ p' books` | только совпадающие строки |
-| 4 | `sed -n '2,5 p' books` | строки 2–5 |
-| 5 | `sed -n -f records books` | то же через файл `records` |
-| 6 | `sed -f appends books` | добавление «My favorite book.» после строки 3 |
-| 7 | `sed -f insert books` | вставка «SKARBONKA.» перед «This» |
-| 8 | `sed -n 's/book/novel/ p' books` | замена book → novel |
+### Пример 2 — дублирование строк с book
+
+![Пример 2](screens/2.2-02-dup.png)
+
+### Пример 3 — только строки с book
+
+![Пример 3](screens/2.2-03-print.png)
+
+### Пример 4 — строки 2–5
+
+![Пример 4](screens/2.2-04-range.png)
+
+### Пример 5 — команды из файла records
+
+![Пример 5](screens/2.2-05-records.png)
+
+### Пример 6 — добавление строки после 3-й
+
+![Пример 6](screens/2.2-06-append.png)
+
+### Пример 7 — вставка SKARBONKA
+
+![Пример 7](screens/2.2-07-insert.png)
+
+### Пример 8 — замена book на novel
+
+![Пример 8](screens/2.2-08-replace.png)
 
 ---
 
@@ -97,73 +112,159 @@ SUM= 43
 
 ### Общее задание — сетевые интерфейсы
 
-Скрипт `2.3/network_interfaces.sh` использует `ip -o link` и **awk**, исключает `lo`, нумерует строки и указывает путь в **/sys/class/net/**.
+Скрипт `2.3/network_interfaces.sh` использует `ip`, **awk** и каталог `/sys/class/net/`, исключает `lo`, нумерует вывод.
 
-Пример вывода:
-
-```
-1. interface=enp0s3 altname=- sysfs=/sys/class/net/enp0s3
-2. interface=br-9260594935ee altname=- sysfs=/sys/class/net/br-9260594935ee
-...
-```
+![Сетевые интерфейсы](screens/2.3-00-interfaces.png)
 
 ### Задание 1 — чётные строки cars.txt
 
-Файл `2.3/task1_cars_even.awk` выводит чётные строки (`NR % 2 == 0`), переводит в верхний регистр только производителя (`$1`):
+Файл `cars.txt` в каталоге `lab8/`. AWK-программа `task1_cars_even.awk` выводит чётные строки; производитель — в верхнем регистре.
 
-```
-FORD mustang 1969 45 4500
-FIAT 128 1971 46 2000
-...
-```
+![Задание 2.3.1](screens/2.3-01-cars.png)
 
 ### Задание 2 — площадь и периметр прямоугольника
 
-`2.3/rectangle.awk` — функции `area()`, `perimeter()`, вызов из `main()`:
+`rectangle.awk` — функции `area()`, `perimeter()`, вызов из `main()`.
 
-```
-Width: 12, Height: 5
-Area: 60
-Perimeter: 34
-```
+![Задание 2.3.2](screens/2.3-02-rectangle.png)
 
-### Задание 3 — замена второй запятой
+### Задание 3 — замена второй запятой на |
 
-Файл `2.3/comma_data.txt` (две запятые в строке). Команда sed:
+Файл `comma_data.txt`, команда **sed** с группами `\([^,]*\)`.
 
-```bash
-sed 's/\([^,]*\),\([^,]*\),/\1,\2|/' comma_data.txt
-```
-
-Результат: `apple,red|4`, `banana,yellow|6`, …
+![Задание 2.3.3](screens/2.3-03-comma.png)
 
 ---
 
 ## Задание 2.4 — grep, find, tr, wc
 
-### grep (п. 1–10)
+### grep
 
-- Создан `2.4/dirlist.txt` с названиями месяцев.
-- Для месяца рождения (**June**) строки записаны в `grep_month_name.txt`, остальные — в `grep_other_monthes.txt`.
-- Файлы перенесены в каталог `2.4/grep/`.
-- Создано дерево `mac_os_lab/` (≥3 уровня, ≥5 папок); поиск `root` с номерами строк.
-- Поиск `config` в `/etc`, `warning` в `/var/log`, `Kernel` с `-n`.
-- Подсчёт вхождений `pattern` (`grep -c` и `grep` с выводом).
+#### Задание 1 — файл dirlist.txt
 
-### find (п. 11–21)
+![grep 1](screens/2.4-grep-01-dirlist.png)
 
-- Сравнение `find` и `locate` для имён `*bash*` (locate не установлен — `find` сканирует ФС в реальном времени).
-- Поиск `.txt`, симлинков в `/`, файлов в `/var/log` за 7 дней.
-- Удаление старых файлов продемонстрировано в `2.4/tmp_demo/` (безопасная замена `/tmp`).
-- Поиск прав `777`, владельца `student`, файлов >100 МБ в `/var`.
-- Каталог `2.4/encodings/` с файлами UTF-8, CP1251, KOI8-R; поиск «Текст» и скрипт `search_text_encodings.sh` с `iconv`.
+#### Задание 2 — строки с месяцем June
 
-### tr и wc (п. 22–31)
+![grep 2](screens/2.4-grep-02-month.png)
 
-- `zadacha40.txt` → `output41_pipe.txt` / `output41_redirect.txt` (верхний регистр).
-- `echo "the linux staff" | tr -d 't'` → `he linux sff`.
-- `linux_os.txt`: подсчёт строк, слов, байт, длины самой длинной строки.
-- Серия файлов `input_*.txt` для задач 27–31 (регистр, пробелы, двоеточия, цифры, сжатие повторов).
+#### Задание 3 — строки без June
+
+![grep 3](screens/2.4-grep-03-other.png)
+
+#### Задание 4 — каталог grep/
+
+![grep 4](screens/2.4-grep-04-folder.png)
+
+#### Задание 5 — поиск root в mac_os_lab
+
+![grep 5](screens/2.4-grep-05-root.png)
+
+#### Задание 6 — слова из строчных букв
+
+![grep 6](screens/2.4-grep-06-classes.png)
+
+#### Задание 7 — config в /etc
+
+![grep 7](screens/2.4-grep-07-config.png)
+
+#### Задание 8 — warning в /var/log
+
+![grep 8](screens/2.4-grep-08-warning.png)
+
+#### Задание 9 — Kernel с номерами строк
+
+![grep 9](screens/2.4-grep-09-kernel.png)
+
+#### Задание 10 — подсчёт pattern
+
+![grep 10](screens/2.4-grep-10-pattern.png)
+
+### find
+
+#### Задание 11 — файлы *bash*
+
+![find 11](screens/2.4-find-11-bash.png)
+
+#### Задание 12 — .txt в lab8
+
+![find 12](screens/2.4-find-12-txt.png)
+
+#### Задание 13 — символические ссылки в /
+
+![find 13](screens/2.4-find-13-symlinks.png)
+
+#### Задание 14 — /var/log за 7 дней
+
+![find 14](screens/2.4-find-14-log7.png)
+
+#### Задание 15 — удаление старых файлов (tmp_demo)
+
+![find 15](screens/2.4-find-15-tmp.png)
+
+#### Задание 16 — права 777 в /home
+
+![find 16](screens/2.4-find-16-777.png)
+
+#### Задание 17 — файлы пользователя student
+
+![find 17](screens/2.4-find-17-student.png)
+
+#### Задание 18 — файлы >100 МБ в /var
+
+![find 18](screens/2.4-find-18-100m.png)
+
+#### Задание 19 — error в .log
+
+![find 19](screens/2.4-find-19-error.png)
+
+#### Задания 20–21 — поиск «Текст» в кодировках
+
+![find 20–21](screens/2.4-find-20-21-encoding.png)
+
+### tr
+
+#### Задание 22 — cat | tr
+
+![tr 22](screens/2.4-tr-22.png)
+
+#### Задание 23 — tr с перенаправлением <
+
+![tr 23](screens/2.4-tr-23.png)
+
+#### Задание 24 — удаление буквы t
+
+![tr 24](screens/2.4-tr-24.png)
+
+### wc
+
+#### Задание 25 — wc для linux_os.txt
+
+![wc 25](screens/2.4-wc-25.png)
+
+#### Задание 26 — число файлов в HOME
+
+![wc 26](screens/2.4-wc-26.png)
+
+#### Задание 27 — слова после upper
+
+![wc 27](screens/2.4-wc-27.png)
+
+#### Задание 28 — строки после сжатия пробелов
+
+![wc 28](screens/2.4-wc-28.png)
+
+#### Задание 29 — байты после замены :
+
+![wc 29](screens/2.4-wc-29.png)
+
+#### Задание 30 — слова без цифр
+
+![wc 30](screens/2.4-wc-30.png)
+
+#### Задание 31 — уникальные строки
+
+![wc 31](screens/2.4-wc-31.png)
 
 ---
 
@@ -171,22 +272,10 @@ sed 's/\([^,]*\),\([^,]*\),/\1,\2|/' comma_data.txt
 
 | Файл | Описание |
 |------|----------|
-| `lab8Vrunouski.sh` | главный сценарий лабораторной (все разделы + timelog) |
+| `lab8Vrunouski.sh` | главный сценарий лабораторной |
 | `2.3/task1_cars_even.awk` | чётные строки cars.txt |
 | `2.3/rectangle.awk` | площадь и периметр прямоугольника |
 | `2.3/network_interfaces.sh` | список интерфейсов |
-| `2.4/search_text_encodings.sh` | поиск «Текст» с конвертацией кодировок |
-| `cars.txt` | база автомобилей для awk |
-
-Запуск:
-
-```bash
-chmod +x lab8Vrunouski.sh
-./lab8Vrunouski.sh
-```
-
----
-
-## Заключение
-
-Выполнены все разделы лабораторной работы №8 по **варианту 1**: изучены и применены **awk** и **sed**, реализованы индивидуальные задания, выполнены упражнения с **grep**, **find**, **tr** и **wc**. Результаты зафиксированы в протоколах `tasklog1Vrunouski` и `timelog1Vrunouski`.
+| `2.4/search_text_encodings.sh` | поиск «Текст» с iconv |
+| `make_screenshots.py` | генерация скриншотов для отчёта |
+| `cars.txt` | список автомобилей (5 записей) |

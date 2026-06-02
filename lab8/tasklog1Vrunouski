@@ -1,0 +1,363 @@
+Script started on 2026-06-02 10:10:24+03:00 [COMMAND="LAB8_INNER=1 bash '/home/user/linux-labs2026-KonstantinVrunouski/lab8/lab8Vrunouski.sh'" TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="184" LINES="43"]
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8[00m$ pwd
+/home/user/linux-labs2026-KonstantinVrunouski/lab8
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8[00m$ ls
+[0m[01;34m2.1[0m  [01;34m2.2[0m  [01;34m2.3[0m  [01;34m2.4[0m  cars.txt  Lab8.pdf  [01;32mlab8Vrunouski.sh[0m  make_screenshots.py  report.md  [01;34mscreens[0m  tasklog1Vrunouski  timelog1Vrunouski
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8[00m$ cd 2.1/examples && ls
+colours.csv  list_students  log.txt  myfile
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.1/examples[00m$ awk '/bash/ {print}' log.txt
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.1/examples[00m$ awk '/QUIT|SETDATE/' /usr/include/protocols/* 2>/dev/null | head -5
+#define	TSP_QUIT		13	/* reject candidature if master is up */
+#define	TSP_SETDATE		22	/* New from date command */
+#define	TSP_SETDATEREQ		23	/* New remote for above */
+  "SLAVEUP", "ELECTION", "ACCEPT", "REFUSE", "CONFLICT", "RESOLVE", "QUIT",
+  "TEST", "SETDATE", "SETDATEREQ", "LOOP" };
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.1/examples[00m$ awk '{print $1}' myfile
+This
+This
+This
+This
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.1/examples[00m$ awk '{print $3}' myfile
+a
+the
+the
+the
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.1/examples[00m$ awk '{print $1, $2, $5}' list_students
+Асташко Иван 6
+Бузун Евгений 9
+Кравченя Леонид 4
+Кошкин Владимир 7
+Липин Федор 4
+Пенов Николай 5
+Яшин Петр 8
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.1/examples[00m$ awk '/8/ {print $0}' list_students
+Яшин Петр КБ 4 8
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.1/examples[00m$ awk '($5 == 4)' list_students
+Кравченя Леонид ПМ 1 4
+Липин Федор ПИ 2 4
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.1/examples[00m$ awk '($3 == "КБ") && ($4 == 1)' list_students
+Бузун Евгений КБ 1 9
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.1/examples[00m$ awk '(length($2) > 5) {print}' list_students
+Асташко Иван ПИ 1 6
+Бузун Евгений КБ 1 9
+Кравченя Леонид ПМ 1 4
+Кошкин Владимир ИН 1 7
+Липин Федор ПИ 2 4
+Пенов Николай ПМ 1 5
+Яшин Петр КБ 4 8
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.1/examples[00m$ awk '{print NR, $0}' list_students
+1 Асташко Иван ПИ 1 6
+2 Бузун Евгений КБ 1 9
+3 Кравченя Леонид ПМ 1 4
+4 Кошкин Владимир ИН 1 7
+5 Липин Федор ПИ 2 4
+6 Пенов Николай ПМ 1 5
+7 Яшин Петр КБ 4 8
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.1/examples[00m$ awk '{print toupper($2)}' list_students
+Иван
+Евгений
+Леонид
+Владимир
+Федор
+Николай
+Петр
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.1/examples[00m$ awk '{sum += $5} END {print "SUM=", sum}' list_students
+SUM= 43
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.1/examples[00m$ awk '($1 ~ /Кравченя/)' list_students
+Кравченя Леонид ПМ 1 4
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.1/examples[00m$ awk '($1 ~ /[Лл]ипин/)' list_students
+Липин Федор ПИ 2 4
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.1/examples[00m$ awk -F',' '$3 > 6 {print $1, $2}' colours.csv
+name color
+grape purple
+apple green
+potato brown
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.1/examples[00m$ cd "/home/user/linux-labs2026-KonstantinVrunouski/lab8"
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8[00m$ cd 2.2
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.2[00m$ sed '/book/ p' books
+Book one.
+The second book.
+The second book.
+The third.
+This is book four.
+This is book four.
+Five.
+This is the sixth.
+This is book seven.
+This is book seven.
+Eighth and last.
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.2[00m$ sed -n '/book/ p' books
+The second book.
+This is book four.
+This is book seven.
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.2[00m$ sed -n '2,5 p' books
+The second book.
+The third.
+This is book four.
+Five.
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.2[00m$ sed -n -f records books
+The second book.
+The third.
+This is book four.
+Five.
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.2[00m$ sed -f appends books
+Book one.
+The second book.
+The third.
+
+My favorite book.
+This is book four.
+Five.
+This is the sixth.
+This is book seven.
+Eighth and last.
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.2[00m$ sed -f insert books
+Book one.
+The second book.
+The third.
+SKARBONKA.
+This is book four.
+Five.
+SKARBONKA.
+This is the sixth.
+SKARBONKA.
+This is book seven.
+Eighth and last.
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.2[00m$ sed -n 's/book/novel/ p' books
+The second novel.
+This is novel four.
+This is novel seven.
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.2[00m$ cd "/home/user/linux-labs2026-KonstantinVrunouski/lab8"
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8[00m$ cd 2.3
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.3[00m$ chmod +x network_interfaces.sh
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.3[00m$ ./network_interfaces.sh
+1. interface=enp0s3 altname=-
+2. interface=br-9260594935ee altname=-
+3. interface=br-16bb3ee24a8c altname=-
+4. interface=docker0 altname=-
+5. interface=veth86b4b8a@if2 altname=-
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.3[00m$ awk -f task1_cars_even.awk ../cars.txt
+HYUNDAI tucson 2021 140 26500
+VOLVO xc60 2022 200 45000
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.3[00m$ awk -f rectangle.awk
+Width: 12, Height: 5
+Area: 60
+Perimeter: 34
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.3[00m$ cat comma_data.txt
+apple,red,4
+banana,yellow,6
+strawberry,red,3
+grape,purple,10
+apple,green,8
+plum,purple,2
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.3[00m$ sed 's/\([^,]*\),\([^,]*\),/\1,\2|/' comma_data.txt
+apple,red|4
+banana,yellow|6
+strawberry,red|3
+grape,purple|10
+apple,green|8
+plum,purple|2
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.3[00m$ cd "/home/user/linux-labs2026-KonstantinVrunouski/lab8"
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8[00m$ cd 2.4
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ cat dirlist.txt
+January report archive
+February backup old
+March notes draft
+April meeting notes
+May project files
+June vacation photos
+July summer trip
+August school start
+September autumn
+October harvest
+November prep
+December holidays
+random_file_june_extra
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ grep -i June dirlist.txt > grep_month_name.txt
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ grep -vi June dirlist.txt > grep_other_monthes.txt
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ mkdir -p grep && cp dirlist.txt grep_month_name.txt grep_other_monthes.txt grep/
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ cat grep_month_name.txt
+[01;33m[K[01;33m[KJune[m[K[01;33m[K vacation photos[m[K
+[01;33m[Krandom_file_[01;33m[Kjune[m[K[01;33m[K_extra[m[K
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ cd mac_os_lab && grep -rn root .
+[01;32m[K./docs/sys/root.txt[m[K[01;33m[K:[m[K[01;36m[K1[m[K[01;33m[K:[m[K[01;33m[K[01;33m[Kroot[m[K[01;33m[K daemon[m[K
+[01;32m[K./level1/level2/level3/deep_root.txt[m[K[01;33m[K:[m[K[01;36m[K1[m[K[01;33m[K:[m[K[01;33m[Ksystem [01;33m[Kroot[m[K[01;33m[K access[m[K
+[01;32m[K./level1/root_cfg.txt[m[K[01;33m[K:[m[K[01;36m[K1[m[K[01;33m[K:[m[K[01;33m[K[01;33m[Kroot[m[K[01;33m[K config[m[K
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4/mac_os_lab[00m$ cd "/home/user/linux-labs2026-KonstantinVrunouski/lab8/2.4"
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ grep -oE '[a-z]+' dirlist.txt | sort -u | head -20
+[01;33m[Kanuary[m[K
+[01;33m[Karchive[m[K
+[01;33m[Karch[m[K
+[01;33m[Kautumn[m[K
+[01;33m[Kay[m[K
+[01;33m[Kbackup[m[K
+[01;33m[Kctober[m[K
+[01;33m[Kdraft[m[K
+[01;33m[Kebruary[m[K
+[01;33m[Kecember[m[K
+[01;33m[Keptember[m[K
+[01;33m[Kextra[m[K
+[01;33m[Kfile[m[K
+[01;33m[Kfiles[m[K
+[01;33m[Kharvest[m[K
+[01;33m[Kholidays[m[K
+[01;33m[Kjune[m[K
+[01;33m[Kmeeting[m[K
+[01;33m[Knotes[m[K
+[01;33m[Kold[m[K
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ grep -r --include='*.conf' -l config /etc 2>/dev/null | head -5
+[01;32m[K/etc/gtk-2.0/im-multipress.conf[m[K
+[01;32m[K/etc/libaudit.conf[m[K
+[01;32m[K/etc/ufw/sysctl.conf[m[K
+[01;32m[K/etc/rygel.conf[m[K
+[01;32m[K/etc/rsyslog.conf[m[K
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ grep -r --exclude='*.tmp' --exclude='*.old' -i warning /var/log 2>/dev/null | head -3
+[01;32m[K/var/log/cloud-init.log[m[K[01;33m[K:[m[K[01;33m[K** (generate:1345): [01;33m[KWARNING[m[K[01;33m[K **: 17:17:14.087: Permissions for /etc/netplan/01-network-manager-all.yaml are too open. Netplan configuration should NOT be accessible by others.[m[K
+[01;32m[K/var/log/cloud-init.log[m[K[01;33m[K:[m[K[01;33m[K** (process:1340): [01;33m[KWARNING[m[K[01;33m[K **: 17:17:14.440: Permissions for /etc/netplan/01-network-manager-all.yaml are too open. Netplan configuration should NOT be accessible by others.[m[K
+[01;32m[K/var/log/cloud-init.log[m[K[01;33m[K:[m[K[01;33m[K** (process:1340): [01;33m[KWARNING[m[K[01;33m[K **: 17:17:14.502: Permissions for /etc/netplan/01-network-manager-all.yaml are too open. Netplan configuration should NOT be accessible by others.[m[K
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ grep -rn Kernel /var/log 2>/dev/null | head -3
+[01;32m[K/var/log/dmesg.0[m[K[01;33m[K:[m[K[01;36m[K98[m[K[01;33m[K:[m[K[01;33m[K[    0.220494] kernel: [01;33m[KKernel[m[K[01;33m[K command line: BOOT_IMAGE=/boot/vmlinuz-6.17.0-23-generic root=UUID=07c8fb58-a0ba-4800-871c-07ef60f691b8 ro quiet splash[m[K
+[01;32m[K/var/log/dmesg.0[m[K[01;33m[K:[m[K[01;36m[K390[m[K[01;33m[K:[m[K[01;33m[K[    1.104175] kernel: Loaded X.509 cert 'Canonical Ltd. [01;33m[KKernel[m[K[01;33m[K Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'[m[K
+[01;32m[K/var/log/dmesg.0[m[K[01;33m[K:[m[K[01;36m[K506[m[K[01;33m[K:[m[K[01;33m[K[    4.659113] systemd[1]: Listening on systemd-udevd-kernel.socket - udev [01;33m[KKernel[m[K[01;33m[K Socket.[m[K
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ grep -c pattern pattern_file.txt
+4
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ grep pattern pattern_file.txt
+[01;33m[K[01;33m[Kpattern[m[K[01;33m[K here once[m[K
+[01;33m[K[01;33m[Kpattern[m[K[01;33m[K twice [01;33m[Kpattern[m[K
+[01;33m[K[01;33m[Kpattern[m[K[01;33m[K at end[m[K
+[01;33m[Kmiddle [01;33m[Kpattern[m[K[01;33m[K word[m[K
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ find /usr/bin -name '*bash*' 2>/dev/null | head -8
+/usr/bin/bash
+/usr/bin/dh_bash-completion
+/usr/bin/rbash
+/usr/bin/bashbug
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ find "/home/user/linux-labs2026-KonstantinVrunouski/lab8" -name '*.txt' | head -10
+/home/user/linux-labs2026-KonstantinVrunouski/lab8/2.1/examples/log.txt
+/home/user/linux-labs2026-KonstantinVrunouski/lab8/cars.txt
+/home/user/linux-labs2026-KonstantinVrunouski/lab8/2.3/comma_data.txt
+/home/user/linux-labs2026-KonstantinVrunouski/lab8/2.4/input_repeat.txt
+/home/user/linux-labs2026-KonstantinVrunouski/lab8/2.4/dirlist.txt
+/home/user/linux-labs2026-KonstantinVrunouski/lab8/2.4/grep_month_name.txt
+/home/user/linux-labs2026-KonstantinVrunouski/lab8/2.4/output41.txt
+/home/user/linux-labs2026-KonstantinVrunouski/lab8/2.4/input_repeat_fixed.txt
+/home/user/linux-labs2026-KonstantinVrunouski/lab8/2.4/input_spaces.txt
+/home/user/linux-labs2026-KonstantinVrunouski/lab8/2.4/tmp_demo/new_file.txt
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ find / -maxdepth 1 -type l -ls 2>/dev/null
+       15      0 lrwxrwxrwx   1 root     root            8 Apr 22  2024 /sbin -> usr/sbin
+       12      0 lrwxrwxrwx   1 root     root            7 Apr 22  2024 /bin -> usr/bin
+       14      0 lrwxrwxrwx   1 root     root            9 Apr 22  2024 /lib64 -> usr/lib64
+       13      0 lrwxrwxrwx   1 root     root            7 Apr 22  2024 /lib -> usr/lib
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ find /var/log -type f -mtime -7 2>/dev/null | head -8
+/var/log/dmesg.0
+/var/log/dmesg
+/var/log/boot.log
+/var/log/unattended-upgrades/unattended-upgrades.log
+/var/log/auth.log.1
+/var/log/syslog
+/var/log/dpkg.log
+/var/log/btmp
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ ls -la tmp_demo 2>/dev/null; find tmp_demo -type f -mtime +30 -delete 2>/dev/null; ls -la tmp_demo 2>/dev/null
+total 8
+drwxrwxr-x 2 user user 4096 Jun  2 10:10 [0m[01;34m.[0m
+drwxrwxr-x 7 user user 4096 Jun  2 09:48 [01;34m..[0m
+-rw-rw-r-- 1 user user    0 Jun  2 10:10 new_file.txt
+-rw-rw-r-- 1 user user    0 Apr 23 10:10 old_file.txt
+total 8
+drwxrwxr-x 2 user user 4096 Jun  2 10:13 [0m[01;34m.[0m
+drwxrwxr-x 7 user user 4096 Jun  2 09:48 [01;34m..[0m
+-rw-rw-r-- 1 user user    0 Jun  2 10:10 new_file.txt
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ find /home -type f -perm 777 2>/dev/null | head -3
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ find /home -user student 2>/dev/null | head -3
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ find /var -type f -size +100M 2>/dev/null | head -3
+/var/lib/snapd/seed/snaps/firefox_7766.snap
+/var/lib/snapd/seed/snaps/gnome-42-2204_247.snap
+/var/lib/snapd/snaps/firefox_7766.snap
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ ./search_text_encodings.sh
+FOUND [KOI8-R]: /home/user/linux-labs2026-KonstantinVrunouski/lab8/2.4/encodings/root/koi1.koi8
+FOUND [UTF-8]: /home/user/linux-labs2026-KonstantinVrunouski/lab8/2.4/encodings/root/file3.utf8
+FOUND [CP1251]: /home/user/linux-labs2026-KonstantinVrunouski/lab8/2.4/encodings/root/cp1.cp1251
+FOUND [CP1251]: /home/user/linux-labs2026-KonstantinVrunouski/lab8/2.4/encodings/file1.cp1251
+FOUND [UTF-8]: /home/user/linux-labs2026-KonstantinVrunouski/lab8/2.4/encodings/file1.utf8
+FOUND [KOI8-R]: /home/user/linux-labs2026-KonstantinVrunouski/lab8/2.4/encodings/file1.koi8
+FOUND [UTF-8]: /home/user/linux-labs2026-KonstantinVrunouski/lab8/2.4/encodings/nested/deep/file5.utf8
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ cat zadacha40.txt | tr 'a-z' 'A-Z'
+LINUX IS MY LIFE
+LINUX HAS CHANGED MY LIFE
+LINUX IS BEST AND EVERTHING TO ME..:)
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ tr 'a-z' 'A-Z' < zadacha40.txt > output41.txt
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ echo "the linux staff" | tr -d 't'
+he linux saff
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ wc linux_os.txt
+ 12  16 112 linux_os.txt
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ wc -l linux_os.txt
+12 linux_os.txt
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ wc -w linux_os.txt
+16 linux_os.txt
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ ls ~ | wc -l
+16
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8/2.4[00m$ cd "/home/user/linux-labs2026-KonstantinVrunouski/lab8"
+
+[01;32muser@user-VirtualBox[00m:[01;34m~/linux-labs2026-KonstantinVrunouski/lab8[00m$ exit
+
+Script done on 2026-06-02 10:14:11+03:00 [COMMAND_EXIT_CODE="0"]
